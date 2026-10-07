@@ -1,0 +1,402 @@
+# ---------------------------------------------------------------------------
+# Paper Radar configuration
+# Edit this file to change what gets pulled in and how it is ranked.
+# Patterns are Python regular expressions, matched case-insensitively against
+# the title and abstract. Every edit takes effect on the next daily run, and
+# the whole archive is re-scored, so changes apply retroactively.
+# ---------------------------------------------------------------------------
+
+site:
+  title: "Systems & Cognitive Neuro Digest"
+  subtitle: "New papers on audition, prediction, memory and sequences"
+  window_days: 30          # rolling window shown on the site
+  min_score: 3.0           # papers scoring below this are dropped
+
+sources:
+  biorxiv:
+    enabled: true
+    categories: ["neuroscience", "animal_behavior_and_cognition"]
+    new_only: true         # true = only version-1 postings (skip revisions)
+  europepmc:
+    enabled: true          # Europe PMC mirrors PubMed (all journals) + preprint servers
+    include_preprints: true   # medRxiv, PsyArXiv, Research Square etc. (bioRxiv duplicates are merged)
+    max_per_topic: 3000
+    # Every Europe PMC query is ANDed with this so generic terms
+    # (e.g. "memory", "sequence") stay inside neuroscience.
+    context: 'neuron* OR neural OR brain OR cortex OR cortical OR hippocamp* OR electrophysiolog* OR fMRI OR EEG OR MEG OR "event-related" OR auditory OR perception OR cognition OR cognitive'
+
+  crossref:
+    enabled: true          # for listed journals marked `crossref: true` (not indexed in PubMed/Europe PMC)
+    mailto: ""             # optional: your email, puts requests in Crossref's faster "polite" pool
+
+# ---------------------------------------------------------------------------
+# JOURNALS
+#   mode: only  -> journal articles are kept only if the journal is listed below
+#                  (preprints are always kept)
+#         all   -> keep every journal Europe PMC returns; listed ones get `boost`
+#   Matching is on the journal's full title or abbreviation, ignoring case,
+#   punctuation and "The"/subtitles, so "Cerebral cortex (New York, N.Y. : 1991)"
+#   matches "Cerebral Cortex". Unmatched journal names are printed in the
+#   Action log so you can spot anything worth adding.
+#   crossref: true  -> also fetched from Crossref (journal isn't in PubMed).
+#                      Crossref often lacks abstracts, so these rank on titles.
+# ---------------------------------------------------------------------------
+journals:
+  mode: only
+  boost: 1.0
+  groups:
+    flagship:
+      label: "Flagship & broad"
+      list:
+        - {name: "Nature Neuroscience", abbr: "Nat Neurosci"}
+        - {name: "Neuron", abbr: "Neuron"}
+        - {name: "Nature", abbr: "Nature"}
+        - {name: "Science", abbr: "Science"}
+        - {name: "Cell", abbr: "Cell"}
+        - {name: "Nature Communications", abbr: "Nat Commun"}
+        - {name: "PNAS", full: "Proceedings of the National Academy of Sciences of the United States of America", abbr: "Proc Natl Acad Sci U S A"}
+        - {name: "Current Biology", abbr: "Curr Biol"}
+        - {name: "eLife", abbr: "Elife"}
+        - {name: "Science Advances", abbr: "Sci Adv"}
+        - {name: "Nature Human Behaviour", abbr: "Nat Hum Behav"}
+        - {name: "Cell Reports", abbr: "Cell Rep"}
+    reviews:
+      label: "Reviews & opinion"
+      list:
+        - {name: "Trends in Cognitive Sciences", abbr: "Trends Cogn Sci"}
+        - {name: "Nature Reviews Neuroscience", abbr: "Nat Rev Neurosci"}
+        - {name: "Annual Review of Neuroscience", abbr: "Annu Rev Neurosci"}
+        - {name: "Trends in Neurosciences", abbr: "Trends Neurosci"}
+        - {name: "Current Opinion in Neurobiology", abbr: "Curr Opin Neurobiol"}
+        - {name: "Current Opinion in Behavioral Sciences", abbr: "Curr Opin Behav Sci", crossref: true}
+        - {name: "Neuroscience & Biobehavioral Reviews", abbr: "Neurosci Biobehav Rev"}
+        - {name: "Progress in Neurobiology", abbr: "Prog Neurobiol"}
+        - {name: "Nature Reviews Psychology", abbr: "Nat Rev Psychol", crossref: true}
+        - {name: "Nature Reviews Methods Primers", abbr: "Nat Rev Methods Primers", crossref: true}
+        - {name: "Behavioral and Brain Sciences", abbr: "Behav Brain Sci"}
+    systems:
+      label: "Systems neuroscience"
+      list:
+        - {name: "Journal of Neuroscience", abbr: "J Neurosci"}
+        - {name: "Journal of Neurophysiology", abbr: "J Neurophysiol"}
+        - {name: "Cerebral Cortex", abbr: "Cereb Cortex"}
+        - {name: "European Journal of Neuroscience", abbr: "Eur J Neurosci"}
+        - {name: "Neuroscience", abbr: "Neuroscience"}
+        - {name: "Neuroscience Letters", abbr: "Neurosci Lett"}
+        - {name: "Brain Research", abbr: "Brain Res"}
+        - {name: "Experimental Brain Research", abbr: "Exp Brain Res"}
+        - {name: "Journal of Comparative Neurology", abbr: "J Comp Neurol"}
+        - {name: "Frontiers in Neural Circuits", abbr: "Front Neural Circuits"}
+        - {name: "Frontiers in Neuroscience", abbr: "Front Neurosci"}
+        - {name: "eNeuro", abbr: "eNeuro"}
+        - {name: "Brain Structure and Function", abbr: "Brain Struct Funct"}
+    cognitive:
+      label: "Cognitive neuroscience"
+      list:
+        - {name: "Cortex", abbr: "Cortex"}
+        - {name: "Journal of Cognitive Neuroscience", abbr: "J Cogn Neurosci"}
+        - {name: "Cognitive Neuroscience", abbr: "Cogn Neurosci"}
+        - {name: "Cognition", abbr: "Cognition"}
+        - {name: "Cognitive, Affective, & Behavioral Neuroscience", abbr: "Cogn Affect Behav Neurosci"}
+        - {name: "Neuropsychologia", abbr: "Neuropsychologia"}
+        - {name: "Social Cognitive and Affective Neuroscience", abbr: "Soc Cogn Affect Neurosci"}
+        - {name: "Brain and Cognition", abbr: "Brain Cogn"}
+        - {name: "Psychonomic Bulletin & Review", abbr: "Psychon Bull Rev"}
+    imaging:
+      label: "Imaging & electrophysiology"
+      list:
+        - {name: "NeuroImage", abbr: "Neuroimage"}
+        - {name: "Imaging Neuroscience", abbr: "Imaging Neurosci"}
+        - {name: "NeuroImage: Reports", abbr: "Neuroimage Rep", crossref: true}
+        - {name: "Human Brain Mapping", abbr: "Hum Brain Mapp"}
+        - {name: "Psychophysiology", abbr: "Psychophysiology"}
+        - {name: "Clinical Neurophysiology", abbr: "Clin Neurophysiol"}
+        - {name: "Clinical Neurophysiology Practice", abbr: "Clin Neurophysiol Pract"}
+        - {name: "Brain Topography", abbr: "Brain Topogr"}
+        - {name: "Brain Stimulation", abbr: "Brain Stimul"}
+    computational:
+      label: "Computational & engineering"
+      list:
+        - {name: "Neural Computation", abbr: "Neural Comput"}
+        - {name: "PLoS Computational Biology", abbr: "PLoS Comput Biol"}
+        - {name: "Journal of Computational Neuroscience", abbr: "J Comput Neurosci"}
+        - {name: "Network Neuroscience", abbr: "Netw Neurosci"}
+        - {name: "Neuroinformatics", abbr: "Neuroinformatics"}
+        - {name: "Journal of Neural Engineering", abbr: "J Neural Eng"}
+        - {name: "IEEE Transactions on Biomedical Engineering", abbr: "IEEE Trans Biomed Eng"}
+        - {name: "Neurocomputing", abbr: "Neurocomputing", crossref: true}
+        - {name: "Nature Machine Intelligence", abbr: "Nat Mach Intell", crossref: true}
+        - {name: "Nature Computational Science", abbr: "Nat Comput Sci"}
+        - {name: "Patterns", abbr: "Patterns (N Y)"}
+    animal:
+      label: "Animal behaviour & cognition"
+      list:
+        - {name: "Behavioural Brain Research", abbr: "Behav Brain Res"}
+        - {name: "Behavioral Neuroscience", abbr: "Behav Neurosci"}
+        - {name: "Animal Cognition", abbr: "Anim Cogn"}
+        - {name: "Journal of Comparative Psychology", abbr: "J Comp Psychol"}
+        - {name: "Journal of Experimental Psychology: Animal Learning and Cognition", abbr: "J Exp Psychol Anim Learn Cogn"}
+        - {name: "Learning & Behavior", abbr: "Learn Behav"}
+    clinical:
+      label: "Clinical & psychiatry"
+      list:
+        - {name: "Brain", abbr: "Brain"}
+        - {name: "Annals of Neurology", abbr: "Ann Neurol"}
+        - {name: "Neurology", abbr: "Neurology"}
+        - {name: "Lancet Neurology", abbr: "Lancet Neurol"}
+        - {name: "JAMA Neurology", abbr: "JAMA Neurol"}
+        - {name: "Nature Medicine", abbr: "Nat Med"}
+        - {name: "Molecular Psychiatry", abbr: "Mol Psychiatry"}
+        - {name: "Biological Psychiatry", abbr: "Biol Psychiatry"}
+        - {name: "Biological Psychiatry: CNNI", full: "Biological Psychiatry: Cognitive Neuroscience and Neuroimaging", abbr: "Biol Psychiatry Cogn Neurosci Neuroimaging"}
+        - {name: "Neuropsychopharmacology", abbr: "Neuropsychopharmacology"}
+        - {name: "Journal of Neurology, Neurosurgery & Psychiatry", abbr: "J Neurol Neurosurg Psychiatry"}
+        - {name: "Acta Neuropathologica", abbr: "Acta Neuropathol"}
+    cellular:
+      label: "Cellular, molecular & development"
+      list:
+        - {name: "Molecular Neurobiology", abbr: "Mol Neurobiol"}
+        - {name: "Journal of Neurochemistry", abbr: "J Neurochem"}
+        - {name: "Glia", abbr: "Glia"}
+        - {name: "Journal of Neuroinflammation", abbr: "J Neuroinflammation"}
+        - {name: "Developmental Cell", abbr: "Dev Cell"}
+        - {name: "Development", abbr: "Development"}
+
+# ---------------------------------------------------------------------------
+# TOPICS — main relevance signal.
+#   weight:  how much a hit counts. Title hit = 3 x weight; each distinct
+#            abstract hit = 1 x weight (capped at 3 per topic).
+#   query:   phrases sent to Europe PMC (title/abstract search).
+#   patterns: regexes used to tag and score every paper.
+# ---------------------------------------------------------------------------
+topics:
+  auditory:
+    label: "Auditory processing"
+    color: "#2f6fb0"
+    weight: 1.5
+    query: ["auditory", "acoustic", "hearing", "sound", "pitch perception", "speech perception", "music perception", "inferior colliculus", "medial geniculate", "tonotopic"]
+    patterns:
+      - '\baudit(ory|ion)\b'
+      - '\bhearing\b'
+      - '\bsounds?\b'
+      - '\bacoustic'
+      - '\bcochlea'
+      - 'inferior colliculus'
+      - 'medial geniculate'
+      - "heschl"
+      - 'superior temporal (gyrus|plane|sulcus)'
+      - '\b(para)?belt\b'
+      - 'tonotop'
+      - '\bpitch\b'
+      - '\btimbre\b'
+      - '\bspeech\b'
+      - '\bsyllabl'
+      - '\bprosod'
+      - '\blisten(er|ers|ing)\b'
+      - '(envelope|cortical|neural) tracking'
+      - '\bmusic(al)?\b'
+      - '\bmelod(y|ies|ic)\b'
+      - '\brhythm(s|ic)?\b'
+      - 'pure[- ]tones?|\btones\b|tone (sequence|burst|pip)s?'
+  predictive_coding:
+    label: "Predictive coding"
+    color: "#b5452f"
+    weight: 1.6
+    query: ["predictive coding", "predictive processing", "prediction error", "mismatch negativity", "oddball", "stimulus-specific adaptation", "repetition suppression", "expectation suppression", "sensory prediction"]
+    patterns:
+      - 'predictive (coding|processing|routing)'
+      - 'prediction errors?'
+      - 'mismatch (negativity|response)'
+      - '\bMMN\b'
+      - 'oddball'
+      - '\bdeviants?\b'
+      - 'stimulus[- ]specific adaptation'
+      - '\bSSA\b'
+      - 'repetition (suppression|enhancement)'
+      - 'expectation suppression'
+      - '\bsurpris(e|al)\b'
+      - 'sensory predictions?'
+      - 'free[- ]energy'
+      - '\bprecision[- ]weight'
+  local_global:
+    label: "Local–global"
+    color: "#7a3e9d"
+    weight: 2.2
+    query: ["local-global", "local global paradigm", "global deviant", "hierarchical regularities", "nested regularities"]
+    patterns:
+      - 'local[- –/]global'
+      - 'global (deviant|effect|regularit|violation|mismatch)'
+      - 'local (deviant|regularit|violation)'
+      - '(hierarchical|nested) (auditory )?(regularit|rules?|predictions?)'
+      - '\b(xxxxy|aaaab|xxxxx|aaaaa)\b'
+  clas:
+    label: "Closed-loop auditory stim."
+    color: "#1f8a7a"
+    weight: 2.2
+    query: ["closed-loop auditory stimulation", "closed-loop acoustic stimulation", "phase-locked auditory stimulation", "auditory stimulation during sleep", "acoustic stimulation sleep"]
+    patterns:
+      - 'closed[- ]loop (auditory|acoustic|sound)'
+      - '(auditory|acoustic|sound) (closed[- ]loop|stimulation)'
+      - '\bCLAS\b'
+      - 'phase[- ](locked|targeted|dependent) (auditory|acoustic|sound) stimul'
+      - 'closed[- ]loop stimulation'
+      - 'slow[- ](oscillation|wave)s? (enhancement|stimulation)'
+  optogenetics:
+    label: "Optogenetics"
+    color: "#3a8f3a"
+    weight: 1.2
+    query: ["optogenetic", "optogenetics", "channelrhodopsin", "photostimulation", "photoinhibition"]
+    patterns:
+      - 'optogenetic'
+      - 'channelrhodopsin'
+      - '\bChR2\b'
+      - '\bChRmine\b'
+      - '\bhalorhodopsin|\bNpHR\b'
+      - 'archaerhodopsin|\bArchT\b'
+      - '\bGtACR'
+      - '\bJaws\b'
+      - 'photo(stimulat|inhibit|activat)'
+  chemogenetics:
+    label: "Chemogenetics"
+    color: "#a36b12"
+    weight: 1.4
+    query: ["chemogenetic", "chemogenetics", "DREADD", "DREADDs", "deschloroclozapine", "clozapine-N-oxide"]
+    patterns:
+      - 'chemogenetic'
+      - '\bDREADDs?\b'
+      - '\bhM[34]D[qi]\b'
+      - 'clozapine[- ]n[- ]oxide|\bCNO\b'
+      - 'deschloroclozapine|\bDCZ\b'
+      - '\bPSAM|\bPSEM'
+      - '\bKORD\b'
+  memory:
+    label: "Memory"
+    color: "#5a5f9e"
+    weight: 0.7
+    query: ["working memory", "short-term memory", "episodic memory", "recognition memory", "memory consolidation", "memory encoding", "memory retrieval"]
+    patterns:
+      - '\bmemor(y|ies)\b'
+      - '\bmnemonic'
+      - '\bengrams?\b'
+      - '\b(recall|recollection)\b'
+      - 'delayed[- ]match'
+      - 'consolidation'
+  auditory_memory:
+    label: "Auditory memory"
+    color: "#245e8f"
+    weight: 2.2
+    query: ["auditory working memory", "auditory memory", "auditory short-term memory", "echoic memory", "auditory sensory memory", "tonal memory", "auditory recognition memory"]
+    patterns:
+      - 'auditory (working |short[- ]term |sensory |recognition |long[- ]term )?memor'
+      - 'echoic memor'
+      - '(tonal|pitch|tone|melodic|sound) memor'
+      - 'memor(y|ies) for (sounds?|tones?|melod|pitch)'
+      - 'auditory (delayed|match[- ]to[- ]sample)'
+  sequences:
+    label: "Sequences"
+    color: "#c2410c"
+    weight: 1.3
+    query: ["sequence learning", "sequence processing", "statistical learning", "serial order", "sequential structure", "temporal order", "chunking"]
+    patterns:
+      - '(?<!RNA )(?<!DNA )(?<!-seq )\bsequences?\b(?![- ]?(ing|d|ncing))'
+      - '\bsequential(ly)?\b'
+      - 'serial order'
+      - 'statistical learning'
+      - '\bchunking\b'
+      - 'temporal order'
+      - 'ordinal'
+      - 'transitional probabilit'
+  dependencies:
+    label: "(Non-)adjacent dependencies"
+    color: "#8a2d6b"
+    weight: 2.2
+    query: ["non-adjacent dependencies", "nonadjacent dependencies", "adjacent dependencies", "artificial grammar", "long-distance dependencies", "phrase structure grammar"]
+    patterns:
+      - '(non[- ]?)?adjacent dependenc'
+      - '\bnon-?adjacent\b'
+      - 'long[- ]distance dependenc'
+      - 'artificial grammar'
+      - '\bAGL\b'
+      - '(finite[- ]state|phrase[- ]structure|recursive|center[- ]embedded) (grammar|structure)'
+      - '\bsyntactic\b|\bsyntax\b'
+      - 'grammatical'
+  vocalisations:
+    label: "Vocalisations"
+    color: "#0f766e"
+    weight: 1.6
+    query: ["vocalization", "vocalisation", "vocalizations", "vocal communication", "vocal learning", "birdsong", "ultrasonic vocalizations", "conspecific calls"]
+    patterns:
+      - 'vocali[sz]ation'
+      - 'vocal (production|communication|learning|behaviou?r|control|turn[- ]taking|exchange)'
+      - '(contact|alarm|social|conspecific|monkey|marmoset|phee|twitter|coo|trill|food) calls?\b'
+      - '\bphee\b'
+      - '\bbird ?song|\bsongbirds?\b|zebra finch'
+      - 'ultrasonic vocali|\bUSVs?\b'
+      - 'speech production'
+      - '\bconspecific'
+
+# ---------------------------------------------------------------------------
+# SPECIES — multiply the score. Highest-matching species wins.
+# ---------------------------------------------------------------------------
+species:
+  macaque:
+    label: "Macaque"
+    mult: 2.0
+    patterns: ['\bmacaques?\b', '\brhesus\b', '\bmacaca\b', '\bmulatta\b', '\bfascicularis\b']
+  marmoset:
+    label: "Marmoset"
+    mult: 2.0
+    patterns: ['\bmarmosets?\b', '\bcallithrix\b', '\bjacchus\b']
+  other_nhp:
+    label: "Other primate"
+    mult: 1.6
+    patterns: ['\bmonkeys?\b', 'non-?human primates?', '\bNHPs?\b', '\bchimpanzees?\b', '\bbaboons?\b', '\btitis?\b monkey', '\bsquirrel monkey']
+  human:
+    label: "Human"
+    mult: 1.25
+    patterns: ['(?<!non-)(?<!non )\bhumans?\b', '\bparticipants\b', '\bpatients\b', '\bvolunteers\b', '\blisteners\b', '\binfants?\b', '\bneonates?\b', '\bchildren\b', '\badults\b']
+  rodent:
+    label: "Rodent"
+    mult: 1.15
+    patterns: ['\bmice\b', '\bmouse\b', '\bmurine\b', '\brats?\b', '\brodents?\b', '\bgerbils?\b', '\bguinea pigs?\b']
+  other:
+    label: "Other"
+    mult: 1.0
+    patterns: ['\bferrets?\b', 'zebra finch', '\bsongbirds?\b', '\bbats?\b', '\bcats?\b', '\bowls?\b', '\bzebrafish\b', '\bdrosophila\b']
+
+# ---------------------------------------------------------------------------
+# METHODS — tagged for filtering; bonus is added before the species multiplier.
+# ---------------------------------------------------------------------------
+methods:
+  single_unit:
+    label: "Single units"
+    bonus: 2.0
+    patterns: ['single[- ](unit|neuron|cell)s?', '\bspik(e|es|ing)\b', 'firing rates?', 'neuropixels', 'utah array', 'multi-?unit', '\bMUA\b', 'extracellular(ly)? record', 'tetrodes?', 'neuronal (population|ensemble|activity|responses)', 'population (coding|dynamics|activity)', 'single neurons?']
+  lfp:
+    label: "LFP"
+    bonus: 2.0
+    patterns: ['local field potentials?', '\bLFPs?\b', 'current source density', '\bCSD\b', 'laminar (recording|profile|probe)', 'field potentials?']
+  fmri:
+    label: "fMRI"
+    bonus: 2.0
+    patterns: ['\bfMRI\b', 'functional (MRI|magnetic resonance)', '\bBOLD\b', 'resting[- ]state', '\bvoxel']
+  intracranial:
+    label: "Intracranial (ECoG/sEEG)"
+    bonus: 1.5
+    patterns: ['\bECoG\b', 'electrocorticograph', 'intracranial', 'stereo-?EEG|\bsEEG\b', '\biEEG\b', 'depth electrodes?']
+  eeg_meg:
+    label: "EEG/MEG"
+    bonus: 1.0
+    patterns: ['\bEEG\b', 'electroencephalogra', '\bMEG\b', 'magnetoencephalogra', '\bERPs?\b', 'event[- ]related potentials?']
+  imaging:
+    label: "Calcium imaging"
+    bonus: 0.5
+    patterns: ['calcium imaging', 'two[- ]photon', '2-photon', '\bGCaMP', 'fib(er|re) photometry', 'wide-?field imaging']
+  perturbation:
+    label: "Perturbation"
+    bonus: 0.5
+    patterns: ['microstimulation', '\bTMS\b', 'transcranial magnetic', '\btDCS\b', '\bt[AR]CS\b', 'focused ultrasound', '\blesion', 'inactivation', 'muscimol', '\bcooling\b']
+  modelling:
+    label: "Modelling"
+    bonus: 0.5
+    patterns: ['computational model', 'neural network model', '\bRNNs?\b', 'recurrent neural network', 'deep (neural )?network', 'bayesian (observer|model|inference)', 'drift[- ]diffusion', 'normative model']

@@ -1,0 +1,325 @@
+<title>Systems &amp; Cognitive Neuro Digest</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: ranked reading list (rank | paper | relevance | age) beside a sticky filter rail; rail stacks above the list on narrow screens. */
+:root{
+  --bg:#f3f6f7; --surface:#ffffff; --fg:#14212b; --muted:#5a6873; --line:#d9e1e6;
+  --accent:#0d5d70; --accent-soft:#e1eef1; --new:#b5452f;
+  --f-title:"Source Serif 4", Georgia, "Times New Roman", serif;
+  --f-ui:"Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0e1418; --surface:#151d23; --fg:#e2e9ed; --muted:#93a2ad; --line:#26323b;
+  --accent:#62b6ca; --accent-soft:#16313a; --new:#ef8a72; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e1418; --surface:#151d23; --fg:#e2e9ed; --muted:#93a2ad; --line:#26323b;
+  --accent:#62b6ca; --accent-soft:#16313a; --new:#ef8a72; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--f-ui);margin:0}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:20px;padding-block:28px 64px}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+
+/* header */
+header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 32px;padding-bottom:20px;border-bottom:1px solid var(--line);margin-bottom:22px}
+.brand{display:flex;flex-direction:column;gap:6px;min-width:0}
+.eyebrow{display:flex;align-items:center;gap:10px;font:500 12px/1 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.motif{display:inline-flex;gap:4px;align-items:center}
+.motif i{width:7px;height:7px;border-radius:50%;background:var(--muted);opacity:.55}
+.motif i.dev{background:var(--new);opacity:1;border-radius:1px;transform:rotate(45deg)}
+h1{font:600 clamp(28px,4vw,40px)/1.05 var(--f-title);margin:0;letter-spacing:-.01em;text-wrap:balance}
+.sub{color:var(--muted);margin:0;max-width:62ch}
+.stamp{font:400 13px/1.6 var(--f-mono);color:var(--muted);text-align:right;font-variant-numeric:tabular-nums}
+.stamp b{color:var(--fg);font-weight:500}
+
+/* layout */
+.grid{display:grid;grid-template-columns:260px minmax(0,1fr);gap:28px;align-items:start}
+@media (max-width:860px){.grid{grid-template-columns:minmax(0,1fr)}}
+
+/* filter rail */
+aside{position:sticky;top:calc(env(safe-area-inset-top,0px) + 16px);display:flex;flex-direction:column;gap:18px;max-height:calc(100vh - 32px);overflow:auto;padding-right:4px}
+@media (max-width:860px){aside{position:static;max-height:none;overflow:visible}
+  aside .fgroups{display:none} aside.open .fgroups{display:flex}}
+.fgroups{display:flex;flex-direction:column;gap:18px}
+.toggle-filters{display:none}
+@media (max-width:860px){.toggle-filters{display:inline-flex}}
+.fg h3{font:600 11px/1 var(--f-ui);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{--c:var(--accent);font:500 12.5px/1 var(--f-ui);border:1px solid var(--line);background:var(--surface);color:var(--fg);padding:6px 9px;border-radius:999px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.chip .dot{width:8px;height:8px;border-radius:50%;background:var(--c)}
+.chip .n{font:400 11px/1 var(--f-mono);color:var(--muted)}
+.chip[aria-pressed="true"]{border-color:var(--c);background:color-mix(in srgb,var(--c) 16%,var(--surface));}
+.chip[aria-pressed="true"] .n{color:var(--fg)}
+.chip:hover{border-color:var(--c)}
+select{width:100%;font:14px var(--f-ui);padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--fg)}
+input[type=search]{width:100%;font:15px var(--f-ui);padding:9px 11px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--fg)}
+.seg{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
+.seg button{flex:1;font:500 12.5px var(--f-ui);padding:7px 6px;border:0;background:transparent;color:var(--muted);cursor:pointer}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--accent-soft);color:var(--fg)}
+.btn{font:500 13px var(--f-ui);padding:7px 11px;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:8px;cursor:pointer}
+.btn:hover{border-color:var(--accent)}
+.linkbtn{font:500 12.5px var(--f-ui);background:none;border:0;color:var(--accent);cursor:pointer;padding:0}
+.check{display:flex;align-items:center;gap:8px;font-size:13.5px;cursor:pointer}
+
+/* list */
+.listhead{display:grid;grid-template-columns:44px minmax(0,1fr) 150px 58px;gap:16px;font:600 11px/1.3 var(--f-ui);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:0 14px 8px;border-bottom:1px solid var(--line)}
+.listhead .r{text-align:right}
+.summary{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;align-items:center;margin-bottom:12px;font-size:13.5px;color:var(--muted)}
+.summary b{color:var(--fg);font-variant-numeric:tabular-nums}
+ol.papers{list-style:none;margin:0;padding:0}
+li.paper{display:grid;grid-template-columns:44px minmax(0,1fr) 150px 58px;gap:16px;padding:16px 14px;border-bottom:1px solid var(--line)}
+li.paper:hover{background:color-mix(in srgb,var(--surface) 70%,transparent)}
+.rank{font:500 15px/1.6 var(--f-mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.main{min-width:0;display:flex;flex-direction:column;gap:6px}
+.ptitle{font:600 18px/1.3 var(--f-title);margin:0;text-wrap:pretty}
+.ptitle a{text-decoration:none}
+.ptitle a:hover{text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:3px}
+.byline{font-size:13px;color:var(--muted);overflow-wrap:anywhere}
+.byline .src{color:var(--fg);font-weight:500}
+.byline .pp{font:500 10.5px/1 var(--f-mono);letter-spacing:.05em;text-transform:uppercase;border:1px solid var(--line);border-radius:4px;padding:2px 5px;margin-right:4px;vertical-align:1px}
+.byline .pp.j{border-color:var(--accent);color:var(--accent)}
+.newtag{font:600 10.5px/1 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--new);margin-left:6px}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:2px}
+.tag{--c:var(--muted);font:500 11.5px/1 var(--f-ui);padding:4px 7px;border-radius:4px;background:color-mix(in srgb,var(--c) 14%,transparent);color:color-mix(in srgb,var(--c) 70%,var(--fg))}
+.tag.sp{background:transparent;border:1px solid var(--line);color:var(--fg)}
+.tag.sp.primate{border-color:var(--accent);color:var(--accent)}
+.tag.me{background:transparent;color:var(--muted);border:1px dashed var(--line)}
+.more{display:flex;gap:14px;margin-top:2px}
+.detail{margin-top:6px;display:flex;flex-direction:column;gap:10px}
+.abs{font-size:14px;line-height:1.6;max-width:78ch;margin:0;color:var(--fg)}
+.abs mark{background:color-mix(in srgb,var(--accent) 22%,transparent);color:inherit;border-radius:2px;padding:0 1px}
+.why{font:400 12px/1.6 var(--f-mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.why b{color:var(--fg);font-weight:500}
+.scorecol{display:flex;flex-direction:column;align-items:flex-end;gap:5px;padding-top:4px}
+.score{font:500 15px/1 var(--f-mono);font-variant-numeric:tabular-nums}
+.bar{width:100%;height:6px;border-radius:3px;background:var(--line);overflow:hidden}
+.bar span{display:block;height:100%;background:var(--accent);border-radius:3px}
+.age{font:400 14px/1.6 var(--f-mono);color:var(--muted);text-align:right;font-variant-numeric:tabular-nums}
+@media (max-width:640px){
+  .listhead{display:none}
+  li.paper{grid-template-columns:30px minmax(0,1fr);gap:4px 10px}
+  .scorecol{grid-column:2;flex-direction:row;align-items:center;gap:10px;padding-top:2px}
+  .scorecol .bar{width:90px}
+  .age{grid-column:2;text-align:left;font-size:12px;margin-top:-2px}
+  .age .unit{display:inline}
+  .stamp{text-align:left}
+}
+.age .unit{display:none}
+.empty{padding:48px 14px;color:var(--muted);text-align:center}
+.pager{display:flex;justify-content:center;padding:22px 0}
+footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);max-width:80ch}
+footer p{margin:0 0 8px}
+@media (prefers-reduced-motion:no-preference){.detail{animation:fade .18s ease-out}}
+@keyframes fade{from{opacity:.4}to{opacity:1}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <div class="eyebrow"><span class="motif" aria-hidden="true"><i></i><i></i><i></i><i></i><i class="dev"></i></span><span>bioRxiv · PubMed · 89 journals</span></div>
+      <h1 id="site-title">Systems &amp; Cognitive Neuro Digest</h1>
+      <p class="sub" id="site-sub"></p>
+    </div>
+    <div class="stamp" id="stamp"></div>
+  </header>
+
+  <div class="grid">
+    <aside id="rail">
+      <input type="search" id="q" placeholder="Search titles, abstracts, authors" aria-label="Search">
+      <div class="toggle-filters"><button class="btn" id="toggle-filters" aria-expanded="false">Show filters</button></div>
+      <div class="fgroups">
+        <div class="fg"><h3>Sort</h3><div class="seg" id="sort"><button data-v="score">Relevance</button><button data-v="date">Newest</button></div></div>
+        <div class="fg"><h3>Posted within</h3><div class="seg" id="win"><button data-v="7">7 d</button><button data-v="14">14 d</button><button data-v="30">30 d</button></div></div>
+        <div class="fg"><h3>Source</h3><div class="seg" id="kind"><button data-v="all">All</button><button data-v="preprint">Preprints</button><button data-v="journal">Journals</button></div></div>
+        <div class="fg"><h3>Journal type</h3><div class="chips" id="f-jgroups"></div></div>
+        <div class="fg" id="fg-journal"><h3>Journal</h3><select id="journal" aria-label="Journal"><option value="">All journals</option></select></div>
+        <div class="fg"><h3>Species</h3><div class="chips" id="f-species"></div></div>
+        <div class="fg"><h3>Topics</h3><div class="chips" id="f-topics"></div></div>
+        <div class="fg"><h3>Methods</h3><div class="chips" id="f-methods"></div></div>
+        <div class="fg"><h3>Matching</h3>
+          <div class="seg" id="mode"><button data-v="any">Any selected</button><button data-v="all">All selected</button></div>
+        </div>
+        <label class="check"><input type="checkbox" id="onlynew"> New since last update only</label>
+        <div><button class="btn" id="reset">Clear filters</button></div>
+      </div>
+    </aside>
+
+    <main>
+      <div class="summary"><span id="count"></span><button class="linkbtn" id="expand-all">Expand all abstracts</button></div>
+      <div class="listhead" aria-hidden="true"><span>Rank</span><span>Paper</span><span class="r">Relevance</span><span class="r">Days</span></div>
+      <ol class="papers" id="list"></ol>
+      <div class="pager"><button class="btn" id="more" hidden>Show more</button></div>
+      <footer>
+        <p><b>How papers are ranked.</b> Each topic scores 3× its weight for a title match and 1× per distinct term in the abstract (up to 3). Method tags add a bonus (single units, LFP and fMRI count most), and the total is multiplied by species: macaque and marmoset ×2, other primates ×1.6, human ×1.25, rodent ×1.15. Open any paper's abstract to see its breakdown.</p>
+        <p>Sources: bioRxiv (neuroscience, animal behaviour &amp; cognition), Europe PMC (PubMed plus other preprint servers) and Crossref for the few listed journals PubMed doesn't index. Journal articles come from 89 listed journals in nine groups. Updated daily; journals, keywords and weights live in <code>config.yaml</code>.</p>
+      </footer>
+    </main>
+  </div>
+</div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function(){
+  const D = JSON.parse(document.getElementById('data').textContent);
+  const M = D.meta, P = D.papers;
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const PRIMATE = new Set(['macaque','marmoset','other_nhp']);
+  const SPECIES_ORDER = ['macaque','marmoset','other_nhp','human','rodent','other'];
+  const today = new Date(M.updated + 'T12:00:00');
+  const days = d => d ? Math.max(0, Math.round((today - new Date(d + 'T12:00:00')) / 864e5)) : '';
+  const maxScore = Math.max(1, ...P.map(p => p.score));
+
+  document.title = M.title;
+  $('#site-title').textContent = M.title;
+  $('#site-sub').textContent = M.subtitle;
+  const upd = new Date(M.updated + 'T12:00:00').toLocaleDateString('en-GB', {day:'numeric', month:'short', year:'numeric'});
+  $('#stamp').innerHTML = `<b>${P.length}</b> papers · ${M.window_days}-day window<br>updated <b>${upd}</b>` +
+    (M.stats && M.stats.preview ? `<br>${esc(M.stats.preview)}` : '');
+
+  // ---- state
+  const DEF = {q:'', sort:'score', win: String(M.window_days >= 30 ? 30 : M.window_days), kind:'all', topics:[], species:[], methods:[], jgroups:[], journal:'', mode:'any', onlynew:false};
+  let S = Object.assign({}, DEF);
+  try { const saved = JSON.parse(localStorage.getItem('radar-state') || 'null'); if (saved) S = Object.assign({}, DEF, saved, {q:''}); } catch(e){}
+  const save = () => { try { localStorage.setItem('radar-state', JSON.stringify(S)); } catch(e){} };
+  let shown = 60; const open = new Set(); let allOpen = false;
+
+  // ---- filter chips
+  const vals = v => Array.isArray(v) ? v : (v ? [v] : []);
+  const FIELD = {topics:'topics', species:'species', methods:'methods', jgroups:'jgroup'};
+  const count = (g, k) => P.filter(p => vals(p[FIELD[g]]).includes(k)).length;
+  function chips(el, group, defs, order){
+    const keys = (order || Object.keys(defs)).filter(k => defs[k]);
+    el.innerHTML = keys.map(k => {
+      const n = count(group, k); if (!n) return '';
+      const c = defs[k].color ? `style="--c:${defs[k].color}"` : '';
+      const dot = defs[k].color ? '<span class="dot"></span>' : '';
+      return `<button class="chip" ${c} data-k="${k}" aria-pressed="false">${dot}${esc(defs[k].label)} <span class="n">${n}</span></button>`;
+    }).join('');
+    if (!el.innerHTML.trim()) el.closest('.fg').hidden = true;
+    el.addEventListener('click', e => {
+      const b = e.target.closest('.chip'); if (!b) return;
+      const arr = S[group]; const i = arr.indexOf(b.dataset.k);
+      i < 0 ? arr.push(b.dataset.k) : arr.splice(i, 1);
+      shown = 60; sync(); render();
+    });
+  }
+  chips($('#f-topics'), 'topics', M.topics);
+  chips($('#f-species'), 'species', M.species, SPECIES_ORDER);
+  chips($('#f-methods'), 'methods', M.methods);
+  chips($('#f-jgroups'), 'jgroups', M.jgroups || {});
+  const jcounts = {};
+  P.filter(p => p.kind === 'journal').forEach(p => { jcounts[p.source] = (jcounts[p.source]||0) + 1; });
+  const jnames = Object.keys(jcounts).sort((a,b) => jcounts[b]-jcounts[a] || a.localeCompare(b));
+  if (!jnames.length) $('#fg-journal').hidden = true;
+  $('#journal').insertAdjacentHTML('beforeend', jnames.map(j => `<option value="${esc(j)}">${esc(j)} (${jcounts[j]})</option>`).join(''));
+  $('#journal').addEventListener('change', e => { S.journal = e.target.value; shown = 60; sync(); render(); });
+
+  function seg(id, key){
+    $(id).addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; S[key] = b.dataset.v; shown = 60; sync(); render(); });
+  }
+  seg('#sort','sort'); seg('#win','win'); seg('#kind','kind'); seg('#mode','mode');
+  $('#q').addEventListener('input', e => { S.q = e.target.value; shown = 60; render(); });
+  $('#onlynew').addEventListener('change', e => { S.onlynew = e.target.checked; shown = 60; sync(); render(); });
+  $('#reset').addEventListener('click', () => { S = Object.assign({}, DEF, {topics:[], species:[], methods:[], jgroups:[]}); $('#q').value=''; shown = 60; sync(); render(); });
+  $('#more').addEventListener('click', () => { shown += 60; render(); });
+  $('#toggle-filters').addEventListener('click', e => { const r = $('#rail'); r.classList.toggle('open'); const o = r.classList.contains('open'); e.target.setAttribute('aria-expanded', o); e.target.textContent = o ? 'Hide filters' : 'Show filters'; });
+  $('#expand-all').addEventListener('click', e => { allOpen = !allOpen; open.clear(); e.target.textContent = allOpen ? 'Collapse all abstracts' : 'Expand all abstracts'; render(); });
+
+  function sync(){
+    for (const [id,key] of [['#sort','sort'],['#win','win'],['#kind','kind'],['#mode','mode']])
+      document.querySelectorAll(id + ' button').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === String(S[key])));
+    for (const g of ['topics','species','methods','jgroups'])
+      document.querySelectorAll('#f-' + g + ' .chip').forEach(b => b.setAttribute('aria-pressed', S[g].includes(b.dataset.k)));
+    $('#onlynew').checked = S.onlynew;
+    $('#journal').value = S.journal;
+    save();
+  }
+
+  // ---- filtering
+  const newest = P.reduce((m,p) => p.first_seen > m ? p.first_seen : m, '');
+  function pass(p){
+    if (S.kind !== 'all' && p.kind !== S.kind) return false;
+    if (days(p.date) > +S.win) return false;
+    if (S.onlynew && p.first_seen !== newest) return false;
+    if (S.journal && p.source !== S.journal) return false;
+    if (S.jgroups.length && !S.jgroups.includes(p.jgroup)) return false;
+    for (const g of ['species','topics','methods']){
+      const sel = S[g]; if (!sel.length) continue;
+      const have = p[g] || [];
+      const ok = S.mode === 'all' ? sel.every(k => have.includes(k)) : sel.some(k => have.includes(k));
+      if (!ok) return false;
+    }
+    if (S.q){
+      const hay = (p.title + ' ' + (p.abstract||'') + ' ' + (p.authors||'') + ' ' + p.source).toLowerCase();
+      if (!S.q.toLowerCase().split(/\s+/).filter(Boolean).every(w => hay.includes(w))) return false;
+    }
+    return true;
+  }
+
+  function authors(a){
+    if (!a) return '';
+    const parts = (a.includes(';') ? a : a.replace(/\.$/, '')).split(a.includes(';') ? /;\s*/ : /,\s+/).map(s => s.trim()).filter(Boolean);
+    return parts.length > 4 ? parts.slice(0,3).join(', ') + ' … ' + parts[parts.length-1] : parts.join(', ');
+  }
+  function highlight(text, hits){
+    let out = esc(text);
+    if (!hits || !hits.length) return out;
+    const re = new RegExp('(' + hits.map(h => esc(h).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')', 'gi');
+    return out.replace(re, '<mark>$1</mark>');
+  }
+  function why(p){
+    const parts = Object.entries(p.breakdown || {}).sort((a,b) => b[1]-a[1]).map(([k,v]) => `${esc(M.topics[k]?.label || k)} <b>${v}</b>`);
+    const sp = (p.species||[]).map(s => M.species[s]?.label).filter(Boolean).join(', ');
+    const me = (p.methods||[]).map(s => M.methods[s]?.label).filter(Boolean).join(', ');
+    return `Topics: ${parts.join(' · ') || '–'}<br>Species: ${esc(sp || 'not stated')}${me ? ' · Methods: ' + esc(me) : ''}<br>Score <b>${p.score.toFixed(1)}</b>`;
+  }
+
+  function row(p, i){
+    const isOpen = allOpen ? !open.has(p.id) : open.has(p.id);
+    const sp = SPECIES_ORDER.filter(s => (p.species||[]).includes(s)).map(s => `<span class="tag sp${PRIMATE.has(s)?' primate':''}">${esc(M.species[s].label)}</span>`).join('');
+    const tp = (p.topics||[]).map(t => `<span class="tag" style="--c:${M.topics[t].color}">${esc(M.topics[t].label)}</span>`).join('');
+    const me = (p.methods||[]).map(m => `<span class="tag me">${esc(M.methods[m].label)}</span>`).join('');
+    const pub = p.published_doi ? ` · <a href="https://doi.org/${esc(p.published_doi)}" target="_blank" rel="noopener">published version</a>` : '';
+    const ppr = p.preprint_url ? ` · <a href="${esc(p.preprint_url)}" target="_blank" rel="noopener">preprint</a>` : '';
+    const rev = p.pubtype === 'review' ? ' · review' : '';
+    const isNew = p.first_seen === newest ? '<span class="newtag">new</span>' : '';
+    const w = Math.max(4, Math.round(100 * Math.sqrt(p.score / maxScore)));
+    return `<li class="paper" data-id="${esc(p.id)}">
+      <div class="rank">${i+1}</div>
+      <div class="main">
+        <h2 class="ptitle"><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a>${isNew}</h2>
+        <div class="byline"><span class="pp${p.kind==='journal'?' j':''}">${p.kind==='journal'?'Journal':'Preprint'}</span><span class="src">${esc(p.source)}</span>${rev} · ${esc(authors(p.authors))}${p.institution ? ' · ' + esc(p.institution) : ''}${pub}${ppr}</div>
+        <div class="tags">${sp}${tp}${me}</div>
+        <div class="more"><button class="linkbtn tgl" aria-expanded="${isOpen}">${isOpen ? 'Hide abstract' : 'Abstract & why it ranked'}</button></div>
+        ${isOpen ? `<div class="detail"><p class="abs">${p.abstract ? highlight(p.abstract, p.hits) : '<em>No abstract available.</em>'}</p><div class="why">${why(p)}</div></div>` : ''}
+      </div>
+      <div class="scorecol"><span class="score">${p.score.toFixed(1)}</span><div class="bar" title="Relevance score"><span style="width:${w}%"></span></div></div>
+      <div class="age">${days(p.date)}<span class="unit"> ${days(p.date) === 1 ? 'day' : 'days'} since posting</span></div>
+    </li>`;
+  }
+
+  $('#list').addEventListener('click', e => {
+    const b = e.target.closest('.tgl'); if (!b) return;
+    const id = b.closest('li').dataset.id;
+    open.has(id) ? open.delete(id) : open.add(id);
+    render();
+  });
+
+  function render(){
+    let L = P.filter(pass);
+    if (S.sort === 'date') L = L.slice().sort((a,b) => (b.date||'').localeCompare(a.date||'') || b.score - a.score);
+    const prim = L.filter(p => (p.species||[]).some(s => PRIMATE.has(s))).length;
+    $('#count').innerHTML = `<b>${L.length}</b> of ${P.length} papers · <b>${prim}</b> in non-human primates`;
+    $('#list').innerHTML = L.length ? L.slice(0, shown).map(row).join('') : '<li class="empty">No papers match these filters. Try “Any selected” or clear a filter.</li>';
+    $('#more').hidden = L.length <= shown;
+    $('#more').textContent = `Show more (${L.length - shown} left)`;
+  }
+  sync(); render();
+})();
+</script>

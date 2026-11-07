@@ -29,8 +29,8 @@
 ],
 "hits": [
 "single neurons",
-"listening",
 "sequences",
+"listening",
 "sequence",
 "auditory",
 "Ordinal",
@@ -71,13 +71,13 @@
 "methods": [],
 "hits": [
 "Vocal turn-taking",
-"phee calls",
 "sequential",
-"marmosets",
+"phee calls",
 "sequences",
-"Rhythmic",
+"marmosets",
 "rhythmic",
 "auditory",
+"Rhythmic",
 "prosod",
 "phee"
 ],
@@ -119,11 +119,11 @@
 "acoustic stimulation",
 "Closed-loop acoustic",
 "closed-loop acoustic",
-"global effect",
 "consolidation",
+"global effect",
 "participants",
-"acoustic",
 "rhythmic",
+"acoustic",
 "memory",
 "CLAS"
 ],
@@ -169,10 +169,10 @@
 "precision weight",
 "global mismatch",
 "tone sequences",
-"listening",
+"sequences",
 "Surprisal",
 "surprisal",
-"sequences",
+"listening",
 "acoustic",
 "Auditory",
 "auditory",
@@ -224,16 +224,16 @@
 "Vocal Communication",
 "vocal communication",
 "neuronal responses",
-"conspecific",
 "zebra finch",
+"conspecific",
 "bird song",
 "songbirds",
 "acoustic",
 "Auditory",
 "auditory",
 "syllabl",
-"speech",
 "memory",
+"speech",
 "human",
 "sound"
 ],
@@ -320,13 +320,13 @@
 ],
 "hits": [
 "participants",
-"listening",
 "syntactic",
+"listening",
 "acoustic",
-"speech",
 "prosod",
-"Prosod",
+"speech",
 "syntax",
+"Prosod",
 "MEG"
 ],
 "breakdown": {
@@ -412,8 +412,8 @@
 "oddball",
 "sounds",
 "sound",
-"MMN",
-"EEG"
+"EEG",
+"MMN"
 ],
 "breakdown": {
 "auditory": 9.0,
@@ -452,12 +452,12 @@
 "hits": [
 "Participants",
 "grammatical",
-"Syntactic",
 "syntactic",
+"Syntactic",
 "auditory",
+"memory",
 "speech",
 "Syntax",
-"memory",
 "syntax",
 "voxel"
 ],
@@ -504,9 +504,9 @@
 "conspecific calls",
 "vocalization",
 "conspecific",
-"marmoset",
 "rhythmic",
 "auditory",
+"marmoset",
 "speech",
 "monkey",
 "fMRI"
@@ -633,8 +633,8 @@
 "hits": [
 "auditory stimulation",
 "listening",
-"Auditory",
 "rhythmic",
+"Auditory",
 "auditory",
 "adults",
 "sounds",
@@ -676,13 +676,13 @@
 ],
 "hits": [
 "neuronal population",
-"Vocalization",
 "vocalization",
+"Vocalization",
 "zebra finch",
-"acoustic",
-"songbird",
-"sequence",
 "birdsong",
+"songbird",
+"acoustic",
+"sequence",
 "Acoustic",
 "syllabl",
 "speech"
@@ -738,55 +738,6 @@
 "vocalisations": 9.6
 }
 },
-"doi:10.1523/jneurosci.0198-26.2026": {
-"id": "doi:10.1523/jneurosci.0198-26.2026",
-"doi": "10.1523/jneurosci.0198-26.2026",
-"pmid": "42686420",
-"title": "Flexible Modulation of Premotor mu Rhythm Waveform Shape Predicts Human Motor Sequence Learning.",
-"authors": "Suresh T, Khatri U, Hussain SJ.",
-"abstract": "Motor sequence learning recruits a distributed sensorimotor network. Within this network, the premotor cortex (PMC) encodes and represents sequence information while the primary motor cortex (M1) executes movement sequences. Like M1, PMC neuronal populations exhibit mu (8-13 Hz) rhythms, which are typically nonsinusoidal. Previous studies showed that mu rhythm phase gates corticospinal transmission, sensitivity to LTP-like plasticity, and learning-related corticospinal plasticity. However, these studies treated mu peak and trough phases as discrete functional states and focused exclusively on M1. Here, we characterized mu phase-dependent mechanisms of motor sequence learning by measuring waveform shape, which is a more holistic measure that treats peak and trough phases as continuous components of the same oscillatory cycle. Using cycle-by-cycle analysis of resting EEG, we quantified the peak-trough symmetry of mu rhythms recorded over premotor regions during, before, and after healthy adults (25 females, 11 males) practiced a serial reaction time task containing a repeating, embedded sequence (sequence group) or no sequence (no-sequence group). As learning progressed, premotor mu rhythms became more symmetric in the sequence than the no-sequence group; these symmetry increases were also more positively correlated with skill acquisition in the sequence than the no-sequence group. Furthermore, premotor mu asymmetry before task exposure predicted sequence acquisition, such that participants with longer baseline trough phases acquired greater skill and showed larger learning-related increases in mu peak-trough symmetry. Overall, these findings provide first evidence that motor sequence learning reshapes premotor mu rhythms, consistent with learning-related redistribution of cortical excitability across the mu cycle.",
-"date": "2026-10-07",
-"source": "Journal of Neuroscience",
-"journal_names": [
-"The Journal of neuroscience : the official journal of the Society for Neuroscience",
-"J Neurosci",
-"J Neurosci"
-],
-"kind": "journal",
-"url": "https://doi.org/10.1523/jneurosci.0198-26.2026",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-17",
-"jgroup": "systems",
-"score": 21.25,
-"topics": [
-"auditory",
-"sequences"
-],
-"species": [
-"human"
-],
-"methods": [
-"single_unit",
-"eeg_meg"
-],
-"hits": [
-"neuronal population",
-"sequences",
-"sequence",
-"Sequence",
-"rhythms",
-"Rhythm",
-"rhythm",
-"Human",
-"EEG"
-],
-"breakdown": {
-"auditory": 7.5,
-"sequences": 6.5
-}
-},
 "doi:10.64898/2026.10.26.761911": {
 "id": "doi:10.64898/2026.10.26.761911",
 "doi": "10.64898/2026.10.26.761911",
@@ -816,8 +767,8 @@
 "hits": [
 "prediction error",
 "volunteers",
-"listening",
 "surprisal",
+"listening",
 "listeners",
 "acoustic",
 "speech"
@@ -896,15 +847,15 @@
 "eeg_meg"
 ],
 "hits": [
-"mismatch negativity",
 "Mismatch Negativity",
+"mismatch negativity",
 "Auditory",
-"Children",
 "auditory",
+"Children",
 "deviant",
 "oddball",
-"MMN",
-"EEG"
+"EEG",
+"MMN"
 ],
 "breakdown": {
 "auditory": 6.0,
@@ -944,8 +895,8 @@
 "mismatch negativity",
 "participants",
 "auditory",
-"MMN",
-"EEG"
+"EEG",
+"MMN"
 ],
 "breakdown": {
 "auditory": 6.0,
@@ -1028,10 +979,10 @@
 ],
 "hits": [
 "participants",
-"grammatical",
 "Grammatical",
-"speech",
+"grammatical",
 "Speech",
+"speech",
 "MEG"
 ],
 "breakdown": {
@@ -1112,12 +1063,12 @@
 "mismatch negativity",
 "acoustic",
 "auditory",
-"hearing",
 "Hearing",
+"hearing",
 "oddball",
-"speech",
-"adults",
 "prosod",
+"adults",
+"speech",
 "Prosod",
 "ERPs",
 "MMN"
@@ -1162,8 +1113,8 @@
 "hits": [
 "superior temporal gyrus",
 "vocal production",
-"participants",
 "vocalization",
+"participants",
 "auditory",
 "speech",
 "sounds",
@@ -1173,56 +1124,6 @@
 "breakdown": {
 "auditory": 9.0,
 "vocalisations": 3.2
-}
-},
-"doi:10.1016/j.bandc.2026.106487": {
-"id": "doi:10.1016/j.bandc.2026.106487",
-"doi": "10.1016/j.bandc.2026.106487",
-"pmid": "42843130",
-"title": "Recall of overlearned speech in noise: Developmental ERP findings and an episodic buffer frame for culturally situated brain activity.",
-"authors": "D'Angiulli A, Sheculski M, Morrow A.",
-"abstract": "How does extensively practiced speech memory remain dependent on momentary sensory input, and how does this interaction shape brain activity during development? This perspective integrates exploratory behavioral and event-related potential (ERP) findings from a culturally situated spoken-sequence recognition paradigm with a working memory episodic-buffer account. We reanalyzed data from children and young adults who had memorized Quranic passages despite limited Arabic comprehension. Participants heard incomplete passages with or without static noise and selected the missing final word from phonologically plausible alternatives. Noise reduced recognition accuracy, and children generally responded more slowly. Descriptive ERP patterns revealed larger, more spatially distributed responses in children, spanning early auditory processing, mid-latency positivity, and later negative activity. We propose that recognition requires temporary binding of acoustic input, serial and rhythmic expectations, visual response cues, and consolidated sequence knowledge within an episodic buffer under executive control. Noise may impair perceptual fidelity and matching between transient input and stored representations. Developmental ERP differences may reflect representational coordination rather than neural efficiency. These preliminary findings motivate testable predictions concerning cross-modal congruence, familiarity, comprehension, and independently measured expertise. Culturally embedded learning practices provide informative contexts for examining interactions among working memory, long-term knowledge, and developing neural systems supporting cognition.",
-"date": "2026-10-07",
-"source": "Brain and Cognition",
-"journal_names": [
-"Brain and cognition",
-"Brain Cogn",
-"Brain Cogn"
-],
-"kind": "journal",
-"url": "https://doi.org/10.1016/j.bandc.2026.106487",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-17",
-"jgroup": "cognitive",
-"score": 17.62,
-"topics": [
-"auditory",
-"memory",
-"sequences"
-],
-"species": [
-"human"
-],
-"methods": [
-"eeg_meg"
-],
-"hits": [
-"Participants",
-"acoustic",
-"sequence",
-"rhythmic",
-"auditory",
-"speech",
-"Recall",
-"memory",
-"ERP"
-],
-"breakdown": {
-"auditory": 9.0,
-"memory": 2.8,
-"sequences": 1.3
 }
 },
 "doi:10.64898/2026.10.18.759937": {
@@ -1253,8 +1154,8 @@
 ],
 "methods": [],
 "hits": [
-"vocal behavior",
 "Vocal learning",
+"vocal behavior",
 "vocal learning",
 "vocalization",
 "songbirds",
@@ -1303,8 +1204,8 @@
 "superior temporal gyrus",
 "nonhuman primate",
 "auditory",
-"speech",
 "Speech",
+"speech",
 "human",
 "fMRI"
 ],
@@ -1345,11 +1246,11 @@
 "hits": [
 "speech production",
 "pure-tone",
-"listener",
+"rhythmic",
 "acoustic",
 "Auditory",
-"rhythmic",
 "auditory",
+"listener",
 "syllabl",
 "rhythms",
 "speech",
@@ -1393,14 +1294,14 @@
 "eeg_meg"
 ],
 "hits": [
-"auditory stimulation",
 "closed-loop auditory",
+"auditory stimulation",
 "consolidation",
 "intracranial",
 "auditory",
 "rhythms",
-"adults",
 "memory",
+"adults",
 "fMRI",
 "EEG"
 ],
@@ -1442,13 +1343,13 @@
 "hits": [
 "electroencephalogra",
 "sequences",
-"acoustic",
-"patients",
-"Auditory",
 "rhythmic",
+"acoustic",
+"Auditory",
 "auditory",
-"rhythm",
+"patients",
 "Heschl",
+"rhythm",
 "sound",
 "sEEG"
 ],
@@ -1527,12 +1428,12 @@
 ],
 "methods": [],
 "hits": [
-"listening",
 "Listening",
-"listeners",
 "syntactic",
-"listener",
+"listening",
+"listeners",
 "acoustic",
+"listener",
 "ordinal"
 ],
 "breakdown": {
@@ -1569,8 +1470,8 @@
 "methods": [],
 "hits": [
 "mismatch negativity",
-"deviants",
 "auditory",
+"deviants",
 "deviant",
 "human",
 "tones"
@@ -1612,12 +1513,12 @@
 "auditory stimulation",
 "electroencephalogra",
 "neural tracking",
-"Rhythmic",
 "rhythmic",
 "auditory",
+"Rhythmic",
+"infant",
 "speech",
-"rhythm",
-"infant"
+"rhythm"
 ],
 "breakdown": {
 "auditory": 9.0,
@@ -1741,8 +1642,8 @@
 "sequences",
 "sequence",
 "rhythms",
-"recall",
 "memory",
+"recall",
 "EEG"
 ],
 "breakdown": {
@@ -1785,9 +1686,9 @@
 "listening",
 "auditory",
 "rhythms",
-"rhythm",
 "humans",
 "Heschl",
+"rhythm",
 "EEG"
 ],
 "breakdown": {
@@ -1833,8 +1734,8 @@
 "Chemogenetic",
 "DREADDs",
 "DREADD",
-"rats",
 "fMRI",
+"rats",
 "CNO"
 ],
 "breakdown": {
@@ -1876,13 +1777,13 @@
 "hits": [
 "magnetoencephalogra",
 "Tone sequences",
+"sequences",
 "listening",
 "listeners",
-"sequences",
 "auditory",
 "hearing",
-"Human",
-"tones"
+"tones",
+"Human"
 ],
 "breakdown": {
 "auditory": 9.0,
@@ -1920,12 +1821,12 @@
 "Mismatch response",
 "mismatch response",
 "prediction error",
-"deviants",
 "auditory",
+"deviants",
 "oddball",
 "tones",
-"MMN",
-"EEG"
+"EEG",
+"MMN"
 ],
 "breakdown": {
 "auditory": 3.0,
@@ -2001,8 +1902,8 @@
 ],
 "methods": [],
 "hits": [
-"contact call",
 "vocalization",
+"contact call",
 "conspecific",
 "acoustic",
 "human"
@@ -2042,10 +1943,10 @@
 "hits": [
 "functional magnetic resonance",
 "listening",
-"auditory",
 "children",
-"hearing",
+"auditory",
 "tonotop",
+"hearing",
 "Tonotop",
 "sounds",
 "sound"
@@ -2088,9 +1989,9 @@
 "cochlea",
 "Humans",
 "sounds",
-"spike",
 "Sound",
-"sound"
+"sound",
+"spike"
 ],
 "breakdown": {
 "auditory": 9.0
@@ -2208,8 +2109,8 @@
 "hits": [
 "vocal control",
 "sequences",
-"acoustic",
 "songbird",
+"acoustic",
 "syllabl",
 "speech"
 ],
@@ -2217,50 +2118,6 @@
 "auditory": 9.0,
 "sequences": 1.3,
 "vocalisations": 3.2
-}
-},
-"doi:10.64898/2026.10.02.756189": {
-"id": "doi:10.64898/2026.10.02.756189",
-"doi": "10.64898/2026.10.02.756189",
-"pmid": null,
-"title": "Musical Aesthetic Experience Reveals Differential Effects of Professional Vocal Training on Female College Students’ Brain Function: An fMRI Study",
-"authors": "Li H, Gao Y, Ma Y, Sun B, Liu Y, Zhou R, Ren A, Yuan T, Huang X, Zhang X.",
-"abstract": "Musical aesthetic experience can reveal students’ cognitive, aesthetic, and emotional responses to music. However, how professional vocal training alters brain functions in female college students with varying levels of musicianship to promote these is unknown. Here we applied fMRI, psychological measures and Goldsmiths musical sophistication index (Gold-MSI) assessments to study 27 non-music major female college students consisting of instrument group (normal pitch accuracy with instrumental training), general group (normal pitch accuracy without instrumental training) and poor-pitch group (poor pitch accuracy and without instrumental training). After 1 year of one-on-one instructional practice, we found that professional vocal training enhanced information processing related to musical cognition and pleasure during musical aesthetic experiences across all three groups, involving improvements in motor control of vocalization, auditory feedback processing, musical memory and attention together with musical pleasure. Specifically, instrument group showed activation of reward circuits, general group exhibited activation of laryngeal motor control circuits, and poor-pitch group displayed activation of sensory/sensorimotor/motor control circuits. Both pre- and post-training, the instrument group exhibited higher connectivity than the other two groups in the left amygdala–dorsal anterior cingulate cortex (dACC) and the right posterior superior temporal gyrus (pSTG)–left insula pathway. After professional vocal training, the general group showed higher connectivity in the left amygdala–dACC, whereas the poor-pitch group demonstrated increased connectivity in the right pSTG–left insula and dACC-nucleus accumbens pathways. Surprisingly, professional vocal training activated the bed nucleus of the stria terminalis (BNST), a subcortical emotion center, and connectivity with the medial prefrontal cortex associated with musical information processing. Thus, vocal training can significantly improve musical cognition and aesthetic pleasure, and facilitates neural modulation in the brain’s emotional centers.",
-"date": "2026-10-07",
-"source": "bioRxiv",
-"journal_names": [],
-"kind": "preprint",
-"url": "https://doi.org/10.64898/2026.10.02.756189",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-08",
-"jgroup": null,
-"score": 13.3,
-"topics": [
-"auditory",
-"memory",
-"vocalisations"
-],
-"species": [],
-"methods": [
-"fmri"
-],
-"hits": [
-"superior temporal gyrus",
-"vocalization",
-"auditory",
-"Musical",
-"musical",
-"memory",
-"pitch",
-"music",
-"fMRI"
-],
-"breakdown": {
-"auditory": 9.0,
-"memory": 0.7,
-"vocalisations": 1.6
 }
 },
 "doi:10.64898/2026.10.13.758938": {
@@ -2294,9 +2151,9 @@
 "syntactic",
 "acoustic",
 "auditory",
-"speech",
 "prosod",
 "Speech",
+"speech",
 "fMRI"
 ],
 "breakdown": {
@@ -2381,8 +2238,8 @@
 "sequences",
 "melodies",
 "auditory",
-"melody",
 "memory",
+"melody",
 "sound",
 "MEG"
 ],
@@ -2464,8 +2321,8 @@
 ],
 "hits": [
 "Participants",
-"Rhythmic",
 "rhythmic",
+"Rhythmic",
 "rhythms",
 "fMRI",
 "EEG"
@@ -2509,8 +2366,8 @@
 "hits": [
 "resting-state",
 "auditory",
-"hearing",
 "Hearing",
+"hearing",
 "human",
 "EEG"
 ],
@@ -2587,9 +2444,9 @@
 "methods": [],
 "hits": [
 "sequential",
+"rhythmic",
 "acoustic",
 "children",
-"rhythmic",
 "syllabl",
 "melodic",
 "prosod",
@@ -2675,8 +2532,8 @@
 "hits": [
 "ultrasonic vocali",
 "vocalization",
-"conspecific",
 "Conspecific",
+"conspecific",
 "acoustic",
 "USVs",
 "rats",
@@ -2723,8 +2580,8 @@
 "hits": [
 "computational model",
 "syntactic",
-"speech",
 "Speech",
+"speech",
 "human",
 "ECoG"
 ],
@@ -2807,9 +2664,9 @@
 "speech production",
 "acoustic",
 "speech",
-"pitch",
+"Voxel",
 "Pitch",
-"Voxel"
+"pitch"
 ],
 "breakdown": {
 "auditory": 9.0,
@@ -2890,8 +2747,8 @@
 "acoustic",
 "Acoustic",
 "auditory",
-"hearing",
 "Hearing",
+"hearing",
 "sounds",
 "EEG"
 ],
@@ -2930,8 +2787,8 @@
 "rhythm",
 "sounds",
 "human",
-"music",
 "Music",
+"music",
 "EEG"
 ],
 "breakdown": {
@@ -3013,8 +2870,8 @@
 "Auditory",
 "auditory",
 "hearing",
-"speech",
 "Speech",
+"speech",
 "Adults",
 "MEG"
 ],
@@ -3053,8 +2910,8 @@
 "participants",
 "listening",
 "auditory",
-"speech",
 "Speech",
+"speech",
 "EEG"
 ],
 "breakdown": {
@@ -3092,11 +2949,11 @@
 "cortical tracking",
 "participants",
 "listening",
-"Auditory",
 "rhythmic",
+"Auditory",
 "auditory",
-"syllabl",
 "Musical",
+"syllabl",
 "musical",
 "speech",
 "rhythm",
@@ -3137,10 +2994,46 @@
 "hits": [
 "auditory",
 "infants",
-"speech",
 "prosod",
+"speech",
 "pitch",
 "MEG"
+],
+"breakdown": {
+"auditory": 9.0
+}
+},
+"doi:10.64898/2026.11.04.764442": {
+"id": "doi:10.64898/2026.11.04.764442",
+"doi": "10.64898/2026.11.04.764442",
+"title": "Walking delays auditory processing in humans alongside a global shift in aperiodic neural activity",
+"authors": "Chen, X.; Chen, S.; Zhang, X.; Cao, L.",
+"abstract": "Natural sensory processing unfolds during movement, yet human electrophysiology is usually measured under enforced stillness. Here, we used mobile EEG to test whether walking changes the timing of auditory processing. Thirty adults listened to lateralised pure tones while walking freely or standing. Walking led to a delay in auditory N1 latency (< 10 ms). Control analyses ruled out the possibility that the N1 delay was contaminated by foot strike related noise in EEG. Multivariate decoding further indicated a later emergence of sound location information during walking in the subset of participants with reliable decoding in both states. Walking also produced a scalp wide decrease in the aperiodic exponent of neural responses. A larger global exponent decrease was associated with a larger N1 delay across participants. Together, these findings show that natural walking reorganises the temporal dynamics of human auditory processing and link early sensory slowing to a global change in ongoing cortical state.",
+"date": "2026-11-06",
+"source": "bioRxiv",
+"kind": "preprint",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764442v1",
+"institution": "Zhejiang University",
+"published_doi": null,
+"pubtype": "new results",
+"first_seen": "2026-11-07",
+"jgroup": null,
+"score": 12.5,
+"topics": [
+"auditory"
+],
+"species": [
+"human"
+],
+"methods": [
+"eeg_meg"
+],
+"hits": [
+"pure tones",
+"auditory",
+"humans",
+"sound",
+"EEG"
 ],
 "breakdown": {
 "auditory": 9.0
@@ -3177,8 +3070,8 @@
 "consolidation",
 "rhythmic",
 "rhythms",
-"rhythm",
-"memory"
+"memory",
+"rhythm"
 ],
 "breakdown": {
 "auditory": 9.0,
@@ -3217,8 +3110,8 @@
 "single-neuron",
 "optogenetic",
 "auditory",
-"sound",
-"mouse"
+"mouse",
+"sound"
 ],
 "breakdown": {
 "auditory": 7.5,
@@ -3254,13 +3147,13 @@
 "hits": [
 "Listeners",
 "listeners",
-"listener",
 "acoustic",
 "ACOUSTIC",
 "Acoustic",
+"listener",
+"memory",
 "speech",
-"SPEECH",
-"memory"
+"SPEECH"
 ],
 "breakdown": {
 "auditory": 9.0,
@@ -3334,11 +3227,11 @@
 "hits": [
 "consolidation",
 "memories",
-"sequence",
 "auditory",
+"sequence",
 "rhythms",
-"adults",
 "Memory",
+"adults",
 "memory",
 "EEG"
 ],
@@ -3385,52 +3278,8 @@
 "cochlea",
 "musical",
 "human",
-"pitch",
-"Pitch"
-],
-"breakdown": {
-"auditory": 9.0
-}
-},
-"doi:10.1523/jneurosci.1323-25.2026": {
-"id": "doi:10.1523/jneurosci.1323-25.2026",
-"doi": "10.1523/jneurosci.1323-25.2026",
-"pmid": "42686421",
-"title": "Hyperpolarization-Activated Cation Channels Confer Tonotopic Specialization for Temporal Encoding of Sound Frequency in the Cochlear Nucleus.",
-"authors": "Owusu-Nyantakyi K, Hamlette LS, Ashida G, Weimann S, Oline SN, Burger RM.",
-"abstract": "Sensory neurons are endowed with physiological characteristics that facilitate accurate signal extraction from stimuli. The functional importance of such properties is exemplified in auditory neurons where intrinsic excitability is optimized to detect frequency-specific features. In birds, the neurons of nucleus magnocellularis (NM) receive primary auditory inputs that are spatially arranged according to best frequency, or \"tonotopically.\" Several physiological properties vary systematically along NM's tonotopic axis. Gradients of voltage-gated channels shape temporal response selectivity, enabling precise encoding of sound features. We identified a previously undescribed expression pattern of hyperpolarization-activated cation (HCN) channels in the domestic chick Gallus gallus domesticus of both sexes. Electrophysiological and immunohistochemical analyses demonstrated a tonotopic gradient of HCN1 but not HCN2 subunits that underlie I H currents along NM's tonotopic axis. To measure the effect of I H on membrane excitability along the tonotopy, we applied depolarizing current ramps prior to and during pharmacological I H block. We show I H exerts a strong influence on temporal integration properties of NM membranes. Next, we investigated whether this response modulation facilitates encoding of temporally patterned inputs by injecting depolarizing current pulse trains to simulate synaptic excitatory drive. During I H block, spike entrainment failed at high input rates, suggesting HCN channels contribute strongly to NM's temporal selectivity. Computational modeling extended these results to show a contribution of I H to high-frequency neuron responses in the presence of noise. This work establishes a tonotopic distribution of HCN channels in NM and demonstrates its contributions to temporal response selectivity, particularly at high frequencies.",
-"date": "2026-10-07",
-"source": "Journal of Neuroscience",
-"journal_names": [
-"The Journal of neuroscience : the official journal of the Society for Neuroscience",
-"J Neurosci",
-"J Neurosci"
-],
-"kind": "journal",
-"url": "https://doi.org/10.1523/jneurosci.1323-25.2026",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-17",
-"jgroup": "systems",
-"score": 11.5,
-"topics": [
-"auditory"
-],
-"species": [],
-"methods": [
-"single_unit",
-"modelling"
-],
-"hits": [
-"Computational model",
-"auditory",
-"tonotop",
-"Tonotop",
-"Cochlea",
-"sound",
-"spike",
-"Sound"
+"Pitch",
+"pitch"
 ],
 "breakdown": {
 "auditory": 9.0
@@ -3510,9 +3359,9 @@
 "methods": [],
 "hits": [
 "speech production",
-"speech",
 "prosod",
 "Speech",
+"speech",
 "human"
 ],
 "breakdown": {
@@ -3554,49 +3403,12 @@
 "speech production",
 "participants",
 "acoustic",
-"speech",
-"Speech"
+"Speech",
+"speech"
 ],
 "breakdown": {
 "auditory": 7.5,
 "vocalisations": 1.6
-}
-},
-"doi:10.21203/rs.3.rs-10460435/v1": {
-"id": "doi:10.21203/rs.3.rs-10460435/v1",
-"doi": "10.21203/rs.3.rs-10460435/v1",
-"pmid": null,
-"title": "Diffusion Tensor Imaging of Auditory Pathway Fiber Bundles in Children with Hearing Impairment from Bilirubin Encephalopathy: Alterations in Fractional Anisotropy and Diffusion Coefficient",
-"authors": "Deng M, Zheng C, Wei W, Yi T, Deng Z.",
-"abstract": "Abstract Objective To investigate changes in diffusion tensor imaging (DTI) parameters of auditory pathway fiber bundles in children with hearing impairment caused by bilirubin encephalopathy. Methods A total of 36 children with bilirubin encephalopathy and 36 control children were examined using a 3.0T superconducting magnetic resonance scanner (Siemens 3.0T Skyra, Siemens, Germany). DTI parameters, including fractional anisotropy (FA) and radial diffusivity (RD), were measured in the lateral lemniscus and inferior colliculus along the auditory pathway. These data were analyzed using independent samples t-test, and linear regression. Results Compared to the control group, children with hearing impairment demonstrated a significant decrease in FA(P 2 = 0.7582, p",
-"date": "2026-10-07",
-"source": "Research Square",
-"journal_names": [],
-"kind": "preprint",
-"url": "https://doi.org/10.21203/rs.3.rs-10460435/v1",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-08",
-"jgroup": null,
-"score": 11.25,
-"topics": [
-"auditory"
-],
-"species": [
-"human"
-],
-"methods": [],
-"hits": [
-"inferior colliculus",
-"Auditory",
-"Children",
-"auditory",
-"hearing",
-"Hearing"
-],
-"breakdown": {
-"auditory": 9.0
 }
 },
 "doi:10.64898/2026.10.01.755864": {
@@ -3629,8 +3441,8 @@
 "auditory",
 "hearing",
 "cochlea",
-"speech",
 "adults",
+"speech",
 "sounds",
 "sound"
 ],
@@ -3707,8 +3519,8 @@
 "hits": [
 "listening",
 "listeners",
-"listener",
 "acoustic",
+"listener",
 "speech"
 ],
 "breakdown": {
@@ -3745,8 +3557,8 @@
 "auditory",
 "hearing",
 "cochlea",
-"Human",
-"mouse"
+"mouse",
+"Human"
 ],
 "breakdown": {
 "auditory": 9.0
@@ -3822,8 +3634,8 @@
 "Participants",
 "listening",
 "auditory",
-"hearing",
 "Hearing",
+"hearing",
 "sound"
 ],
 "breakdown": {
@@ -3858,8 +3670,8 @@
 "hits": [
 "pure-tone",
 "auditory",
-"hearing",
 "Hearing",
+"hearing",
 "adults"
 ],
 "breakdown": {
@@ -3932,8 +3744,8 @@
 "methods": [],
 "hits": [
 "participants",
-"listeners",
 "Pure tone",
+"listeners",
 "hearing",
 "speech"
 ],
@@ -3969,8 +3781,8 @@
 "hits": [
 "participants",
 "acoustic",
-"speech",
-"prosod"
+"prosod",
+"speech"
 ],
 "breakdown": {
 "auditory": 9.0
@@ -4005,8 +3817,8 @@
 "Listeners",
 "listeners",
 "auditory",
-"hearing",
-"Hearing"
+"Hearing",
+"hearing"
 ],
 "breakdown": {
 "auditory": 9.0
@@ -4083,8 +3895,8 @@
 "listeners",
 "auditory",
 "hearing",
-"speech",
 "prosod",
+"speech",
 "human"
 ],
 "breakdown": {
@@ -4154,11 +3966,11 @@
 "methods": [],
 "hits": [
 "Acoustic",
-"hearing",
 "Cochlea",
+"hearing",
 "cochlea",
-"Human",
 "Sound",
+"Human",
 "sound"
 ],
 "breakdown": {
@@ -4226,10 +4038,10 @@
 ],
 "methods": [],
 "hits": [
-"patients",
 "auditory",
-"hearing",
+"patients",
 "Cochlea",
+"hearing",
 "cochlea",
 "speech",
 "sounds"
@@ -4340,8 +4152,8 @@
 "acoustic",
 "musical",
 "human",
-"music",
-"Music"
+"Music",
+"music"
 ],
 "breakdown": {
 "auditory": 9.0
@@ -4376,12 +4188,12 @@
 "auditory",
 "Musical",
 "musical",
-"sound",
 "human",
-"pitch",
-"music",
+"Sound",
 "Music",
-"Sound"
+"pitch",
+"sound",
+"music"
 ],
 "breakdown": {
 "auditory": 9.0
@@ -4450,10 +4262,10 @@
 "hits": [
 "participants",
 "pure-tone",
-"hearing",
 "Hearing",
-"speech",
-"Speech"
+"hearing",
+"Speech",
+"speech"
 ],
 "breakdown": {
 "auditory": 9.0
@@ -4487,8 +4299,8 @@
 "participants",
 "Auditory",
 "auditory",
-"speech",
 "Speech",
+"speech",
 "PSAM"
 ],
 "breakdown": {
@@ -4574,49 +4386,6 @@
 "breakdown": {
 "auditory": 4.5,
 "clas": 6.6
-}
-},
-"doi:10.1523/jneurosci.1782-25.2026": {
-"id": "doi:10.1523/jneurosci.1782-25.2026",
-"doi": "10.1523/jneurosci.1782-25.2026",
-"pmid": "42637554",
-"title": "Medullary GABAergic Neurons Constitute a Neural Brake Coordinating Respiratory Rhythm In Vivo.",
-"authors": "Baker KS, Da Silveira Scarpellini C, Montandon G.",
-"abstract": "Motor behaviors, such as walking and breathing, depend on neural circuits combining excitatory and inhibitory neurons to produce rhythmic motor activities. Breathing is a critical autonomic motor function that requires excitatory and inhibitory circuits to orchestrate inhalation and exhalation. Inspiration is produced by excitatory medullary neurons of the preBötzinger complex (preBötC), a small region of the ventral medulla dedicated to breathing. Expiration is characterized by passive recoil of the lungs and thorax and is a critical phase of the respiratory cycle allowing air to be exhaled until the next inspiration happens. The brain circuits regulating the timing and pattern of expiration and determining when the next inspiration is produced have not been identified. Here, we propose that inhibitory gamma-aminobutyric acid (GABA)-ergic preBötC neurons act as a neural brake to prevent the next inspiration to be produced until expiration is fully completed. Using optogenetic tools to modulate GABAergic neurons in male and female mice in vivo, we showed that photostimulation of GABAergic preBötC neurons prevented the next inspiration to occur and considerably prolonged expiration. On the other hand, photoinhibition of GABAergic neurons quickly produced inspiration therefore aborting expiration. Collectively, GABAergic preBötC neurons are pivotal in orchestrating the transition from expiration to inspiration to properly complete exhalation. Importantly, understanding inhibitory circuits in the context of rhythmic breathing may be relevant to comprehend the universal properties of other rhythmic motor behaviors, such as walking, that also require alternating motor activity.",
-"date": "2026-10-07",
-"source": "Journal of Neuroscience",
-"journal_names": [
-"The Journal of neuroscience : the official journal of the Society for Neuroscience",
-"J Neurosci",
-"J Neurosci"
-],
-"kind": "journal",
-"url": "https://doi.org/10.1523/jneurosci.1782-25.2026",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-17",
-"jgroup": "systems",
-"score": 11.04,
-"topics": [
-"auditory",
-"optogenetics"
-],
-"species": [
-"rodent"
-],
-"methods": [],
-"hits": [
-"photostimulat",
-"photoinhibit",
-"optogenetic",
-"rhythmic",
-"Rhythm",
-"mice"
-],
-"breakdown": {
-"auditory": 6.0,
-"optogenetics": 3.6
 }
 },
 "doi:10.31234/osf.io/twfqg_v1": {
@@ -4766,45 +4535,6 @@
 "predictive_coding": 8.0
 }
 },
-"doi:10.31234/osf.io/q9kbd_v2": {
-"id": "doi:10.31234/osf.io/q9kbd_v2",
-"doi": "10.31234/osf.io/q9kbd_v2",
-"pmid": null,
-"title": "Musical Groove as Stabilization of Coordinated Movement: A Dynamical and Embodied Approach to Musical Rhythm",
-"authors": "Kim JC.",
-"abstract": "Research has shown that the bodily experience of pleasurable urge to move to music, called groove, is the strongest for rhythms with an intermediate level of syncopation. Current theories explain groove in terms of predictive processes in the brain, as an active inference which resolves prediction errors caused by syncopation. Here we present an alternative explanation of groove from a new dynamical and embodied approach to music perception and action. The new theory, called embodied dynamics of music (EDM), describes musical rhythm as a dynamic pattern of coordinated movement distributed in the brain and the body and governed by the principles and constraints of coordination dynamics. Specifically, beat-based rhythm is described as a coordinative structure in which beat-carrying oscillatory movements provide anchor points for coordinating discrete movements corresponding to individual rhythmic events. In this view, syncopation is a potentially destabilizing force in the coordinative structure, and groove is an active engagement that stabilizes the coordinative structure by reinforcing beat-carrying oscillation with body movement. We support this theory with an analysis of coordination dynamics and a minimal dynamical model of groove which stabilizes syncopated coordination with a metronome by amplifying its self-sustained oscillation.",
-"date": "2026-10-07",
-"source": "PsyArXiv",
-"journal_names": [],
-"kind": "preprint",
-"url": "https://doi.org/10.31234/osf.io/q9kbd_v2",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-11-02",
-"jgroup": null,
-"score": 10.6,
-"topics": [
-"auditory",
-"predictive_coding"
-],
-"species": [],
-"methods": [],
-"hits": [
-"prediction errors",
-"rhythmic",
-"rhythms",
-"Musical",
-"musical",
-"Rhythm",
-"rhythm",
-"music"
-],
-"breakdown": {
-"auditory": 9.0,
-"predictive_coding": 1.6
-}
-},
 "doi:10.1523/eneuro.0205-26.2026": {
 "id": "doi:10.1523/eneuro.0205-26.2026",
 "doi": "10.1523/eneuro.0205-26.2026",
@@ -4881,8 +4611,8 @@
 "Sequential",
 "memories",
 "sequence",
-"memory",
-"Memory"
+"Memory",
+"memory"
 ],
 "breakdown": {
 "memory": 3.5,
@@ -4968,6 +4698,40 @@
 "predictive_coding": 6.4
 }
 },
+"doi:10.64898/2026.11.05.764672": {
+"id": "doi:10.64898/2026.11.05.764672",
+"doi": "10.64898/2026.11.05.764672",
+"title": "Brief visual oddball events evoke CSF flow in the spinal canal",
+"authors": "Riley, E.; Voss, H. U.; De Rosa, E.; Anderson, A. K.",
+"abstract": "The measurement of cerebrospinal fluid (CSF) flow with fMRI, made possible by exploiting edge artifacts of spin saturation when the bottom acquisition slice lies in a CSF reservoir, allows researchers to investigate an aspect of brain health that has been increasingly linked to cognitive aging and neurodegenerative disease via its role in glymphatic clearance. The initial demonstration of this technique used the fourth ventricle, but recent reports show it can also be done when the bottom acquisition slice lies in the spinal canal in the foramen magnum. We present a method to automatically identify the spinal canal without manual tracing, and measure CSF flow with high confidence using multi-echo acquisition to separate out BOLD-like and non-BOLD-like signal components, along with physiological regression to improve signal to noise ratio. Using these methods we found that CSF flow correlated with decreases in BOLD activity in 70 adults aged 19-76. We further found that brief, infrequent salient stimuli (visual oddballs, requiring a button press) were capable of provoking measurable CSF flow.",
+"date": "2026-11-06",
+"source": "bioRxiv",
+"kind": "preprint",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764672v1",
+"institution": "Cornell University",
+"published_doi": null,
+"pubtype": "new results",
+"first_seen": "2026-11-07",
+"jgroup": null,
+"score": 10.5,
+"topics": [
+"predictive_coding"
+],
+"species": [
+"human"
+],
+"methods": [
+"fmri"
+],
+"hits": [
+"oddball",
+"adults",
+"fMRI"
+],
+"breakdown": {
+"predictive_coding": 6.4
+}
+},
 "doi:10.1016/j.neuroimage.2026.122327": {
 "id": "doi:10.1016/j.neuroimage.2026.122327",
 "doi": "10.1016/j.neuroimage.2026.122327",
@@ -5009,45 +4773,6 @@
 "breakdown": {
 "auditory": 6.0,
 "sequences": 1.3
-}
-},
-"doi:10.1016/j.celrep.2026.118107": {
-"id": "doi:10.1016/j.celrep.2026.118107",
-"doi": "10.1016/j.celrep.2026.118107",
-"pmid": "42842372",
-"title": "Mitochondrial transfer protects against cisplatin-induced hearing loss by fumarate-mediated activation of mitophagy.",
-"authors": "Wu Y, Gu Y, Wang Y, Li R, Shi W, Liu J, Lai C, Wang X, Tang J, Pan D, Zhang Y, Wei N, Zheng Y, Wang J, Yang M, Fu X, Chai R, Wang G, Shan Y.",
-"abstract": "Sensorineural hearing loss (SNHL) affects millions of individuals worldwide, with platinum-based chemotherapeutics identified as a significant cause. In this study, we elucidate the mechanism by which mitochondrial transfer from mesenchymal stem/stromal cells (MSCs) protects against cisplatin-induced cochlear injury in a mouse model. Systemically administered MSCs home to the cochlea and transfer mitochondria to damaged spiral ganglion neurons (SGNs) via tunneling nanotubes, leading to elevated intracellular levels of the Krebs cycle intermediate fumarate, which activates mitophagy to eliminate dysfunctional mitochondria. Mechanistically, dimethyl fumarate (DMF)-a clinically available fumarate derivative-covalently modifies the phosphatase PPP1CB at cysteine 126, thereby blocking PPP1CB-mediated dephosphorylation of mitofusin 2 (MFN2), which in turn enhances mitophagy and ultimately preserves auditory function. These findings reveal that MSCs orchestrate mitochondrial replacement in damaged SGNs by delivering healthy mitochondria and facilitating the removal of impaired ones, underscoring the therapeutic potential of this strategy for treating SNHL related to mitochondrial dysfunction.",
-"date": "2026-10-07",
-"source": "Cell Reports",
-"journal_names": [
-"Cell reports",
-"Cell Rep",
-"Cell Rep"
-],
-"kind": "journal",
-"url": "https://doi.org/10.1016/j.celrep.2026.118107",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-17",
-"jgroup": "flagship",
-"score": 10.35,
-"topics": [
-"auditory"
-],
-"species": [
-"rodent"
-],
-"methods": [],
-"hits": [
-"auditory",
-"hearing",
-"cochlea",
-"mouse"
-],
-"breakdown": {
-"auditory": 9.0
 }
 },
 "doi:10.1016/j.bbr.2026.116529": {
@@ -5117,8 +4842,8 @@
 "hits": [
 "Auditory",
 "auditory",
-"hearing",
 "Cochlea",
+"hearing",
 "cochlea",
 "mice"
 ],
@@ -5272,8 +4997,8 @@
 ],
 "methods": [],
 "hits": [
-"auditory",
 "acoustic",
+"auditory",
 "sounds",
 "mice"
 ],
@@ -5311,8 +5036,8 @@
 ],
 "methods": [],
 "hits": [
-"Inferior Colliculus",
 "inferior colliculus",
+"Inferior Colliculus",
 "auditory",
 "cochlea",
 "mouse"
@@ -5352,8 +5077,8 @@
 "methods": [],
 "hits": [
 "auditory",
-"hearing",
 "cochlea",
+"hearing",
 "rats"
 ],
 "breakdown": {
@@ -5387,9 +5112,9 @@
 "methods": [],
 "hits": [
 "auditory",
-"hearing",
 "tonotop",
 "Cochlea",
+"hearing",
 "cochlea",
 "mice"
 ],
@@ -5425,11 +5150,11 @@
 "methods": [],
 "hits": [
 "acoustic",
-"sequence",
-"Acoustic",
 "auditory",
-"sounds",
+"Acoustic",
+"sequence",
 "Sounds",
+"sounds",
 "sound",
 "bats"
 ],
@@ -5467,9 +5192,9 @@
 "hits": [
 "participants",
 "acoustic",
+"Speech",
 "speech",
-"recall",
-"Speech"
+"recall"
 ],
 "breakdown": {
 "auditory": 7.5,
@@ -5699,8 +5424,8 @@
 "mismatch negativity",
 "Human",
 "fMRI",
-"MMN",
-"EEG"
+"EEG",
+"MMN"
 ],
 "breakdown": {
 "predictive_coding": 4.8
@@ -5732,17 +5457,17 @@
 "methods": [],
 "hits": [
 "listening",
-"acoustic",
 "rhythmic",
+"acoustic",
 "auditory",
-"musical",
 "Rhythms",
-"rhythm",
+"musical",
 "memory",
-"sound",
-"music",
+"rhythm",
+"Sound",
 "Music",
-"Sound"
+"sound",
+"music"
 ],
 "breakdown": {
 "auditory": 9.0,
@@ -5778,8 +5503,8 @@
 "musical",
 "Memory",
 "memory",
-"music",
-"Music"
+"Music",
+"music"
 ],
 "breakdown": {
 "auditory": 9.0,
@@ -5887,9 +5612,9 @@
 "species": [],
 "methods": [],
 "hits": [
+"prediction errors",
 "predictive coding",
 "Predictive Coding",
-"prediction errors",
 "precision-weight"
 ],
 "breakdown": {
@@ -6120,8 +5845,8 @@
 ],
 "hits": [
 "neuronal activity",
-"consolidation",
 "Resting-state",
+"consolidation",
 "humans",
 "memory",
 "EEG"
@@ -6156,11 +5881,11 @@
 ],
 "methods": [],
 "hits": [
-"Pure-tone",
 "Pure-Tone",
+"Pure-tone",
 "Children",
-"hearing",
-"Hearing"
+"Hearing",
+"hearing"
 ],
 "breakdown": {
 "auditory": 7.5
@@ -6194,8 +5919,8 @@
 "methods": [],
 "hits": [
 "patients",
-"hearing",
 "cochlea",
+"hearing",
 "mice"
 ],
 "breakdown": {
@@ -6233,8 +5958,8 @@
 "methods": [],
 "hits": [
 "auditory",
-"hearing",
 "Hearing",
+"hearing",
 "humans"
 ],
 "breakdown": {
@@ -6268,8 +5993,8 @@
 "methods": [],
 "hits": [
 "participants",
-"listening",
 "Listening",
+"listening",
 "Sound",
 "sound"
 ],
@@ -6303,10 +6028,10 @@
 ],
 "methods": [],
 "hits": [
-"auditory",
 "patients",
-"hearing",
-"Hearing"
+"auditory",
+"Hearing",
+"hearing"
 ],
 "breakdown": {
 "auditory": 7.5
@@ -6380,8 +6105,8 @@
 "methods": [],
 "hits": [
 "participants",
-"auditory",
-"rhythmic"
+"rhythmic",
+"auditory"
 ],
 "breakdown": {
 "auditory": 7.5
@@ -6414,8 +6139,8 @@
 "methods": [],
 "hits": [
 "auditory",
-"hearing",
 "Hearing",
+"hearing",
 "Infant"
 ],
 "breakdown": {
@@ -6562,8 +6287,8 @@
 "single_unit"
 ],
 "hits": [
-"optogenetic",
 "Neuropixels",
+"optogenetic",
 "sequence",
 "mice"
 ],
@@ -6605,9 +6330,9 @@
 "computational model",
 "serial order",
 "sequence",
-"rhythm",
-"memory",
 "Memory",
+"memory",
+"rhythm",
 "human"
 ],
 "breakdown": {
@@ -6685,8 +6410,8 @@
 "auditory",
 "deviant",
 "oddball",
-"MMN",
-"ERP"
+"ERP",
+"MMN"
 ],
 "breakdown": {
 "auditory": 1.5,
@@ -6752,12 +6477,12 @@
 "species": [],
 "methods": [],
 "hits": [
-"Auditory",
 "rhythmic",
+"Auditory",
 "auditory",
 "musical",
-"music",
-"Music"
+"Music",
+"music"
 ],
 "breakdown": {
 "auditory": 9.0
@@ -6852,8 +6577,8 @@
 "species": [],
 "methods": [],
 "hits": [
-"auditory",
 "acoustic",
+"auditory",
 "sounds",
 "sound"
 ],
@@ -6922,8 +6647,8 @@
 "species": [],
 "methods": [],
 "hits": [
-"auditory",
 "audition",
+"auditory",
 "Hearing",
 "sound"
 ],
@@ -6994,11 +6719,11 @@
 "methods": [],
 "hits": [
 "tone sequences",
-"listeners",
 "sequences",
+"listeners",
 "sequence",
-"pitch",
-"tones"
+"tones",
+"pitch"
 ],
 "breakdown": {
 "auditory": 4.5,
@@ -7035,8 +6760,8 @@
 "consolidation",
 "inactivation",
 "Drosophila",
-"rhythms",
 "Rhythms",
+"rhythms",
 "rhythm"
 ],
 "breakdown": {
@@ -7073,8 +6798,8 @@
 "single_unit"
 ],
 "hits": [
-"Photoinhibit",
 "photoinhibit",
+"Photoinhibit",
 "Neuropixels",
 "memory",
 "mice"
@@ -7110,9 +6835,9 @@
 ],
 "methods": [],
 "hits": [
+"cochlea",
 "Cochlea",
 "hearing",
-"cochlea",
 "mice"
 ],
 "breakdown": {
@@ -7145,8 +6870,8 @@
 ],
 "methods": [],
 "hits": [
-"hearing",
 "cochlea",
+"hearing",
 "mouse"
 ],
 "breakdown": {
@@ -7226,6 +6951,48 @@
 ],
 "breakdown": {
 "auditory": 7.5
+}
+},
+"doi:10.64898/2026.11.05.764694": {
+"id": "doi:10.64898/2026.11.05.764694",
+"doi": "10.64898/2026.11.05.764694",
+"title": "Real-time detection of N2 and N3 sleep from scalp and intracranial EEG",
+"authors": "Alipour, M.; van Drongelen, W.; Warnke, P.; Issa, N. P.; Voss, J.; Jacobs, J.; Lee, K.; Malerba, P.; Satzer, D.",
+"abstract": "Sleep rhythms such as slow oscillations and spindles arise predominantly during N2 and N3 sleep (N2+N3). Closed-loop stimulation targeting these rhythms is a promising strategy to enhance memory. Such stimulation requires online sleep stage classification. Conventional staging labels completed 30-s epochs using past and future data and cannot support online staging. We developed a causal tracker that, every 2 s, estimates the current stage from the preceding 10 s of scalp or intracranial EEG. We also evaluated a simulated rule that permits stimulation after three consecutive estimates indicating N2+N3 sleep. In six adults with drug-resistant epilepsy with simultaneous scalp EEG and stereo-EEG, real-time N2+N3 discrimination remained close to offline scoring of the same recordings (scalp AUC 0.953 versus 0.958). Thalamic channels alone reached AUC 0.934 and exceeded mesial temporal channels in every patient, and scalp plus thalamus performed best (0.967). The scalp tracker, retrained in 28 healthy adults, reached 0.976. When patients transitioned into N2+N3 sleep with stimulation initially disabled, the rule permitted stimulation within 5 min in 63-73% of transitions, with a median delay of 42-64 s among those detected. After leaving N2+N3, stimulation was disabled after a median of 19-22 s. The rule also switched on incorrectly 1.4-1.8 times per hour outside N2+N3 and remained active during 28-31% of REM in patients, compared with 2% in healthy adults. These findings show that both scalp and thalamic EEG can support real-time N2+N3 detection and inform when stimulation is permitted. Translationally, implanted thalamic leads, increasingly used for neuromodulation in epilepsy, could support sleep-stage-dependent stimulation without scalp EEG, while scalp EEG might be used for noninvasive neuromodulation. Closed-loop systems should be evaluated not only by sleep-stage classification accuracy but also by how reliably and promptly they enable and disable stimulation.",
+"date": "2026-11-06",
+"source": "bioRxiv",
+"kind": "preprint",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764694v1",
+"institution": "Department of Neurological Surgery, University of Chicago",
+"published_doi": null,
+"pubtype": "new results",
+"first_seen": "2026-11-07",
+"jgroup": null,
+"score": 8.62,
+"topics": [
+"auditory",
+"clas",
+"memory"
+],
+"species": [
+"human"
+],
+"methods": [
+"intracranial",
+"eeg_meg"
+],
+"hits": [
+"Closed-loop stimulation",
+"intracranial",
+"patients",
+"rhythms",
+"memory",
+"EEG"
+],
+"breakdown": {
+"auditory": 1.5,
+"clas": 2.2,
+"memory": 0.7
 }
 },
 "doi:10.64898/2026.10.28.762322": {
@@ -7372,6 +7139,38 @@
 "auditory": 7.5
 }
 },
+"doi:10.64898/2026.11.05.764590": {
+"id": "doi:10.64898/2026.11.05.764590",
+"doi": "10.64898/2026.11.05.764590",
+"title": "Towards an analytical framework for investigating the neurophysiological influence of social context in speech perception",
+"authors": "Ip, E. Y. J.; Igoe, A.; Cowan, B. R.; Di Liberto, G. M.",
+"abstract": "Social information plays an important role in everyday speech communication, yet existing neurophysiological approaches provide limited means of isolating its contribution during naturalistic speech perception. Here, we present an analytical framework that combines the large language model (LLM) Mistral-Instruct, fine-tuned on conversational language, and temporal response functions (TRFs) to investigate the influence of social context on word-level speech processing. The framework disentangles local context (LC) from speaker-specific social context (SC) when generating LLM-derived lexical expectation measures, enabling such predictions to be generated under either matching or mismatching speaker contexts for the same speech material. This provides a direct way of isolating the contribution of social information to lexical predictions. We first show that speaker-related social context carries information about speech register and conversational role beyond that available from previous local context alone by interrogating Mistral-Instruct. We then demonstrate that lexical expectations generated from socially congruent contexts produce small but reliable improvements in EEG prediction relative to expectations generated from incongruent social contexts. These effects were observed despite identical acoustic input and neural recordings, indicating that the influence of social context on lexical expectations explains dissociable variance in neural responses to speech. Together, these findings provide a proof of concept for using LLM-derived lexical expectations to isolate and measure the influence of social context on speech processing. More broadly, the proposed framework offers a flexible approach for generating and testing hypotheses about how different forms of contextual knowledge shape neural responses during naturalistic language comprehension.",
+"date": "2026-11-06",
+"source": "bioRxiv",
+"kind": "preprint",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764590v1",
+"institution": "Trinity College Dublin",
+"published_doi": null,
+"pubtype": "new results",
+"first_seen": "2026-11-07",
+"jgroup": null,
+"score": 8.5,
+"topics": [
+"auditory"
+],
+"species": [],
+"methods": [
+"eeg_meg"
+],
+"hits": [
+"acoustic",
+"speech",
+"EEG"
+],
+"breakdown": {
+"auditory": 7.5
+}
+},
 "doi:10.64898/2026.10.06.757194": {
 "id": "doi:10.64898/2026.10.06.757194",
 "doi": "10.64898/2026.10.06.757194",
@@ -7438,8 +7237,8 @@
 "methods": [],
 "hits": [
 "participants",
-"hearing",
 "Hearing",
+"hearing",
 "memory"
 ],
 "breakdown": {
@@ -7483,9 +7282,9 @@
 "consolidation",
 "participants",
 "mnemonic",
-"recall",
-"memory",
 "Memory",
+"memory",
+"recall",
 "tones",
 "EEG"
 ],
@@ -7615,8 +7414,8 @@
 "auditory",
 "syllabl",
 "speech",
-"sound",
 "human",
+"sound",
 "fMRI"
 ],
 "breakdown": {
@@ -7773,8 +7572,8 @@
 "methods": [],
 "hits": [
 "contact calls",
-"ALARM CALLS",
 "alarm calls",
+"ALARM CALLS",
 "owl"
 ],
 "breakdown": {
@@ -7878,11 +7677,42 @@
 "species": [],
 "methods": [],
 "hits": [
-"Predictive Coding",
-"prediction errors"
+"prediction errors",
+"Predictive Coding"
 ],
 "breakdown": {
 "predictive_coding": 8.0
+}
+},
+"doi:10.64898/2026.11.05.764641": {
+"id": "doi:10.64898/2026.11.05.764641",
+"doi": "10.64898/2026.11.05.764641",
+"title": "Neurons entrain and shape an intrinsic arteriole rhythm that distributes blood across the cortical mantle",
+"authors": "Duckworth, J.; Broggini, T.; Chhabria, K.; Neill, P.; Sancho, M.; Sellier-Prono, M.; Iyengar, S.; Vergassola, M.; Nelson, M. T.; Kleinfeld, D.",
+"abstract": "The cerebral arteriole network distributes blood across cortex through branches whose diameters oscillate near a frequency fvaso ~ 0.1 Hz. We asked whether the spatiotemporal pattern of these vaso-oscillations reflects neuronal entrainment of an intrinsic vascular oscillation. Three findings support this: First, suppressing endothelial hyperpolarization left resting-state oscillations intact but weakened the vascular response to neural activity, showing that vasomotion originates within the arteriole network rather than following neuronal drive. Second, arterioles amplify sensory drive selectively rather than faithfully: neural activity near 0.1 Hz is resonantly enhanced to form a strong peak in the vascular response. Third, neuronal frequency sets spatial reach, and areas compete: when two neighboring cortical areas are driven simultaneously, the one nearer fvaso captures more vascular territory. Neurons therefore entrain an intrinsic vascular rhythm and stimulation frequency governs how vasomotion distributes blood, shapes functional brain images, and may influence interstitial fluid transport.",
+"date": "2026-11-06",
+"source": "bioRxiv",
+"kind": "preprint",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764641v1",
+"institution": "University of California San Diego",
+"published_doi": null,
+"pubtype": "new results",
+"first_seen": "2026-11-07",
+"jgroup": null,
+"score": 8.0,
+"topics": [
+"auditory"
+],
+"species": [],
+"methods": [
+"fmri"
+],
+"hits": [
+"resting-state",
+"rhythm"
+],
+"breakdown": {
+"auditory": 6.0
 }
 },
 "doi:10.64898/2026.11.02.763576": {
@@ -7951,8 +7781,8 @@
 "hits": [
 "functional MRI",
 "memories",
-"recall",
 "memory",
+"recall",
 "human"
 ],
 "breakdown": {
@@ -8056,9 +7886,9 @@
 ],
 "methods": [],
 "hits": [
-"hearing",
 "Hearing",
-"infants"
+"infants",
+"hearing"
 ],
 "breakdown": {
 "auditory": 6.0
@@ -8263,9 +8093,9 @@
 "species": [],
 "methods": [],
 "hits": [
-"auditory",
 "acoustic",
-"Acoustic"
+"Acoustic",
+"auditory"
 ],
 "breakdown": {
 "auditory": 7.5
@@ -8295,8 +8125,8 @@
 "species": [],
 "methods": [],
 "hits": [
-"hearing",
 "Hearing",
+"hearing",
 "cochlea"
 ],
 "breakdown": {
@@ -8362,8 +8192,8 @@
 "methods": [],
 "hits": [
 "Auditory",
-"hearing",
-"Hearing"
+"Hearing",
+"hearing"
 ],
 "breakdown": {
 "auditory": 7.5
@@ -8502,8 +8332,8 @@
 "Deep Neural Network",
 "Memories",
 "children",
-"memory",
 "Memory",
+"memory",
 "fMRI"
 ],
 "breakdown": {
@@ -8582,9 +8412,9 @@
 "recurrent neural network",
 "sequentially",
 "sequential",
+"Memory",
 "humans",
-"memory",
-"Memory"
+"memory"
 ],
 "breakdown": {
 "memory": 2.8,
@@ -8663,8 +8493,8 @@
 ],
 "hits": [
 "Participants",
-"memory",
 "Memory",
+"memory",
 "fMRI",
 "EEG"
 ],
@@ -8741,8 +8571,8 @@
 "Participants",
 "memories",
 "mnemonic",
-"recall",
 "memory",
+"recall",
 "fMRI"
 ],
 "breakdown": {
@@ -8783,9 +8613,9 @@
 "Computational model",
 "memories",
 "rodents",
-"recall",
 "humans",
 "memory",
+"recall",
 "EEG"
 ],
 "breakdown": {
@@ -8819,8 +8649,8 @@
 "eeg_meg"
 ],
 "hits": [
-"Children",
 "auditory",
+"Children",
 "deviant",
 "sounds",
 "EEG"
@@ -8857,8 +8687,8 @@
 "methods": [],
 "hits": [
 "photostimulat",
-"optogenetic",
 "Optogenetic",
+"optogenetic",
 "Rodents"
 ],
 "breakdown": {
@@ -8903,6 +8733,44 @@
 ],
 "breakdown": {
 "optogenetics": 6.0
+}
+},
+"doi:10.64898/2026.10.30.762948": {
+"id": "doi:10.64898/2026.10.30.762948",
+"doi": "10.64898/2026.10.30.762948",
+"title": "Persistent hippocampal traces of lifelong spatial memory",
+"authors": "Wu, J.; Meister, M.; Lois, C.",
+"abstract": "Memory presents a biological paradox: the brain changes continuously, yet a brief experience can influence behavior for a lifetime. How such memories are stored in brain circuits remains unclear. Here we show that two days in a binary-tree maze leave mice with spatial memories that survive repeated 90-day absences over as much as a year. Across return visits, mice explored the maze more efficiently than when naive and resumed direct runs to a reward location sooner, both by a factor of 3. Chronic calcium imaging of the same hippocampal CA1 neurons showed that although most neurons had changed their preferred locations, the population activity at a given maze location still resembled the pattern from 90 days earlier. Furthermore, even when a neuron's place fields changed location, they tended to remain at the same branching level of the binary tree, reflecting the local geometry of the maze. In return sessions where the neural tuning for branching level was preserved more accurately, the mouse explored the environment more efficiently. Population patterns were best preserved near the reward location, and more reliable neural activity there accompanied earlier direct runs to the reward. With repeated experience, spatial representations changed less, both within a visit and across the long absences. A brief experience thus left selective hippocampal traces that survived months of absence despite drift, grew more durable with each return, and were correlated with memory in navigation behavior.",
+"date": "2026-11-06",
+"source": "bioRxiv",
+"kind": "preprint",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.30.762948v1",
+"institution": "Caltech",
+"published_doi": null,
+"pubtype": "new results",
+"first_seen": "2026-11-07",
+"jgroup": null,
+"score": 6.9,
+"topics": [
+"memory"
+],
+"species": [
+"rodent"
+],
+"methods": [
+"single_unit",
+"imaging"
+],
+"hits": [
+"population activity",
+"calcium imaging",
+"memories",
+"Memory",
+"memory",
+"mice"
+],
+"breakdown": {
+"memory": 3.5
 }
 },
 "doi:10.64898/2026.10.16.759637": {
@@ -8972,9 +8840,9 @@
 "eeg_meg"
 ],
 "hits": [
-"patients",
 "rhythmic",
 "auditory",
+"patients",
 "sounds",
 "EEG"
 ],
@@ -9011,8 +8879,8 @@
 ],
 "hits": [
 "memories",
-"recall",
 "memory",
+"recall",
 "human",
 "fMRI"
 ],
@@ -9047,8 +8915,8 @@
 ],
 "hits": [
 "Participants",
-"recall",
 "memory",
+"recall",
 "fMRI"
 ],
 "breakdown": {
@@ -9129,8 +8997,8 @@
 ],
 "hits": [
 "calcium imaging",
-"intracranial",
 "chemogenetic",
+"intracranial",
 "macaques",
 "human",
 "mouse"
@@ -9165,9 +9033,9 @@
 ],
 "hits": [
 "rhythmic",
-"rhythm",
-"memory",
 "Memory",
+"memory",
+"rhythm",
 "EEG"
 ],
 "breakdown": {
@@ -9244,8 +9112,8 @@
 "calcium imaging",
 "mnemonic",
 "memory",
-"hM3Dq",
-"hM4Di"
+"hM4Di",
+"hM3Dq"
 ],
 "breakdown": {
 "chemogenetics": 2.8,
@@ -9282,8 +9150,8 @@
 "recurrent neural network",
 "neuronal population",
 "consolidation",
-"memories",
 "Memories",
+"memories",
 "memory"
 ],
 "breakdown": {
@@ -9324,8 +9192,8 @@
 ],
 "hits": [
 "sequentially",
-"audition",
 "auditory",
+"audition",
 "Human",
 "EEG"
 ],
@@ -9396,8 +9264,8 @@
 "species": [],
 "methods": [],
 "hits": [
-"Sequential",
 "sequential",
+"Sequential",
 "sequence"
 ],
 "breakdown": {
@@ -9464,9 +9332,9 @@
 ],
 "methods": [],
 "hits": [
+"Statistical learning",
 "Statistical Learning",
 "statistical learning",
-"Statistical learning",
 "Participants"
 ],
 "breakdown": {
@@ -9587,8 +9455,8 @@
 "optogenetic",
 "monkeys",
 "macaque",
-"spike",
-"mouse"
+"mouse",
+"spike"
 ],
 "breakdown": {
 "optogenetics": 1.2
@@ -9654,9 +9522,9 @@
 "hits": [
 "participants",
 "surprise",
-"recall",
+"Memory",
 "memory",
-"Memory"
+"recall"
 ],
 "breakdown": {
 "predictive_coding": 1.6,
@@ -9694,8 +9562,8 @@
 "hits": [
 "single neurons",
 "vocalization",
-"Humans",
-"speech"
+"speech",
+"Humans"
 ],
 "breakdown": {
 "auditory": 1.5,
@@ -9925,45 +9793,6 @@
 "vocalisations": 4.8
 }
 },
-"doi:10.31234/osf.io/83wc5_v1": {
-"id": "doi:10.31234/osf.io/83wc5_v1",
-"doi": "10.31234/osf.io/83wc5_v1",
-"pmid": null,
-"title": "Irregular Natural Environments Are Associated with Better Context-Supported Recall",
-"authors": "Huynh DC, Hussein AK, Fich LB, Djebbara Z.",
-"abstract": "Natural environments are often treated as a relatively uniform category in cognitive research despite substantial variation in their spatial organization and regularity. This study examined whether episodic memory depends not only on environmental type but also on the internal structure of the environment. Sixty participants experienced four immersive virtual environments in a 2 × 2 within-subject design crossing environmental type (natural vs. urban) with structural regularity (rhythmic vs. irregular). Memory was assessed using free, cued, and delayed recall and analyzed using linear mixed-effects models controlling for presentation order. Immediate recall showed little evidence of environmental effects. In contrast, Cued Recall 1 showed a significant Environment × Regularity interaction, with the irregular natural environment producing the highest performance. Follow-up contrasts showed higher recall in irregular nature than in all three comparison conditions for Cued Recall 1 and Delayed Recall, with a more selective advantage during Cued Recall 2. Retention proportions did not differ across conditions, indicating that delayed differences reflected earlier memory advantages rather than differential forgetting. These findings suggest that episodic memory effects associated with natural environments cannot be understood through a nature–urban distinction alone. Instead, the internal organization of an environment may shape memory, with irregular natural environments potentially providing more distinctive contextual information that becomes particularly useful during context-supported retrieval.",
-"date": "2026-10-07",
-"source": "PsyArXiv",
-"journal_names": [],
-"kind": "preprint",
-"url": "https://doi.org/10.31234/osf.io/83wc5_v1",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-08",
-"jgroup": null,
-"score": 6.25,
-"topics": [
-"auditory",
-"memory"
-],
-"species": [
-"human"
-],
-"methods": [],
-"hits": [
-"participants",
-"rhythmic",
-"Recall",
-"recall",
-"memory",
-"Memory"
-],
-"breakdown": {
-"auditory": 1.5,
-"memory": 3.5
-}
-},
 "doi:10.31234/osf.io/d3c9t": {
 "id": "doi:10.31234/osf.io/d3c9t",
 "doi": "10.31234/osf.io/d3c9t",
@@ -9993,11 +9822,11 @@
 "methods": [],
 "hits": [
 "mnemonic",
-"rhythm",
+"Memory",
 "humans",
-"Rodent",
 "memory",
-"Memory"
+"rhythm",
+"Rodent"
 ],
 "breakdown": {
 "auditory": 1.5,
@@ -10314,9 +10143,9 @@
 "methods": [],
 "hits": [
 "conspecific",
-"Macaques",
+"Rhythmic",
 "rhythmic",
-"Rhythmic"
+"Macaques"
 ],
 "breakdown": {
 "auditory": 1.5,
@@ -10357,43 +10186,12 @@
 "single-cell",
 "memories",
 "engrams",
-"recall",
 "engram",
-"memory"
+"memory",
+"recall"
 ],
 "breakdown": {
 "memory": 4.2
-}
-},
-"doi:10.64898/2026.09.30.755824": {
-"id": "doi:10.64898/2026.09.30.755824",
-"doi": "10.64898/2026.09.30.755824",
-"pmid": null,
-"title": "Multi-modal ion-transport function of potassium channelrhodopsins",
-"authors": "Shimamura R, Kikuchi M, Nakamura T, Tajima S, Fujimoto KJ, Sugiura M, Tabe J, Minamisawa K, Abe-Yoshizumi R, Nishikino T, Hososhima S, Yanai T, Furutani Y, Tsunoda SP, Kandori H.",
-"abstract": "Light-gated K+ channelrhodopsins (KCRs) are recognized as an ideal neuronal silencing tool in optogenetics. KCRs contain functionally important residues for a light-driven H+ pump bacteriorhodopsin, but their roles have been unclear. Utilizing electrophysiological methods, we demonstrate that KCRs function as a light-driven H+ pump in the absence of K+. Transport experiments using pH electrodes further elucidated the function of the H+-pump, which operates even in the presence of K+. The hypothesis that the H+ pump exerts a blocking effect on K+ transport in KCRs has been postulated. Furthermore, we ascertained that there was conversion of KCRs from the H+ pump into the H+ channel by light, yet this conversion was never reversed. However, the addition of K+ resulted in the formation of the K+ channel. KCRs exhibit three distinct functional states, H+ pump, H+ channel, and K+ channel. These multifaceted functions are modulated by environmental ions and light.",
-"date": "2026-10-07",
-"source": "bioRxiv",
-"journal_names": [],
-"kind": "preprint",
-"url": "https://doi.org/10.64898/2026.09.30.755824",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-08",
-"jgroup": null,
-"score": 6.0,
-"topics": [
-"optogenetics"
-],
-"species": [],
-"methods": [],
-"hits": [
-"channelrhodopsin",
-"optogenetic"
-],
-"breakdown": {
-"optogenetics": 6.0
 }
 },
 "doi:10.64898/2026.10.02.755939": {
@@ -10500,8 +10298,8 @@
 "sequential",
 "memories",
 "mnemonic",
-"memory",
-"Memory"
+"Memory",
+"memory"
 ],
 "breakdown": {
 "memory": 4.2,
@@ -10627,8 +10425,8 @@
 "species": [],
 "methods": [],
 "hits": [
-"hearing",
-"Hearing"
+"Hearing",
+"hearing"
 ],
 "breakdown": {
 "auditory": 6.0
@@ -10876,8 +10674,8 @@
 ],
 "hits": [
 "Local-Global",
-"auditory",
 "patients",
+"auditory",
 "EEG"
 ],
 "breakdown": {
@@ -11038,50 +10836,12 @@
 "hits": [
 "participants",
 "recollection",
-"recall",
 "memory",
+"recall",
 "TMS"
 ],
 "breakdown": {
 "memory": 4.2
-}
-},
-"doi:10.31234/osf.io/acwsy_v1": {
-"id": "doi:10.31234/osf.io/acwsy_v1",
-"doi": "10.31234/osf.io/acwsy_v1",
-"pmid": null,
-"title": "A modality-general bias towards meaning, not enhanced prior knowledge, is linked to hallucination-proneness in the general population",
-"authors": "Hammers F, Wu X, Alderson-Day B, Clarke C, Blake E, Evans S.",
-"abstract": "Predictive processing theories propose that hallucinations arise from excessive influence of prior expectations on perception. Although these theories implicitly generalise across modalities, previous findings suggest potentially different mechanisms in vision and audition. In this study, we tested predictive processing accounts in the visual and auditory modalities in 177 healthy adults using well-matched prior knowledge tasks. Participants discriminated degraded meaningful targets from control stimuli before and after exposure to clear template stimuli, providing explicit prior knowledge. Signal detection analyses quantified pre-exposure response bias (criterion, C) and improvements in discrimination sensitivity (d′) following exposure. Hallucination-proneness was measured using the Cardiff Anomalous Perceptions Scale (CAPS). Prior knowledge improved discrimination equally across modalities, but individual differences in this benefit were unrelated to hallucination-proneness, with Bayesian analyses supporting the null hypothesis. Instead, hallucination-proneness was associated with a more liberal pre-exposure response bias in both modalities. When entered together in regression models, response bias was a stronger predictor of hallucination-proneness than prior knowledge benefit in both modalities. These findings suggest that hallucination-proneness is characterised by a modality-general bias towards meaningful interpretations of ambiguous sensory input, rather than enhanced directed use of prior knowledge.",
-"date": "2026-10-07",
-"source": "PsyArXiv",
-"journal_names": [],
-"kind": "preprint",
-"url": "https://doi.org/10.31234/osf.io/acwsy_v1",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-08",
-"jgroup": null,
-"score": 5.75,
-"topics": [
-"auditory",
-"predictive_coding"
-],
-"species": [
-"human"
-],
-"methods": [],
-"hits": [
-"predictive processing",
-"Predictive processing",
-"Participants",
-"audition",
-"auditory"
-],
-"breakdown": {
-"auditory": 3.0,
-"predictive_coding": 1.6
 }
 },
 "doi:10.1016/j.neuron.2026.09.031": {
@@ -11116,9 +10876,9 @@
 "methods": [],
 "hits": [
 "consolidation",
-"rhythm",
-"memory",
 "Memory",
+"memory",
+"rhythm",
 "mouse"
 ],
 "breakdown": {
@@ -11386,7 +11146,7 @@
 "id": "doi:10.1016/j.neuropsychologia.2026.109612",
 "doi": "10.1016/j.neuropsychologia.2026.109612",
 "pmid": "42896629",
-"title": "EEG Resting-State Beta Band Dynamic Functional Connectivity Reveals State-Dependent Disruption of Language Network Lateralisation in First-Episode Schizophrenia.",
+"title": "EEG resting-state beta band dynamic functional connectivity reveals state-dependent disruption of language network lateralisation in first-episode schizophrenia.",
 "authors": "Aubonnet R, Fiori Nastro F, Di Lorenzo C, Hassan M, Gargiulo P, Seri S, semantico working group, Di Lorenzo G.",
 "abstract": "Language disorganisation is a core feature of schizophrenia with significant functional consequences. However, its neurophysiological substrates remain poorly characterised, particularly in the early stages of the illness. This study investigated whether first-episode schizophrenia (FES) is associated with disruption in the organisation of language-network lateralisation, using both static and dynamic functional connectivity metrics in the EEG beta band. Thirty-one FES patients and 32 age-matched healthy volunteer subjects (HVS) underwent resting-state 64-channel EEG. Source-level connectivity was estimated using the weighted phase lag index with sliding windows, yielding 979 connectivity matrices per participant. Brain network states (BNS) were identified via k-means clustering. Static connectivity was obtained by time-averaging. Temporal features, graph-theoretical metrics, and language-network laterality indices were extracted for both whole-network and language-specific analyses. Group comparisons used permutation-based tests with family-wise error correction. Static connectivity yielded no significant group differences in any metric. Dynamic analysis identified six BNS. FES showed a significant increase in the variability of the temporal dynamics and graph-theory features of BNS5, a state characterised by parieto-occipital dominance. The core language network laterality index was significantly reduced in FES within BNS1, a state characterised by auditory-visual dominance. BNS1 occurrence correlated negatively with language disorganisation scores. Dynamic BNS-specific language network metrics correlated with verbal fluency performance exclusively in FES. These findings demonstrate that language dysfunction in early psychosis is expressed as state-dependent disruption of brain network stability and language lateralisation, detectable only through dynamic connectivity analysis.",
 "date": "2026-10-19",
@@ -11415,9 +11175,9 @@
 "eeg_meg"
 ],
 "hits": [
-"Resting-State",
-"auditory",
+"resting-state",
 "patients",
+"auditory",
 "EEG"
 ],
 "breakdown": {
@@ -11451,9 +11211,9 @@
 ],
 "hits": [
 "participants",
-"recall",
-"memory",
 "Memory",
+"memory",
+"recall",
 "EEG"
 ],
 "breakdown": {
@@ -11487,10 +11247,10 @@
 "methods": [],
 "hits": [
 "acoustic",
-"audition",
 "auditory",
-"speech",
-"infant"
+"audition",
+"infant",
+"speech"
 ],
 "breakdown": {
 "auditory": 4.5
@@ -11564,8 +11324,8 @@
 "methods": [],
 "hits": [
 "auditory",
-"hearing",
 "Infants",
+"hearing",
 "speech",
 "sound"
 ],
@@ -11640,9 +11400,9 @@
 ],
 "hits": [
 "recollection",
+"Memory",
 "adults",
 "memory",
-"Memory",
 "ERPs"
 ],
 "breakdown": {
@@ -11782,8 +11542,8 @@
 ],
 "hits": [
 "calcium imaging",
-"Sequence",
 "auditory",
+"Sequence",
 "cochlea",
 "mouse"
 ],
@@ -11922,8 +11682,8 @@
 "fmri"
 ],
 "hits": [
-"memories",
 "Memories",
+"memories",
 "recall",
 "fMRI"
 ],
@@ -12150,10 +11910,10 @@
 "methods": [],
 "hits": [
 "participants",
-"Rhythmic",
 "rhythmic",
-"memory",
-"Memory"
+"Rhythmic",
+"Memory",
+"memory"
 ],
 "breakdown": {
 "auditory": 1.5,
@@ -12188,11 +11948,11 @@
 ],
 "hits": [
 "Computational Model",
-"consolidation",
 "Consolidation",
+"consolidation",
 "sequence",
-"memory",
-"Memory"
+"Memory",
+"memory"
 ],
 "breakdown": {
 "memory": 3.5,
@@ -12226,11 +11986,11 @@
 "methods": [],
 "hits": [
 "participants",
-"memories",
 "Memories",
-"recall",
+"memories",
+"Memory",
 "memory",
-"Memory"
+"recall"
 ],
 "breakdown": {
 "memory": 4.2
@@ -12305,8 +12065,8 @@
 "consolidation",
 "Participants",
 "memories",
-"memory",
-"Memory"
+"Memory",
+"memory"
 ],
 "breakdown": {
 "memory": 4.2
@@ -12340,8 +12100,8 @@
 "hits": [
 "participants",
 "memories",
-"recall",
-"memory"
+"memory",
+"recall"
 ],
 "breakdown": {
 "memory": 4.2
@@ -12487,8 +12247,8 @@
 "single_unit"
 ],
 "hits": [
-"spikes",
 "Memory",
+"spikes",
 "humans",
 "rats"
 ],
@@ -12568,8 +12328,8 @@
 ],
 "hits": [
 "optogenetic",
-"spiking",
-"monkeys"
+"monkeys",
+"spiking"
 ],
 "breakdown": {
 "optogenetics": 1.2
@@ -12675,8 +12435,8 @@
 "eeg_meg"
 ],
 "hits": [
-"auditory",
 "Rhythmic",
+"auditory",
 "adults",
 "EEG"
 ],
@@ -12751,8 +12511,8 @@
 "hits": [
 "resting-state",
 "SOUND",
-"TMS",
-"EEG"
+"EEG",
+"TMS"
 ],
 "breakdown": {
 "auditory": 1.5
@@ -12832,8 +12592,8 @@
 ],
 "hits": [
 "patients",
-"sound",
 "pitch",
+"sound",
 "EEG"
 ],
 "breakdown": {
@@ -12870,11 +12630,11 @@
 "perturbation"
 ],
 "hits": [
-"patients",
 "auditory",
+"patients",
 "lesion",
-"mice",
-"fMRI"
+"fMRI",
+"mice"
 ],
 "breakdown": {
 "auditory": 1.5
@@ -13027,8 +12787,8 @@
 "eeg_meg"
 ],
 "hits": [
-"intracranial",
 "participants",
+"intracranial",
 "rhythms",
 "EEG"
 ],
@@ -13064,8 +12824,8 @@
 "methods": [],
 "hits": [
 "rhythms",
-"rodent",
-"memory"
+"memory",
+"rodent"
 ],
 "breakdown": {
 "auditory": 1.5,
@@ -13535,8 +13295,8 @@
 ],
 "hits": [
 "neural network model",
-"Mnemonic",
 "memories",
+"Mnemonic",
 "mnemonic",
 "memory"
 ],
@@ -13612,8 +13372,8 @@
 "eeg_meg"
 ],
 "hits": [
-"recall",
 "spikes",
+"recall",
 "human",
 "EEG"
 ],
@@ -14148,42 +13908,6 @@
 "memory": 0.7
 }
 },
-"doi:10.64898/2026.10.06.749912": {
-"id": "doi:10.64898/2026.10.06.749912",
-"doi": "10.64898/2026.10.06.749912",
-"pmid": null,
-"title": "Shifts in neural representations, not gaze, track how people reinterpret ambiguous social scenes",
-"authors": "Sava-Segal CA, Benson TG, Finn ES.",
-"abstract": "How do we come to “see” the same thing differently after hearing someone else’s perspective? Revising an interpretation could reflect changes in how the brain represents the meaning of what we see, changes in how we visually sample the input, or both. To disentangle these mechanisms, we developed MindLibs, an adaptive fMRI and eye-tracking paradigm in which participants generate interpretations of ambiguous photographs and then view alternative interpretations chosen in real time to vary in semantic content from their own. Exposure to semantically distant alternatives revealed a strong link between reinterpretation as reported behaviorally and representational shifts in association cortex, but no systematic relationship between reinterpretation and changes in gaze. In particular, representational shifts in lateral default-mode network regions (DMN-B) predicted reinterpretation independently of shifts in frontoparietal, attention, and visual networks, and independently of whether gaze changed. In contrast, shifts in visual cortex tracked reinterpretation only when gaze also shifted, and contributed no unique variance beyond DMN-B. These findings identify higher-order conceptual reconfiguration, rather than perceptual resampling, as the primary account of how people revise the meaning of an ambiguous scene.",
-"date": "2026-10-07",
-"source": "bioRxiv",
-"journal_names": [],
-"kind": "preprint",
-"url": "https://doi.org/10.64898/2026.10.06.749912",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-07",
-"jgroup": null,
-"score": 4.38,
-"topics": [
-"auditory"
-],
-"species": [
-"human"
-],
-"methods": [
-"fmri"
-],
-"hits": [
-"participants",
-"hearing",
-"fMRI"
-],
-"breakdown": {
-"auditory": 1.5
-}
-},
 "doi:10.64898/2026.09.28.755202": {
 "id": "doi:10.64898/2026.09.28.755202",
 "doi": "10.64898/2026.09.28.755202",
@@ -14209,9 +13933,9 @@
 "methods": [],
 "hits": [
 "participants",
-"recall",
 "Memory",
-"memory"
+"memory",
+"recall"
 ],
 "breakdown": {
 "memory": 3.5
@@ -14377,10 +14101,10 @@
 ],
 "methods": [],
 "hits": [
-"recall",
 "Memory",
 "adults",
-"memory"
+"memory",
+"recall"
 ],
 "breakdown": {
 "memory": 3.5
@@ -14452,8 +14176,8 @@
 "fmri"
 ],
 "hits": [
-"auditory",
 "patients",
+"auditory",
 "fMRI"
 ],
 "breakdown": {
@@ -14488,8 +14212,8 @@
 "fmri"
 ],
 "hits": [
-"auditory",
 "Children",
+"auditory",
 "voxel"
 ],
 "breakdown": {
@@ -14561,9 +14285,9 @@
 "methods": [],
 "hits": [
 "participants",
-"recall",
 "Memory",
-"memory"
+"memory",
+"recall"
 ],
 "breakdown": {
 "memory": 3.5
@@ -14596,8 +14320,8 @@
 "participants",
 "recollection",
 "memories",
-"memory",
-"Memory"
+"Memory",
+"memory"
 ],
 "breakdown": {
 "memory": 3.5
@@ -14703,9 +14427,9 @@
 "species": [],
 "methods": [],
 "hits": [
-"recall",
+"memory",
 "speech",
-"memory"
+"recall"
 ],
 "breakdown": {
 "auditory": 1.5,
@@ -14893,9 +14617,9 @@
 "consolidation",
 "Drosophila",
 "memories",
-"recall",
+"Memory",
 "memory",
-"Memory"
+"recall"
 ],
 "breakdown": {
 "memory": 4.2
@@ -14926,9 +14650,9 @@
 "methods": [],
 "hits": [
 "memories",
-"recall",
 "engram",
-"memory"
+"memory",
+"recall"
 ],
 "breakdown": {
 "memory": 4.2
@@ -16275,8 +15999,8 @@
 "methods": [],
 "hits": [
 "participants",
-"Auditory",
 "acoustic",
+"Auditory",
 "auditory"
 ],
 "breakdown": {
@@ -16519,9 +16243,9 @@
 ],
 "methods": [],
 "hits": [
-"auditory",
+"patients",
 "rhythmic",
-"patients"
+"auditory"
 ],
 "breakdown": {
 "auditory": 3.0
@@ -16632,37 +16356,37 @@
 "auditory": 3.0
 }
 },
-"doi:10.64898/2026.09.28.754984": {
-"id": "doi:10.64898/2026.09.28.754984",
-"doi": "10.64898/2026.09.28.754984",
-"title": "Altered Aperiodic EEG Activity in Adolescents with Neurofibromatosis Type 1",
-"authors": "Litwinczuk, M. C.; Donoghue, T.; Taylor, J.; Pobric, G.; Lea-Carnall, C.; Garg, S.",
-"abstract": "BackgroundThe balance between excitatory and inhibitory neuronal signalling (E/I balance), proposed as a key mechanism controlling neuronal activity, is disrupted in many neurodevelopmental conditions. One such condition is Neurofibromatosis Type 1, a monogenic neurodevelopmental disorder characterised by increased inhibitory tone. While previous research suggests that E/I balance may be altered in infancy, it is unknown whether E/I balance remains altered during adolescence in NF1. Here we investigated this question using the aperiodic exponent of the resting electroencephalogram (EEG) power spectrum, a proposed electrophysiological index of E/I balance. MethodThe aperiodic exponent of the EEG power spectrum ( 1/f) was estimated for 16 adolescents with NF1 diagnosis aged 11-16, and 16 age- and sex-matched neurotypical controls. General linear models (GLM) were fit to estimate effects of NF1 diagnosis, age and their interaction on aperiodic exponent. We also estimated the peak dominant frequency and power in oscillatory activity of the EEG signal and fitted the same structure of GLM models. Cognitive assessments across domains of memory, executive function and attention were also analysed with GLM to examine brain-cognition associations. ResultsThe NF1 group had higher aperiodic exponent compared to neurotypical controls, but the aperiodic exponent was not associated with cognitive performance. After accounting for aperiodic activity, the NF1 group also had lower dominant oscillatory frequency than the control group. There was no significant interaction between NF1 diagnosis and age on PAF. There were no group differences in peak alpha power. ConclusionsWe demonstrate for the first time that the alterations to aperiodic activity in NF1 are consistent with the proposed mechanism of increased inhibitory tone. These findings show the potential of this paradigm for future pharmacological and brain stimulation trials investigating treatment-related changes in cortical function.",
-"date": "2026-10-07",
+"doi:10.64898/2026.10.30.761751": {
+"id": "doi:10.64898/2026.10.30.761751",
+"doi": "10.64898/2026.10.30.761751",
+"title": "A biological light sheet links cellular voltage to mesoscopic brain dynamics",
+"authors": "Chen, T.-W.; Lin, B.-J.",
+"abstract": "Membrane voltage is the fundamental currency of neural computation, yet cellular-resolution voltage imaging of large neuronal populations in vivo remains limited by trade-offs among imaging speed, field of view, and optical sectioning. We overcome this challenge by encoding a biological light sheet in the brain: Selective Plane Expression (SPress) restricts fluorescent indicator expression to a user-defined, 20-m-thick plane, suppressing background at its source. Following one-time two-photon photoactivation, SPress enables standard widefield microscopes to capture high-contrast kilohertz voltage dynamics from hundreds of densely labeled neurons across millimeter-scale cortical sheets and columns in vivo. These recordings reveal mesoscopic subthreshold waves that flexibly reorganize population-wide spike timing, together with cellularscale wavefront microstructure that preserves stereotyped local recruitment biases. By shifting optical sectioning from instrumentation to gene expression, SPress makes kilohertz cellular resolution voltage imaging accessible across mesoscopic scales.",
+"date": "2026-11-06",
 "source": "bioRxiv",
 "kind": "preprint",
-"url": "https://www.biorxiv.org/content/10.64898/2026.09.28.754984v1",
-"institution": "University of Manchester",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.30.761751v1",
+"institution": "National Yang Ming Chiao Tung University",
 "published_doi": null,
 "pubtype": "new results",
-"first_seen": "2026-10-09",
+"first_seen": "2026-11-07",
 "jgroup": null,
 "score": 3.7,
 "topics": [
-"memory"
+"optogenetics"
 ],
 "species": [],
 "methods": [
 "single_unit",
-"eeg_meg"
+"imaging"
 ],
 "hits": [
-"neuronal activity",
-"memory",
-"EEG"
+"photoactivat",
+"two-photon",
+"spike"
 ],
 "breakdown": {
-"memory": 0.7
+"optogenetics": 1.2
 }
 },
 "doi:10.64898/2026.09.29.755395": {
@@ -16768,8 +16492,8 @@
 "imaging"
 ],
 "hits": [
-"optogenetic",
 "Optogenetic",
+"optogenetic",
 "two-photon",
 "auditory",
 "mice"
@@ -16918,8 +16642,8 @@
 ],
 "hits": [
 "neuronal population",
-"optogenetic",
 "Optogenetic",
+"optogenetic",
 "murine"
 ],
 "breakdown": {
@@ -16960,6 +16684,40 @@
 ],
 "breakdown": {
 "auditory": 1.5,
+"optogenetics": 1.2
+}
+},
+"doi:10.64898/2026.11.05.764652": {
+"id": "doi:10.64898/2026.11.05.764652",
+"doi": "10.64898/2026.11.05.764652",
+"title": "Motivation-dependent communication between cortex and brainstem",
+"authors": "Machado, T. A.; Chen, Y.; Beiran, M.; Subramanian, M.; Kadur, C.; Bradbury, S.; Nix, K.; Liu, B.; Rajan, K.; Deisseroth, K.",
+"abstract": "Neurons in the medullary brainstem exhibit movement-related patterns of activity, but the neuronal population codes that specify distinct actions, and the mechanisms by which cortex may shape these codes as a function of motivational state, remain unclear. To explore whether coupling between cortex and medulla depends upon motivational context, we trained mice to make both pre-reward \"appetitive\" licks that served to trigger water availability and rapidly attenuated with satiety, and \"consummatory\" licks, which occur post-reward release and more slowly attenuated with satiety. Simultaneous recordings from secondary motor cortex and motor medulla revealed that medullary activity was more time-locked than cortical activity to individual licks and exhibited a phase-based population code that encoded lick direction. Correlations between cortex and medulla were stronger during appetitive licks than during consummatory licks, with causal dependency established by optogenetic intervention and supported by multi-region recurrent network models. Population codes underlying behavior shared across the central nervous system, exemplified by cortico-medullary coupling, thus may depend upon the motivational context underlying action.",
+"date": "2026-11-06",
+"source": "bioRxiv",
+"kind": "preprint",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764652v1",
+"institution": "University of Pennsylvania",
+"published_doi": null,
+"pubtype": "new results",
+"first_seen": "2026-11-07",
+"jgroup": null,
+"score": 3.68,
+"topics": [
+"optogenetics"
+],
+"species": [
+"rodent"
+],
+"methods": [
+"single_unit"
+],
+"hits": [
+"neuronal population",
+"optogenetic",
+"mice"
+],
+"breakdown": {
 "optogenetics": 1.2
 }
 },
@@ -17071,8 +16829,8 @@
 "fiber photometry",
 "optogenetic",
 "memories",
-"memory",
-"lesion"
+"lesion",
+"memory"
 ],
 "breakdown": {
 "optogenetics": 1.2,
@@ -17524,8 +17282,8 @@
 ],
 "methods": [],
 "hits": [
-"Consolidation",
 "consolidation",
+"Consolidation",
 "Drosophila",
 "human"
 ],
@@ -17881,8 +17639,8 @@
 "methods": [],
 "hits": [
 "participants",
-"recall",
-"Recall"
+"Recall",
+"recall"
 ],
 "breakdown": {
 "memory": 2.8
@@ -18068,6 +17826,40 @@
 "auditory": 3.0
 }
 },
+"doi:10.64898/2026.11.04.764439": {
+"id": "doi:10.64898/2026.11.04.764439",
+"doi": "10.64898/2026.11.04.764439",
+"title": "Neonatal NMDA receptor blockade disrupts prefrontal cortical regulation of social affective behavior: implications for schizophrenia",
+"authors": "Tachihara, R.; Hayashi, N.; Rosal, C. G. d.; Xiong, T.; Igarashi, K.; Ozawa, T.; Hori, M.; Yamada, K.; Toyoshima, M.",
+"abstract": "Developmental N-methyl-D-aspartate receptor (NMDAr) hypofunction has been implicated in the pathophysiology of schizophrenia, including cognitive and emotional deficits. However, the neural circuit mechanisms linking developmental NMDAr hypofunction to social affective impairments remain poorly understood. Here, we investigated schizophrenia-related social affective dysfunction induced by neonatal exposure to the NMDAr antagonist MK-801 and examined the contribution of the medial prefrontal cortex (mPFC), a key hub for socio-cognitive function. Sprague-Dawley rat pups received subcutaneous injections of saline or MK-801 (MK-Low: 0.2 mg/kg; MK-High: 0.4 mg/kg) during the neonatal period. In adulthood, social affective behaviors were assessed using the Social Affective Preference (SAP) and Social Interaction (SI) tests. MK-801-treated rats, particularly the MK-High group, displayed impaired social affective responses, characterized by reduced preference for and investigation of distressed conspecifics. These impairments were ameliorated by chemogenetic inhibition of pyramidal cells in the mPFC, whereas activation of these neurons disrupted social affective behavior in naive rats. Histological analyses revealed reduced parvalbumin-positive interneuron (PVIN) density in the mPFC of MK-801-treated rats. Consistent with the involvement of PVIN dysfunction, selective activation of mPFC PVINs alleviated social affective deficits in MK-801-treated rats. These findings identify impaired PVIN-mediated inhibitory regulation within the mPFC as a circuit mechanism underlying social affective dysfunction following neonatal NMDAr blockade, providing insight into the pathophysiology of schizophrenia-related social impairments.",
+"date": "2026-11-06",
+"source": "bioRxiv",
+"kind": "preprint",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764439v1",
+"institution": "Laboratory of Psychology and Behavioral Neuroscience, University of Tsukuba",
+"published_doi": null,
+"pubtype": "new results",
+"first_seen": "2026-11-07",
+"jgroup": null,
+"score": 3.45,
+"topics": [
+"chemogenetics",
+"vocalisations"
+],
+"species": [
+"rodent"
+],
+"methods": [],
+"hits": [
+"chemogenetic",
+"conspecific",
+"rat"
+],
+"breakdown": {
+"chemogenetics": 1.4,
+"vocalisations": 1.6
+}
+},
 "doi:10.64898/2026.10.14.758979": {
 "id": "doi:10.64898/2026.10.14.758979",
 "doi": "10.64898/2026.10.14.758979",
@@ -18100,46 +17892,6 @@
 ],
 "breakdown": {
 "memory": 1.4
-}
-},
-"doi:10.1016/j.neuropsychologia.2026.109601": {
-"id": "doi:10.1016/j.neuropsychologia.2026.109601",
-"doi": "10.1016/j.neuropsychologia.2026.109601",
-"pmid": "42843755",
-"title": "Multisite evaluation of BrainNetCNN for ADHD classification from static and dynamic rs-fMRI functional connectivity.",
-"authors": "López CQ, Vera VDG, Ospina López JP, Rodríguez Torres CE, Gallego A.",
-"abstract": "Attention-Deficit/Hyperactivity Disorder (ADHD) has been associated with altered integration across large-scale brain networks. Temporal fluctuations in functional organization and differences between acquisition centers complicate classification based on resting-state functional magnetic resonance imaging (rs-fMRI). This study used BrainNetCNN as the reference architecture to examine how region-of-interest (ROI) dimensionality, connectivity representation, network design, window configuration and acquisition site influence ADHD discrimination. The sample included 465 participants from four ADHD-200 centers: New York University (NYU; n = 177), Peking University (Peking; n = 183), NeuroIMAGE (n = 39) and Oregon Health & Science University (OHSU; n = 66). Functional connectivity was derived from regional blood-oxygen-level-dependent (BOLD) time series using prespecified 12, 18, 39 and 116-ROI panels from the Automated Anatomical Labeling atlas (AAL116). The reference window was 120 s with an approximately 12-s step. Within each center, classification was assessed through participant-level stratified 10-fold cross-validation repeated five times, with area under the receiver operating characteristic curve (AUC) as the primary metric. BrainNetCNN was configured using NYU data and then kept fixed for evaluation at the remaining centers. Across site-by-ROI combinations, AUC ranged from 50.1% to 64.5%. The 12-ROI configuration reached 63.6% in both NYU and Peking, while the strongest panel differed across centers. Comparisons involving static connectivity, long short-term memory (LSTM), gated recurrent unit (GRU), DeepSets, logistic regression and alternative window settings revealed no consistent advantage. Leave-one-site-out analyses yielded AUCs from 44.4% to 63.9%, with 14 of 16 pointwise 95% confidence intervals including 0.50. Overall, the models showed modest site-dependent discrimination and limited cross-site transportability.",
-"date": "2026-10-07",
-"source": "Neuropsychologia",
-"journal_names": [
-"Neuropsychologia",
-"Neuropsychologia",
-"Neuropsychologia"
-],
-"kind": "journal",
-"url": "https://doi.org/10.1016/j.neuropsychologia.2026.109601",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-17",
-"jgroup": "cognitive",
-"score": 3.38,
-"topics": [
-"memory"
-],
-"species": [
-"human"
-],
-"methods": [
-"fmri"
-],
-"hits": [
-"participants",
-"memory",
-"fMRI"
-],
-"breakdown": {
-"memory": 0.7
 }
 },
 "doi:10.64898/2026.10.01.755949": {
@@ -18940,8 +18692,8 @@
 "single_unit"
 ],
 "hits": [
-"optogenetic",
-"single-cell"
+"single-cell",
+"optogenetic"
 ],
 "breakdown": {
 "optogenetics": 1.2
@@ -19096,6 +18848,40 @@
 "optogenetics": 1.2
 }
 },
+"doi:10.64898/2026.11.05.764685": {
+"id": "doi:10.64898/2026.11.05.764685",
+"doi": "10.64898/2026.11.05.764685",
+"title": "Broad Cognitive and Motivational Enhancement through M4-Selective Muscarinic Modulation",
+"authors": "Wen, X.; Shereen, S.; Neumann, A.; Temple, K.; Lindsley, C. W.; Jones, C. K.; Womelsdorf, T.",
+"abstract": "The muscarinic M4 subtype of acetylcholine receptors is part of agonist compounds considered treatment options for Schizophrenia and Alzheimers disease, but how M4-subtype selective modulation affects cognition and motivation is largely unknown due to dose-limiting side effects, a scarcity of receptor-selective compounds, and missing multi-domain assessments of cognition. Here, we surmount these constraints by utilizing a M4-selective positive allosteric modulator (PAM) to assess in nonhuman primates a broad array of endpoints spanning motivational effort control and multiple executive function domains. We found broad dose-dependent performance improvements of set shifting indexing cognitive flexibility, visual search indexing selective attention, antisaccade performance indexing inhibitory control, visuospatial maze learning, and temporal order serial object learning, while working memory span was non-systematically modulated. In addition, the M4 PAM reduced effort avoidance in an effort-based choice task documenting a pro-motivational effect. Task-composite performance scores showed pro-cognitive effects across multiple doses and an effective dose range for individual subjects in the absence of adverse dose-limiting cholinergic side effects. Together, the broad pro-cognitive and pro-motivational multi-task profile of M4 PAM modulation suggests that the M4 receptor is a master regulator of executive cognitive functioning, possibly acting on domain-general neural processes across the prefrontal-striatal circuits.",
+"date": "2026-11-06",
+"source": "bioRxiv",
+"kind": "preprint",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764685v1",
+"institution": "Vanderbilt University",
+"published_doi": null,
+"pubtype": "new results",
+"first_seen": "2026-11-07",
+"jgroup": null,
+"score": 3.2,
+"topics": [
+"memory",
+"sequences"
+],
+"species": [
+"other_nhp"
+],
+"methods": [],
+"hits": [
+"nonhuman primates",
+"temporal order",
+"memory"
+],
+"breakdown": {
+"memory": 0.7,
+"sequences": 1.3
+}
+},
 "doi:10.21203/rs.3.rs-11138493/v1": {
 "id": "doi:10.21203/rs.3.rs-11138493/v1",
 "doi": "10.21203/rs.3.rs-11138493/v1",
@@ -19233,8 +19019,8 @@
 "hits": [
 "magnetoencephalogra",
 "Participants",
-"rhythmic",
-"Rhythmic"
+"Rhythmic",
+"rhythmic"
 ],
 "breakdown": {
 "auditory": 1.5
@@ -19517,40 +19303,6 @@
 "memory": 0.7
 }
 },
-"doi:10.20944/preprints202610.0441.v1": {
-"id": "doi:10.20944/preprints202610.0441.v1",
-"doi": "10.20944/preprints202610.0441.v1",
-"pmid": null,
-"title": "Testable Specifications of Single-Synaptic Conscious Communication Through Phasic Signalling; Allowing Conscious Ontogenetic Development Through Synaptic Density, and Conscious Processing Within Subconscious Priors of Tonic Stimulation",
-"authors": "Harrell MJ.",
-"abstract": "The communication of consciousness between neurons within a single synapse is an underspecified occurrence, chemical transmission is essential for neural propagation, and neural propagation is essential within many existing measurements of consciousness. The development and plasticity of consciousness throughout an animal's lifetime requires grounded chemical distinctions of executive and non-executive processing and transmission. This paper's hypotheses propose chemical-conscious correlates between neurons, considered alongside established cognitive and environmental interaction, to specify how consciousness and its continuum are chemically produced at global scales, and developed ontogenetically during continuous environmental rationalization and neural propagation. Single-synaptic phasic transmitter transients may have evolved to allow executive function and selective consolidation within reflexive processing. These transmitter releases may be the chemical events through which subconscious stimulation allows phenomenal expression between neurons. This framing is consistent with phasic dynamics and tonic modulation of baseline synaptic stimulation, with each transmitter being differentiated by function. Phasic transients are further suggested to direct cortical spreading under tonic, epigenetic, and synaptic allowance. Because phasic releases fundamentally affect synaptic plasticity, while synapses determine the threshold and magnitude of phasic responses, this framing allows a developmental and individually variable model of consciousness. This development has potential to ground GWT/GNWT, IIT, Predictive Processing, and Affective Neuroscience, extending each framework by approaching phasic response as a mechanism of conscious variation and transmission at the scale of individual synapses. Because each hypothesis is specific and falsifiable, provided predictions and experimental directions can assist to determine the accuracy of each claim; given hypotheses are precise enough to fail and many of their correlating experiments are practical enough to proceed. If this account holds, it points toward practical improvements in depression treatments, therapeutics, memory rehabilitation, learning environment refinement strategies, and early developmental interventions.",
-"date": "2026-10-07",
-"source": "Preprints.org",
-"journal_names": [],
-"kind": "preprint",
-"url": "https://doi.org/10.20944/preprints202610.0441.v1",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-11",
-"jgroup": null,
-"score": 3.0,
-"topics": [
-"predictive_coding",
-"memory"
-],
-"species": [],
-"methods": [],
-"hits": [
-"Predictive Processing",
-"consolidation",
-"memory"
-],
-"breakdown": {
-"predictive_coding": 1.6,
-"memory": 1.4
-}
-},
 "doi:10.20944/preprints202610.1096.v1": {
 "id": "doi:10.20944/preprints202610.1096.v1",
 "doi": "10.20944/preprints202610.1096.v1",
@@ -19677,8 +19429,8 @@
 "eeg_meg"
 ],
 "hits": [
-"recall",
 "memory",
+"recall",
 "Human",
 "EEG"
 ],

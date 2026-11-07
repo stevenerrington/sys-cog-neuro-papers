@@ -31,6 +31,7 @@ ARCHIVE = ROOT / "data" / "archive.json"
 TEMPLATE = ROOT / "template.html"
 SITE = ROOT / "docs" / "index.html"
 
+PREPRINT_SERVERS = None  # set from config: lower-case allow-list of Europe PMC preprint servers
 UA = {"User-Agent": "paper-radar/1.0 (academic literature digest; GitHub Actions)"}
 TODAY = dt.date.today()
 
@@ -39,16 +40,16 @@ def log(*a):
     print(*a, file=sys.stderr, flush=True)
 
 
-def get_json(url, params=None, tries=4):
+def get_json(url, params=None, tries=5):
     for i in range(tries):
         try:
-            r = requests.get(url, params=params, headers=UA, timeout=60)
+            r = requests.get(url, params=params, headers=UA, timeout=120)
             if r.status_code == 200:
                 return r.json()
             log(f"  HTTP {r.status_code} for {r.url[:160]}")
         except Exception as e:  # network hiccup
             log(f"  error {e!r}")
-        time.sleep(2 * (i + 1))
+        time.sleep(5 * (i + 1))
     return None
 
 
@@ -109,41 +110,56 @@ def fetch_biorxiv(cfg, start: dt.date, end: dt.date) -> list[dict]:
     return out
 
 
-def fetch_europepmc(cfg, topics, start: dt.date, end: dt.date) -> list[dict]:
+def fetch_europepmc(cfg, topics, start: dt.date, end: dt.date, status: dict) -> list[dict]:
     base = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
-    srcs = "(SRC:MED OR SRC:PPR)" if cfg.get("include_preprints", True) else "SRC:MED"
+    # Journal articles (SRC:MED) and preprints (SRC:PPR) are queried separately so
+    # the far more numerous preprints can't crowd journal articles out of the cap.
+    sweeps = [("journals", "SRC:MED")]
+    if cfg.get("include_preprints", True):
+        sweeps.append(("preprints", "SRC:PPR"))
+    cap = cfg.get("max_per_topic", 10000)
     out, seen = [], set()
+    status.update({"europepmc_failed": [], "europepmc_capped": []})
     for key, t in topics.items():
         terms = " OR ".join(f'TITLE:"{q}" OR ABSTRACT:"{q}"' for q in t.get("query", []))
         if not terms:
             continue
-        query = (f"({terms}) AND ({cfg['context']}) AND {srcs} "
-                 f"AND FIRST_PDATE:[{start} TO {end}]")
-        cursor, n = "*", 0
-        log(f"Europe PMC [{key}]")
-        while n < cfg.get("max_per_topic", 3000):
-            js = get_json(base, {"query": query, "format": "json", "resultType": "core",
-                                 "pageSize": 1000, "cursorMark": cursor})
-            if not js:
-                break
-            res = js.get("resultList", {}).get("result", [])
-            if n == 0:
-                log(f"  hits: {js.get('hitCount')}")
-            for r in res:
-                n += 1
-                rid = f"{r.get('source')}:{r.get('id')}"
-                if rid in seen:
-                    continue
-                seen.add(rid)
-                rec = epmc_record(r)
-                if rec:
-                    out.append(rec)
-            nxt = js.get("nextCursorMark")
-            if not res or not nxt or nxt == cursor:
-                break
-            cursor = nxt
-            time.sleep(0.3)
-    log(f"  -> {len(out)} Europe PMC records")
+        for sweep, src in sweeps:
+            query = (f"({terms}) AND ({cfg['context']}) AND {src} "
+                     f"AND FIRST_PDATE:[{start} TO {end}]")
+            cursor, n, hits = "*", 0, None
+            while n < cap:
+                js = get_json(base, {"query": query, "format": "json", "resultType": "core",
+                                     "pageSize": 500, "cursorMark": cursor})
+                if not js:
+                    status["europepmc_failed"].append(f"{key}/{sweep}")
+                    log(f"  !! Europe PMC request failed for {key}/{sweep} after {n} records")
+                    break
+                res = js.get("resultList", {}).get("result", [])
+                if hits is None:
+                    hits = int(js.get("hitCount") or 0)
+                    log(f"Europe PMC [{key}/{sweep}] hits: {hits}")
+                    if hits > cap:
+                        status["europepmc_capped"].append(f"{key}/{sweep}")
+                        log(f"  !! {hits} hits exceeds max_per_topic={cap}; some papers will be missed")
+                for r in res:
+                    n += 1
+                    rid = f"{r.get('source')}:{r.get('id')}"
+                    if rid in seen:
+                        continue
+                    seen.add(rid)
+                    rec = epmc_record(r)
+                    if rec:
+                        out.append(rec)
+                nxt = js.get("nextCursorMark")
+                if not res or not nxt or nxt == cursor:
+                    break
+                cursor = nxt
+                time.sleep(0.3)
+    status["europepmc_journal"] = sum(r["kind"] == "journal" for r in out)
+    status["europepmc_preprint"] = sum(r["kind"] == "preprint" for r in out)
+    log(f"  -> {len(out)} Europe PMC records ({status['europepmc_journal']} journal, "
+        f"{status['europepmc_preprint']} preprint)")
     return out
 
 
@@ -160,6 +176,9 @@ def epmc_record(r) -> dict | None:
                                  jinfo.get("medlineAbbreviation")) if x]
     if is_pp:
         journal = (r.get("bookOrReportDetails") or {}).get("publisher") or "Preprint"
+        allowed = PREPRINT_SERVERS
+        if allowed is not None and journal.lower() not in allowed and journal.lower() != "biorxiv":
+            return None
     ptypes = [p.lower() for p in (r.get("pubTypeList") or {}).get("pubType", [])]
     if any(x in ptypes for x in ("erratum", "published erratum", "retraction of publication", "comment", "editorial")):
         return None
@@ -418,15 +437,28 @@ def main():
     run_date = TODAY.isoformat()
 
     archive = json.loads(ARCHIVE.read_text()) if ARCHIVE.exists() else {}
-    stats = {"fetched": 0}
+    global PREPRINT_SERVERS
+    ps = cfg["sources"]["europepmc"].get("preprint_servers")
+    PREPRINT_SERVERS = None if ps is None else {x.lower() for x in ps}
+    # The archive keeps everything already found, so daily runs only need to look
+    # back `fetch_days` (a full window on the first run or after --days).
+    fetch_days = cfg["sources"].get("fetch_days", days)
+    if len(archive) < 50 or args.days:
+        fetch_days = days
+    fstart = TODAY - dt.timedelta(days=min(fetch_days, days))
+    stats = {"fetched": 0, "fetch_days": min(fetch_days, days)}
     if not args.build_only:
         new = []
         if cfg["sources"]["biorxiv"]["enabled"]:
-            new += fetch_biorxiv(cfg["sources"]["biorxiv"], start, end)
+            b = fetch_biorxiv(cfg["sources"]["biorxiv"], fstart, end)
+            stats["biorxiv"] = len(b)
+            new += b
         if cfg["sources"]["europepmc"]["enabled"]:
-            new += fetch_europepmc(cfg["sources"]["europepmc"], cfg["topics"], start, end)
+            new += fetch_europepmc(cfg["sources"]["europepmc"], cfg["topics"], fstart, end, stats)
         if cfg["sources"].get("crossref", {}).get("enabled"):
-            new += fetch_crossref(cfg["sources"]["crossref"], cfg["journals"], start, end)
+            c = fetch_crossref(cfg["sources"]["crossref"], cfg["journals"], fstart, end)
+            stats["crossref"] = len(c)
+            new += c
         stats["fetched"] = len(new)
         archive = merge(archive, new, run_date)
     else:
@@ -441,6 +473,9 @@ def main():
     unlisted = {}
     listed = {}
     for k, p in archive.items():
+        if (p["kind"] == "preprint" and PREPRINT_SERVERS is not None
+                and p["source"].lower() not in PREPRINT_SERVERS | {"biorxiv"}):
+            continue
         if resolve_journal(p, idx) or cfg["journals"].get("mode", "only") != "only":
             listed[k] = p
         else:

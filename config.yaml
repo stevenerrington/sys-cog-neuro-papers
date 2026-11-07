@@ -13,14 +13,21 @@ site:
   min_score: 3.0           # papers scoring below this are dropped
 
 sources:
+  # Days to look back on each daily run. Everything already found stays in the
+  # archive until it is older than window_days, so this only needs to cover
+  # indexing delays. The first run always uses the full window.
+  fetch_days: 10
   biorxiv:
     enabled: true
     categories: ["neuroscience", "animal_behavior_and_cognition"]
     new_only: true         # true = only version-1 postings (skip revisions)
   europepmc:
     enabled: true          # Europe PMC mirrors PubMed (all journals) + preprint servers
-    include_preprints: true   # medRxiv, PsyArXiv, Research Square etc. (bioRxiv duplicates are merged)
-    max_per_topic: 3000
+    include_preprints: true   # other preprint servers, limited to the list below
+    # Preprint servers to keep from Europe PMC (bioRxiv always comes in directly).
+    # Others seen: "Research Square", "Preprints.org", "SSRN". Delete the line to keep all.
+    preprint_servers: ["medRxiv", "PsyArXiv"]
+    max_per_topic: 10000
     # Every Europe PMC query is ANDed with this so generic terms
     # (e.g. "memory", "sequence") stay inside neuroscience.
     context: 'neuron* OR neural OR brain OR cortex OR cortical OR hippocamp* OR electrophysiolog* OR fMRI OR EEG OR MEG OR "event-related" OR auditory OR perception OR cognition OR cognitive'

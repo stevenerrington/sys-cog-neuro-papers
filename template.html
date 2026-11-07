@@ -180,7 +180,9 @@ footer p{margin:0 0 8px}
   $('#site-sub').textContent = M.subtitle;
   const upd = new Date(M.updated + 'T12:00:00').toLocaleDateString('en-GB', {day:'numeric', month:'short', year:'numeric'});
   $('#stamp').innerHTML = `<b>${P.length}</b> papers · ${M.window_days}-day window<br>updated <b>${upd}</b>` +
-    (M.stats && M.stats.preview ? `<br>${esc(M.stats.preview)}` : '');
+    (M.stats && M.stats.preview ? `<br>${esc(M.stats.preview)}` : '') +
+    (M.stats && M.stats.europepmc_failed && M.stats.europepmc_failed.length
+      ? `<br><span style="color:var(--new)">journal search incomplete in latest update</span>` : '');
 
   // ---- state
   const DEF = {q:'', sort:'score', win: String(M.window_days >= 30 ? 30 : M.window_days), kind:'all', topics:[], species:[], methods:[], jgroups:[], journal:'', mode:'any', onlynew:false};
@@ -315,7 +317,8 @@ footer p{margin:0 0 8px}
     let L = P.filter(pass);
     if (S.sort === 'date') L = L.slice().sort((a,b) => (b.date||'').localeCompare(a.date||'') || b.score - a.score);
     const prim = L.filter(p => (p.species||[]).some(s => PRIMATE.has(s))).length;
-    $('#count').innerHTML = `<b>${L.length}</b> of ${P.length} papers · <b>${prim}</b> in non-human primates`;
+    const nj = L.filter(p => p.kind === 'journal').length;
+    $('#count').innerHTML = `<b>${L.length}</b> of ${P.length} papers · <b>${nj}</b> journal articles · <b>${L.length - nj}</b> preprints · <b>${prim}</b> in non-human primates`;
     $('#list').innerHTML = L.length ? L.slice(0, shown).map(row).join('') : '<li class="empty">No papers match these filters. Try “Any selected” or clear a filter.</li>';
     $('#more').hidden = L.length <= shown;
     $('#more').textContent = `Show more (${L.length - shown} left)`;

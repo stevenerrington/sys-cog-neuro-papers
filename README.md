@@ -73,7 +73,7 @@ how its score was reached.
 - **[bioRxiv](https://www.biorxiv.org/)**: all new preprints in Neuroscience and in
   Animal Behavior & Cognition.
 - **[Europe PMC](https://europepmc.org/)**: journal articles indexed in PubMed, plus
-  preprints from medRxiv, PsyArXiv, Research Square and other servers.
+  preprints from medRxiv and PsyArXiv.
 - **[Crossref](https://www.crossref.org/)**: covers the six listed journals that PubMed
   doesn't index (marked † below).
 
@@ -138,6 +138,9 @@ Neurochemistry, Glia, Journal of Neuroinflammation, Developmental Cell, Developm
   says macaque or rhesus. Papers that only say "monkey" are tagged *Other primate*.
 - **Journals marked † often have no abstract** in Crossref, so they are ranked on their
   titles alone and tend to appear lower.
+- **Occasional gaps.** If a source can't be reached during an update, the header shows
+  a warning. Papers already found stay on the site, and missed papers are picked up on
+  the next run.
 - **Dates are publication dates** as reported by each source. A paper can appear a few
   days after it was published, because indexing sometimes lags.
 - **The score measures relevance to these topics, not quality or impact.**

@@ -37,8 +37,8 @@
 "predictive processing",
 "Bayesian inference",
 "Predictive Coding",
-"Predictive coding",
 "predictive coding",
+"Predictive coding",
 "single-neuron",
 "Auditory",
 "auditory",
@@ -79,13 +79,13 @@
 "methods": [],
 "hits": [
 "Vocal turn-taking",
-"phee calls",
 "sequential",
+"phee calls",
 "sequences",
 "marmosets",
 "Rhythmic",
-"rhythmic",
 "auditory",
+"rhythmic",
 "prosod",
 "phee"
 ],
@@ -124,14 +124,14 @@
 ],
 "methods": [],
 "hits": [
-"Closed-loop acoustic",
-"acoustic stimulation",
 "closed-loop acoustic",
+"acoustic stimulation",
+"Closed-loop acoustic",
 "consolidation",
 "global effect",
 "participants",
-"rhythmic",
 "acoustic",
+"rhythmic",
 "memory",
 "CLAS"
 ],
@@ -178,8 +178,8 @@
 "auditory",
 "sounds",
 "sound",
-"belt",
-"fMRI"
+"fMRI",
+"belt"
 ],
 "breakdown": {
 "auditory": 9.0,
@@ -222,12 +222,12 @@
 "precision weight",
 "global mismatch",
 "tone sequences",
-"Surprisal",
-"sequences",
 "surprisal",
 "listening",
-"Auditory",
+"Surprisal",
+"sequences",
 "acoustic",
+"Auditory",
 "auditory",
 "Human",
 "MEG"
@@ -280,8 +280,8 @@
 "participants",
 "local-global",
 "sequential",
-"sequence",
 "auditory",
+"sequence",
 "EEG"
 ],
 "breakdown": {
@@ -329,16 +329,16 @@
 "Vocal Communication",
 "vocal communication",
 "neuronal responses",
-"conspecific",
 "zebra finch",
+"conspecific",
 "songbirds",
 "bird song",
-"Auditory",
 "acoustic",
+"Auditory",
 "auditory",
 "syllabl",
-"memory",
 "speech",
+"memory",
 "human",
 "sound"
 ],
@@ -378,14 +378,14 @@
 "eeg_meg"
 ],
 "hits": [
-"Predictive processing",
 "predictive processing",
+"Predictive processing",
 "predictive routing",
 "prediction error",
 "intracranial",
 "auditory",
-"syllabl",
 "rhythms",
+"syllabl",
 "speech",
 "Human",
 "EEG"
@@ -423,18 +423,18 @@
 ],
 "methods": [],
 "hits": [
-"Auditory Working Memor",
 "Auditory working memor",
+"Auditory Working Memor",
 "participants",
 "listeners",
-"Auditory",
 "audition",
-"Memory",
-"memory",
+"Auditory",
 "sounds",
 "Sounds",
-"sound",
-"pitch"
+"Memory",
+"memory",
+"pitch",
+"sound"
 ],
 "breakdown": {
 "auditory": 9.0,
@@ -471,8 +471,8 @@
 "single_unit"
 ],
 "hits": [
-"phase-targeted auditory stimul",
 "Phase-targeted auditory stimul",
+"phase-targeted auditory stimul",
 "auditory stimulation",
 "patients",
 "auditory",
@@ -516,13 +516,13 @@
 "hits": [
 "Participants",
 "grammatical",
-"Syntactic",
 "syntactic",
+"Syntactic",
 "auditory",
+"speech",
+"Syntax",
 "memory",
 "syntax",
-"Syntax",
-"speech",
 "voxel"
 ],
 "breakdown": {
@@ -568,11 +568,11 @@
 "conspecific calls",
 "vocalization",
 "conspecific",
+"auditory",
 "rhythmic",
 "marmoset",
-"auditory",
-"monkey",
 "speech",
+"monkey",
 "fMRI"
 ],
 "breakdown": {
@@ -609,8 +609,8 @@
 "eeg_meg"
 ],
 "hits": [
-"phase-targeted auditory stimul",
 "Phase-targeted auditory stimul",
+"phase-targeted auditory stimul",
 "auditory stimulation",
 "electroencephalogra",
 "participants",
@@ -659,9 +659,9 @@
 "mismatch negativity",
 "resting-state",
 "participants",
-"deviants",
 "acoustic",
 "auditory",
+"deviants",
 "deviant",
 "Heschl"
 ],
@@ -709,8 +709,8 @@
 "nonhuman primates",
 "calcium imaging",
 "vocalization",
-"marmoset",
 "auditory",
+"marmoset",
 "tonotop",
 "human"
 ],
@@ -748,11 +748,11 @@
 "hits": [
 "auditory stimulation",
 "listening",
+"auditory",
 "rhythmic",
 "Auditory",
-"auditory",
-"sounds",
 "adults",
+"sounds",
 "sound"
 ],
 "breakdown": {
@@ -794,11 +794,11 @@
 "Vocalization",
 "vocalization",
 "zebra finch",
+"acoustic",
+"songbird",
 "Acoustic",
 "birdsong",
-"acoustic",
 "sequence",
-"songbird",
 "syllabl",
 "speech"
 ],
@@ -839,8 +839,8 @@
 ],
 "methods": [],
 "hits": [
-"Vocal learning",
 "vocal learning",
+"Vocal learning",
 "vocalization",
 "Bird song",
 "bird song",
@@ -882,8 +882,8 @@
 "hits": [
 "prediction error",
 "volunteers",
-"surprisal",
 "listeners",
+"surprisal",
 "listening",
 "acoustic",
 "speech"
@@ -925,8 +925,8 @@
 "sequential",
 "macaques",
 "sequence",
-"monkey",
 "humans",
+"monkey",
 "fMRI"
 ],
 "breakdown": {
@@ -969,8 +969,8 @@
 "auditory",
 "oddball",
 "deviant",
-"MMN",
-"EEG"
+"EEG",
+"MMN"
 ],
 "breakdown": {
 "auditory": 6.0,
@@ -1010,8 +1010,8 @@
 "mismatch negativity",
 "participants",
 "auditory",
-"MMN",
-"EEG"
+"EEG",
+"MMN"
 ],
 "breakdown": {
 "auditory": 6.0,
@@ -1049,15 +1049,15 @@
 ],
 "hits": [
 "delayed match",
-"sequentially",
 "participants",
+"sequentially",
 "Auditory",
 "auditory",
+"sounds",
 "Memory",
 "memory",
-"sounds",
-"Sound",
 "sound",
+"Sound",
 "fMRI"
 ],
 "breakdown": {
@@ -1094,10 +1094,10 @@
 ],
 "hits": [
 "participants",
-"grammatical",
 "Grammatical",
-"Speech",
+"grammatical",
 "speech",
+"Speech",
 "MEG"
 ],
 "breakdown": {
@@ -1181,11 +1181,11 @@
 "hits": [
 "superior temporal gyrus",
 "vocal production",
-"vocalization",
 "participants",
+"vocalization",
 "auditory",
-"sounds",
 "speech",
+"sounds",
 "pitch",
 "fMRI"
 ],
@@ -1222,16 +1222,16 @@
 ],
 "methods": [],
 "hits": [
+"vocal learning",
 "Vocal learning",
 "vocal behavior",
-"vocal learning",
 "vocalization",
 "songbirds",
 "birdsong",
 "auditory",
 "hearing",
-"sounds",
 "speech",
+"sounds",
 "human"
 ],
 "breakdown": {
@@ -1272,8 +1272,8 @@
 "superior temporal gyrus",
 "nonhuman primate",
 "auditory",
-"Speech",
 "speech",
+"Speech",
 "human",
 "fMRI"
 ],
@@ -1314,12 +1314,12 @@
 "electroencephalogra",
 "sequences",
 "patients",
-"rhythmic",
-"Auditory",
 "acoustic",
+"Auditory",
+"rhythmic",
 "auditory",
-"rhythm",
 "Heschl",
+"rhythm",
 "sound",
 "sEEG"
 ],
@@ -1407,8 +1407,8 @@
 "sequences",
 "sequence",
 "rhythms",
-"memory",
 "recall",
+"memory",
 "EEG"
 ],
 "breakdown": {
@@ -1452,13 +1452,13 @@
 "hits": [
 "magnetoencephalogra",
 "Tone sequences",
-"sequences",
 "listeners",
 "listening",
+"sequences",
 "auditory",
 "hearing",
-"tones",
-"Human"
+"Human",
+"tones"
 ],
 "breakdown": {
 "auditory": 9.0,
@@ -1495,15 +1495,15 @@
 "hits": [
 "mismatch negativity",
 "computational model",
-"mismatch response",
 "Mismatch response",
+"mismatch response",
 "prediction error",
 "deviants",
 "auditory",
 "oddball",
 "tones",
-"MMN",
-"EEG"
+"EEG",
+"MMN"
 ],
 "breakdown": {
 "auditory": 3.0,
@@ -1541,11 +1541,11 @@
 ],
 "hits": [
 "sequences",
-"sequence",
 "auditory",
+"sequence",
 "memory",
-"tones",
 "human",
+"tones",
 "EEG"
 ],
 "breakdown": {
@@ -1624,9 +1624,9 @@
 "gerbils",
 "sounds",
 "Humans",
+"sound",
 "Sound",
-"spike",
-"sound"
+"spike"
 ],
 "breakdown": {
 "auditory": 9.0
@@ -1661,8 +1661,8 @@
 ],
 "hits": [
 "superior temporal sulcus",
-"Auditory",
 "auditory",
+"Auditory",
 "hearing",
 "human",
 "fMRI"
@@ -1805,7 +1805,7 @@
 "id": "doi:10.1016/j.bbr.2026.116573",
 "doi": "10.1016/j.bbr.2026.116573",
 "pmid": "43003203",
-"title": "Single Neonatal Maternal Separation Alters Ultrasonic Vocalization during Mother-Offspring Interaction in ICR Mice.",
+"title": "Single neonatal maternal separation alters ultrasonic vocalization during mother-offspring interaction in ICR mice.",
 "authors": "Akiyama M, Ito Y, Motoyama J.",
 "abstract": "Early-life stress is a major risk factor for neurodevelopmental disorders; however, the extent to which temporally restricted stress exposure induces long-term behavioral alterations remains unclear. In this study, we examined the effects of a single 24-h maternal separation (MS) during postnatal days 4-5 (P4-5) on later behavior in mice. MS males showed mildly reduced locomotor activity, whereas no statistically significant Control-MS differences were detected in the measured indices of anxiety-like behavior or sociability. In the novel object recognition test, neither group showed a significant preference for the novel object, limiting conclusions regarding recognition memory. We further examined ultrasonic vocalizations (USVs) across development and social contexts. Under isolated conditions, USV call number did not significantly differ between Control and MS mice, although MS mice showed longer USV duration at P14. More USV calls were recorded from MS male-biological mother pairs than from Control male-biological mother pairs at P42, whereas no statistically significant Control-MS differences were detected during interactions with an unfamiliar mother or a virgin female during P41-P43. A significant Sex × Treatment interaction was detected in the biological-mother condition, although the interaction across social-partner conditions did not reach statistical significance. In a separate sound-source localization experiment, offspring were the predominant identified USV emitters during mother-offspring interactions in both Control and MS dyads, although offspring-assigned USV call numbers did not differ significantly between Control and MS groups under these recording conditions. Together, these findings indicate that a single neonatal MS experience is associated with later alterations in social vocalization, with increased USV emission detected during interactions between P42 MS males and their biological mothers. The mechanisms underlying this response, including the possible contributions of familiarity, prior maternal experience, and other maternal cues, remain to be determined.",
 "date": "2026-11-09",
@@ -1834,13 +1834,11 @@
 "methods": [],
 "hits": [
 "ultrasonic vocali",
-"Ultrasonic Vocali",
-"Vocalization",
 "vocalization",
 "memory",
 "sound",
-"Mice",
 "USVs",
+"mice",
 "USV"
 ],
 "breakdown": {
@@ -1921,12 +1919,12 @@
 "hits": [
 "participants",
 "acoustic",
-"rhythms",
 "musical",
+"rhythms",
 "memory",
+"sound",
 "music",
 "Music",
-"sound",
 "EEG"
 ],
 "breakdown": {
@@ -1965,55 +1963,14 @@
 "syntactic",
 "acoustic",
 "auditory",
-"Speech",
-"prosod",
 "speech",
+"prosod",
+"Speech",
 "fMRI"
 ],
 "breakdown": {
 "auditory": 9.0,
 "dependencies": 2.2
-}
-},
-"doi:10.64898/2026.10.12.26365334": {
-"id": "doi:10.64898/2026.10.12.26365334",
-"doi": "10.64898/2026.10.12.26365334",
-"pmid": null,
-"title": "The cry as a vital sign: A smartphone based study of neonatal cry acoustics in hypoxic ischemic encephalopathy",
-"authors": "Chakraborty D.",
-"abstract": "Background: Many Indian special newborn care units (SNCUs) cannot offer amplitude-integrated EEG (aEEG) or early MRI, so bedside judgement decides which newborns receive closer neurological attention. Earlier work found that asphyxiated newborns cry with a higher pitch and shorter phonation than healthy newborns, and a meta-analysis reported higher fundamental frequency, dysphonation and atypical melody in infants with neurological dysfunction, with wide differences between studies. Aim. To determine whether basic acoustic features of a smartphone-recorded pain cry (following a heel prick) can differentiate term newborns with HIE from control newborns. Also, to track changes in cry acoustics over the first 72 hours of life and evaluate their association with the clinical severity and short-term outcomes of encephalopathy. Design. A prospective, single centre diagnostic accuracy and cohort study in a tertiary SNCU. Three groups of term newborns are recorded: newborns with HIE, healthy comparators, and sick comparators who do not have HIE. Every newborn is recorded after the same stimulus, the first clinically indicated heel-prick. Newborns with HIE and sick comparators are recorded again at 24 hours, 72 hours and before discharge. A cry that is late or absent counts as a result and not as a missing value. Three clinicians blinded to group also classify the cries by listening, so the phone-based measures can be compared with the human ear. Analysis. The primary outcome is the area under the ROC curve of a logistic model with five pre-specified acoustic predictors. The target is 180 analyzable newborns (70 with HIE and 110 comparators). Reporting follows STARD and TRIPOD+AI. Relevance. In a South Asian trial, cooling did not reduce death or disability at 18 months and increased death alone. A cry tool in this setting is therefore proposed to help prioritize EEG, seizure surveillance, closer observation and referral. It is not proposed as a trigger for cooling. Keywords: neonatal encephalopathy; infant cry; acoustic analysis; smartphone; diagnostic accuracy; low-resource setting.",
-"date": "2026-10-14",
-"source": "medRxiv",
-"journal_names": [],
-"kind": "preprint",
-"url": "https://doi.org/10.64898/2026.10.12.26365334",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-17",
-"jgroup": null,
-"score": 13.12,
-"topics": [
-"auditory"
-],
-"species": [
-"human"
-],
-"methods": [
-"eeg_meg",
-"perturbation"
-],
-"hits": [
-"listening",
-"acoustic",
-"cooling",
-"melody",
-"human",
-"pitch",
-"EEG"
-],
-"breakdown": {
-"auditory": 9.0
 }
 },
 "doi:10.64898/2026.10.16.759557": {
@@ -2217,11 +2174,11 @@
 "methods": [],
 "hits": [
 "sequential",
-"rhythmic",
-"acoustic",
 "children",
-"syllabl",
+"acoustic",
+"rhythmic",
 "melodic",
+"syllabl",
 "prosod",
 "Prosod"
 ],
@@ -2274,48 +2231,6 @@
 "sequences": 5.2
 }
 },
-"doi:10.1016/j.bbr.2026.116527": {
-"id": "doi:10.1016/j.bbr.2026.116527",
-"doi": "10.1016/j.bbr.2026.116527",
-"pmid": "42874787",
-"title": "Atypical early-life ultrasonic vocalizations disrupt the pup-dam communication dyad in the BTBR model of autism spectrum disorder.",
-"authors": "Cofsky NI, Binder MS.",
-"abstract": "Alterations in early-life communication are a defining feature of autism spectrum disorder (ASD). While these deficits are well conserved in mouse models, few studies have assessed how aberrations in neonatal vocalizations affect maternal behaviors and disrupt the pup-dam communication dyad. To better elucidate the consequences of altered communication in ASD models, we assessed ultrasonic vocalization (USV) production in pups and the corresponding retrieval behaviors in dams using C57 and BTBR (autistic-like) mice. We first used the pup's dam as the retriever and found that BTBR dams retrieved significantly fewer pups than C57 dams. We then used a novel C57 dam as the retriever and found that BTBR pups were retrieved significantly slower than C57 pups. Follow up analyses detected positive correlations between call duration and retrieval time and amplitude and retrieval time in BTBR pups. Similarly, we found that C57 mice that were retrieved the fastest had calls of a different amplitude than slowly retrieved mice. In the BTBR model, we found that faster retrieved mice produced shorter calls with a higher pitch than slowly retrieved mice, displaying call characteristics more similar to C57 pups. Lastly, we found that a more diverse call type repertoire was associated with a faster retrieval time. Overall, our study demonstrates that altered USV production significantly affects the pup-dam communication dyad. Furthermore, we identified the USV duration, amplitude, and a more diverse call type repertoire as being critical factors underlying maternal retrieval.",
-"date": "2026-10-14",
-"source": "Behavioural Brain Research",
-"journal_names": [
-"Behavioural brain research",
-"Behav Brain Res",
-"Behav Brain Res"
-],
-"kind": "journal",
-"url": "https://doi.org/10.1016/j.bbr.2026.116527",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-20",
-"jgroup": "animal",
-"score": 12.77,
-"topics": [
-"auditory",
-"vocalisations"
-],
-"species": [
-"rodent"
-],
-"methods": [],
-"hits": [
-"ultrasonic vocali",
-"vocalization",
-"pitch",
-"mice",
-"USV"
-],
-"breakdown": {
-"auditory": 1.5,
-"vocalisations": 9.6
-}
-},
 "doi:10.1016/j.bbr.2026.116549": {
 "id": "doi:10.1016/j.bbr.2026.116549",
 "doi": "10.1016/j.bbr.2026.116549",
@@ -2349,11 +2264,11 @@
 "hits": [
 "ultrasonic vocali",
 "vocalization",
-"conspecific",
 "Conspecific",
+"conspecific",
 "acoustic",
-"rats",
 "USVs",
+"rats",
 "USV"
 ],
 "breakdown": {
@@ -2397,8 +2312,8 @@
 "hits": [
 "computational model",
 "syntactic",
-"Speech",
 "speech",
+"Speech",
 "human",
 "ECoG"
 ],
@@ -2441,9 +2356,9 @@
 "hits": [
 "single-cell",
 "Hearing",
-"cochlea",
 "tonotop",
 "hearing",
+"cochlea",
 "mice"
 ],
 "breakdown": {
@@ -2524,9 +2439,9 @@
 "speech production",
 "acoustic",
 "speech",
-"Pitch",
+"pitch",
 "Voxel",
-"pitch"
+"Pitch"
 ],
 "breakdown": {
 "auditory": 9.0,
@@ -2563,9 +2478,9 @@
 "rhythms",
 "sounds",
 "rhythm",
-"music",
-"Music",
 "human",
+"Music",
+"music",
 "EEG"
 ],
 "breakdown": {
@@ -2603,9 +2518,9 @@
 "Auditory",
 "auditory",
 "hearing",
-"Speech",
 "Adults",
 "speech",
+"Speech",
 "MEG"
 ],
 "breakdown": {
@@ -2643,8 +2558,8 @@
 "participants",
 "listening",
 "auditory",
-"Speech",
 "speech",
+"Speech",
 "EEG"
 ],
 "breakdown": {
@@ -2682,14 +2597,14 @@
 "cortical tracking",
 "participants",
 "listening",
+"auditory",
 "rhythmic",
 "Auditory",
-"auditory",
-"syllabl",
-"Musical",
 "musical",
-"rhythm",
+"Musical",
+"syllabl",
 "speech",
+"rhythm",
 "music",
 "MEG"
 ],
@@ -2727,8 +2642,8 @@
 "hits": [
 "auditory",
 "infants",
-"prosod",
 "speech",
+"prosod",
 "pitch",
 "MEG"
 ],
@@ -2849,8 +2764,8 @@
 "consolidation",
 "rhythmic",
 "rhythms",
-"memory",
-"rhythm"
+"rhythm",
+"memory"
 ],
 "breakdown": {
 "auditory": 9.0,
@@ -2887,12 +2802,12 @@
 "eeg_meg"
 ],
 "hits": [
-"Statistical Learning",
 "statistical learning",
+"Statistical Learning",
 "participants",
 "Rhythmic",
-"Memory",
 "speech",
+"Memory",
 "EEG"
 ],
 "breakdown": {
@@ -2941,6 +2856,52 @@
 "optogenetics": 1.2
 }
 },
+"doi:10.64898/2026.11.12.766143": {
+"id": "doi:10.64898/2026.11.12.766143",
+"doi": "10.64898/2026.11.12.766143",
+"pmid": null,
+"title": "Repeated self-administered EEG recordings enable longitudinal measurement of brain activity at home",
+"authors": "van Moorselaar D, Kock R, Theeuwes J.",
+"abstract": "Mobile electroencephalography (EEG) offers new opportunities to investigate brain activity outside the laboratory, but the quality and reliability of self-administered recordings remain important concerns. Here, we evaluated whether repeated at-home recordings using a four-channel consumer EEG device could provide meaningful electrophysiological measurements and characterized the stability of these measures across sessions. Five participants completed repeated recordings across multiple days, including resting-state measurements and an auditory oddball task performed with and without concurrent cognitive load. The recordings captured established spectral signatures of physiological state and task demands, including increased alpha activity during eye closure and changes in theta activity associated with cognitive load. Auditory stimulation elicited clear event-related responses, while exploratory multivariate decoding distinguished standard from target tones across recording sessions. Measurement stability varied across electrophysiological features, and aggregating repeated sessions improved the consistency of individual-level estimates. For example, split-half reliability of the auditory N1-like response increased from r = .22 with one session to r = .76 with seven sessions per half. By demonstrating the feasibility of repeated self-administered EEG measurements, this study provides a step toward investigating how brain activity varies both between individuals and within individuals over time in everyday environments.",
+"date": "2026-11-13",
+"source": "bioRxiv",
+"journal_names": [],
+"kind": "preprint",
+"url": "https://doi.org/10.64898/2026.11.12.766143",
+"institution": "",
+"published_doi": null,
+"pubtype": "",
+"first_seen": "2026-11-14",
+"jgroup": null,
+"score": 12.25,
+"topics": [
+"auditory",
+"predictive_coding",
+"clas"
+],
+"species": [
+"human"
+],
+"methods": [
+"fmri",
+"eeg_meg"
+],
+"hits": [
+"Auditory stimulation",
+"resting-state",
+"participants",
+"Auditory",
+"auditory",
+"oddball",
+"tones",
+"EEG"
+],
+"breakdown": {
+"auditory": 3.0,
+"predictive_coding": 1.6,
+"clas": 2.2
+}
+},
 "doi:10.1016/j.cognition.2026.106755": {
 "id": "doi:10.1016/j.cognition.2026.106755",
 "doi": "10.1016/j.cognition.2026.106755",
@@ -2976,8 +2937,8 @@
 "acoustic",
 "auditory",
 "melodic",
-"memory",
-"speech"
+"speech",
+"memory"
 ],
 "breakdown": {
 "auditory": 9.0,
@@ -3051,12 +3012,12 @@
 "hits": [
 "consolidation",
 "memories",
-"sequence",
 "auditory",
+"sequence",
 "rhythms",
-"memory",
-"Memory",
 "adults",
+"Memory",
+"memory",
 "EEG"
 ],
 "breakdown": {
@@ -3099,11 +3060,11 @@
 "hits": [
 "Computational model",
 "auditory",
-"cochlea",
 "musical",
-"Pitch",
+"cochlea",
+"human",
 "pitch",
-"human"
+"Pitch"
 ],
 "breakdown": {
 "auditory": 9.0
@@ -3140,8 +3101,8 @@
 "transitional probabilit",
 "statistical learning",
 "artificial grammar",
-"memory",
-"adults"
+"adults",
+"memory"
 ],
 "breakdown": {
 "memory": 0.7,
@@ -3199,7 +3160,7 @@
 "pmid": null,
 "title": "A trio of brain networks dynamically orchestrates music recognition",
 "authors": "Grosjean BAP, Bonetti L, Rosso M, Ramineni M, Blenkmann AO, Endestad T, Solbakk A, Kim-McManus O, Willie JT, Brunner P, Dastjerdi M, Lin JJ, Knight RT, Quiroga-Martinez DR.",
-"abstract": "Recognition memory continuously integrates internal representations with sensory information to guide adaptive behavior. Yet most theoretical models conceptualize recognition as the retrieval of an isolated stimulus through a discrete sequence of steps including sensory processing, hippocampal retrieval, and cortical reinstatement. However, in natural settings, perception, memory, and predictions interact continuously within an evolving context to guide adaptive responses. It is unclear how brain networks coordinate the integration of internal and external information during dynamic recognition. Here, we combined intracranial recordings (N = 30) of high-frequency activity (70-160 Hz) and dimensionality reduction to characterize distributed network dynamics during music recognition. We identified three interacting functional networks supporting sensory processing, sensory-memory integration, and decision formation, whose temporal dynamics predicted the timing of behavior. During recognition of memorized sequences, sensory activity progressively attenuated, sensory inputs were combined with mnemonic and contextual information, and decision-related activity evolved toward sensorimotor engagement. Novel sequences disrupted this organization by sustaining sensory responses and accelerating decision-related activity. Sensory and integrative networks communicated bidirectionally. Our findings reveal recognition as a distributed, context-dependent, and goal-directed process emerging from the continuous and bidirectional coordination of large-scale brain networks.",
+"abstract": "Recognition memory continuously integrates internal representations with sensory information to guide adaptive behavior. Yet most theoretical models conceptualize recognition as the retrieval of an isolated stimulus through a discrete sequence of steps including sensory processing, hippocampal retrieval, and cortical reinstatement. However, in natural settings, perception, memory, and predictions interact continuously within an evolving context to guide adaptive responses. It is unclear how brain networks coordinate the integration of internal and external information during dynamic recognition. Here, we combined intracranial recordings (N = 30) of high-frequency activity (70–160 Hz) and dimensionality reduction to characterize distributed network dynamics during music recognition. We identified three interacting functional networks supporting sensory processing, sensory-memory integration, and decision formation, whose temporal dynamics predicted the timing of behavior. During recognition of memorized sequences, sensory activity progressively attenuated, sensory inputs were combined with mnemonic and contextual information, and decision-related activity evolved toward sensorimotor engagement. Novel sequences disrupted this organization by sustaining sensory responses and accelerating decision-related activity. Sensory and integrative networks communicated bidirectionally. Our findings reveal recognition as a distributed, context-dependent, and goal-directed process emerging from the continuous and bidirectional coordination of large-scale brain networks.",
 "date": "2026-11-10",
 "source": "bioRxiv",
 "journal_names": [],
@@ -3260,9 +3221,9 @@
 "methods": [],
 "hits": [
 "speech production",
-"Speech",
-"prosod",
 "speech",
+"prosod",
+"Speech",
 "human"
 ],
 "breakdown": {
@@ -3304,8 +3265,8 @@
 "speech production",
 "participants",
 "acoustic",
-"Speech",
-"speech"
+"speech",
+"Speech"
 ],
 "breakdown": {
 "auditory": 7.5,
@@ -3344,9 +3305,9 @@
 "hits": [
 "listeners",
 "listening",
-"Auditory",
 "acoustic",
 "auditory",
+"Auditory",
 "sounds"
 ],
 "breakdown": {
@@ -3534,8 +3495,8 @@
 "hits": [
 "inferior colliculus",
 "tonotop",
-"sounds",
 "humans",
+"sounds",
 "mice"
 ],
 "breakdown": {
@@ -3572,8 +3533,8 @@
 "listening",
 "auditory",
 "hearing",
-"prosod",
 "speech",
+"prosod",
 "human"
 ],
 "breakdown": {
@@ -3643,12 +3604,12 @@
 "methods": [],
 "hits": [
 "Acoustic",
-"cochlea",
 "hearing",
+"cochlea",
 "Cochlea",
-"Sound",
 "sound",
-"Human"
+"Human",
+"Sound"
 ],
 "breakdown": {
 "auditory": 9.0
@@ -3720,8 +3681,8 @@
 "cochlea",
 "hearing",
 "Cochlea",
-"sounds",
-"speech"
+"speech",
+"sounds"
 ],
 "breakdown": {
 "auditory": 9.0
@@ -3757,8 +3718,8 @@
 "auditory",
 "Hearing",
 "cochlea",
-"mouse",
-"human"
+"human",
+"mouse"
 ],
 "breakdown": {
 "auditory": 9.0
@@ -3829,8 +3790,8 @@
 "pure-tone",
 "Hearing",
 "hearing",
-"Speech",
-"speech"
+"speech",
+"Speech"
 ],
 "breakdown": {
 "auditory": 9.0
@@ -3869,8 +3830,8 @@
 "listeners",
 "acoustic",
 "hearing",
-"sounds",
 "humans",
+"sounds",
 "sound"
 ],
 "breakdown": {
@@ -3907,11 +3868,11 @@
 "Guinea Pigs",
 "acoustic",
 "Hearing",
-"cochlea",
 "hearing",
+"cochlea",
 "Cochlea",
-"humans",
 "speech",
+"humans",
 "sound"
 ],
 "breakdown": {
@@ -3983,13 +3944,13 @@
 "Participants",
 "pure tones",
 "Listeners",
-"Auditory",
 "acoustic",
+"Auditory",
 "auditory",
 "sounds",
 "timbre",
-"sound",
-"pitch"
+"pitch",
+"sound"
 ],
 "breakdown": {
 "auditory": 9.0
@@ -4060,6 +4021,157 @@
 "auditory",
 "speech",
 "sounds"
+],
+"breakdown": {
+"auditory": 9.0
+}
+},
+"doi:10.1523/jneurosci.2345-25.2026": {
+"id": "doi:10.1523/jneurosci.2345-25.2026",
+"doi": "10.1523/jneurosci.2345-25.2026",
+"pmid": "43025995",
+"title": "Arousal state fluctuations destabilize speech intelligibility in older adults.",
+"authors": "Smith SS, Sugai JA, Polley DB.",
+"abstract": "Understanding speech in noisy, multi-talker environments is fundamental for social communication but becomes increasingly challenging as we age. Age-related hearing loss reduces audibility and degrades speech encoding, yet these deficits do not fully explain the momentary lapses in speech understanding that frustrate real-time communication. Here, we tested whether brain state fluctuations immediately before speech onset predict forthcoming speech recognition errors in older listeners. We measured the accuracy, speed, and consistency of speech recognition in 183 adults aged 18-76 years (103 female) using a brief, trial-based multi-talker listening task while tracking pupil dynamics before and during speech presentation. Prestimulus pupil-linked arousal predicted trial-level speech recognition in older, but not younger, adults, independent of hearing status, cognitive load, and task accuracy. In adults over 50 years of age, lower and higher extremes of prestimulus pupil size were associated with less accurate and slower responses, producing a striking inverted-U relationship between prestimulus arousal and forthcoming behavioral performance. Older adults exhibited lower extremes of pupil-linked arousal that were specifically associated with greater self-reported difficulty listening in everyday life. By contrast, stimulus-evoked pupil dilation during speech encoding, a measure of listening effort, did not predict trial-level performance at any age. These findings identify prestimulus pupil-linked arousal as a hidden marker of forthcoming lapses in speech intelligibility in older adults. When considered alongside conventional measures of peripheral hearing status in mixed-effects regression models, these measures provide a more complete accounting of biological changes underlying speech intelligibility deficits that frustrate social communication in older adults.Significance statement As we age, following a conversation in crowded environments becomes more difficult and frustrating, even when hearing tests appear normal. This study shows that fluctuations in arousal level (measured through prestimulus pupil size) are tightly linked to fluctuations in the speed and accuracy of speech processing in adults over 50 years of age. Changes in arousal state regulation uniquely accounted for the moment-to-moment variations in speech intelligibility and were more closely associated with self-reported listening challenges than other conventional measures. These findings highlight the contribution of brain-wide arousal systems to real-world listening challenges and identify a straightforward measure that could be used to more comprehensively assess and potentially improve speech understanding in social settings.",
+"date": "2026-11-13",
+"source": "Journal of Neuroscience",
+"journal_names": [
+"The Journal of neuroscience : the official journal of the Society for Neuroscience",
+"J Neurosci",
+"J Neurosci"
+],
+"kind": "journal",
+"url": "https://doi.org/10.1523/jneurosci.2345-25.2026",
+"institution": "",
+"published_doi": null,
+"pubtype": "",
+"first_seen": "2026-11-14",
+"jgroup": "systems",
+"score": 11.25,
+"topics": [
+"auditory"
+],
+"species": [
+"human"
+],
+"methods": [],
+"hits": [
+"listening",
+"listeners",
+"hearing",
+"speech"
+],
+"breakdown": {
+"auditory": 9.0
+}
+},
+"doi:10.64898/2026.11.12.26367860": {
+"id": "doi:10.64898/2026.11.12.26367860",
+"doi": "10.64898/2026.11.12.26367860",
+"pmid": null,
+"title": "Prevalence of Self-Reported Auditory Dysfunction Among Call Center Employees and Its Association with Shift Work Across Various Call Centers in Cairo, Egypt, March 2026",
+"authors": "HAKIMHUSSIEN MH, abdel kareem a, halim a.",
+"abstract": "Abstract Background The rapid, unregulated expansion of the call center industry in developing countries has increased occupational health risks for young adults, particularly with regard to auditory health. Prolonged exposure to acoustic trauma, long working hours, and the high intensity nature of call center work can negatively affect young adults at the start of their working lives and may contribute to permanent noise induced hearing loss (NIHL). This damage is often irreversible but preventable if identified at an early stage. This study aims to evaluate the burden of auditory impairment among call center employees in Egypt and to propose evidence based mitigation strategies. Methods A pilot cross sectional study was conducted among employees of various medical call centers over approximately three months (January to March 2026). Participants were recruited through voluntary (self selected) sampling. Data were collected using a structured questionnaire on work history, and statistical analysis was performed to examine associations with work duration and intensity. Three semi structured, open ended interviews were conducted in March 2026 to explore the symptoms in greater depth. Results Forty six call center employees completed the questionnaire. The most frequently reported symptoms were mishearing words (82.6%), difficulty understanding speech in background noise (80.4%), needing others to repeat themselves (78.3%), and sensitivity to loud sounds (78.3%); 60.9% reported tinnitus. Higher auditory symptom severity was associated with a history of acoustic shock (Mann Whitney U = 344.0, p = .004) and with greater cognitive symptom burden (Spearman's ρ = .416, p = .004), but not significantly with shift type (p = .177), years of work (p = .885), or daily and weekly working hours. Qualitative interviews described auditory strain that builds through the shift, disrupted sleep, informal coping, and the absence of employer guidance or symptom reporting pathways. Conclusion and Recommendations Self reported auditory symptoms were common in this preliminary sample of call center employees and were associated with acoustic shock exposure and cognitive symptom burden, but not significantly with shift pattern or length of service. Because the study was cross sectional, relied on self reports, and used a small volunteer sample (pilot study), the findings cannot establish causation or true prevalence. Recommended measures include acoustic shock limiters with incident reporting, audiometric screening that prioritizes at risk employees, safe volume education with regular breaks, and educational programs on auditory hazards and early warning signs to prevent actual auditory damage. Larger multi site studies with audiometric confirmation are also needed. Keywords: noise induced hearing loss; call center employees; occupational health; auditory dysfunction; tinnitus; acoustic shock; shift work; Egypt",
+"date": "2026-11-13",
+"source": "medRxiv",
+"journal_names": [],
+"kind": "preprint",
+"url": "https://doi.org/10.64898/2026.11.12.26367860",
+"institution": "",
+"published_doi": null,
+"pubtype": "",
+"first_seen": "2026-11-14",
+"jgroup": null,
+"score": 11.25,
+"topics": [
+"auditory"
+],
+"species": [
+"human"
+],
+"methods": [],
+"hits": [
+"Participants",
+"acoustic",
+"Auditory",
+"auditory",
+"hearing",
+"speech",
+"sounds"
+],
+"breakdown": {
+"auditory": 9.0
+}
+},
+"doi:10.31234/osf.io/zsxhy_v1": {
+"id": "doi:10.31234/osf.io/zsxhy_v1",
+"doi": "10.31234/osf.io/zsxhy_v1",
+"pmid": null,
+"title": "Acoustic and visual cues to lexical stress interact with semantic predictions in Spanish lexical stress perception",
+"authors": "Cos F, Maran M, Bosker HR, Janse E, van Maastricht L.",
+"abstract": "Next to acoustic cues, lexical stress can be communicated visually through the timing of beat gestures. This study investigated for the first time how auditory and visual lexical stress cues are weighted in meaningful sentences. Minimal stress pairs of Spanish verb forms (clasiFIco, “I classify” vs. clasifiCÓ, “(s)he classified”) were embedded in sentence contexts that biased towards either member of the pair. Stress was manipulated acoustically along a continuum, and visually by aligning a beat gesture to the penultimate or last syllable. Native listeners selected the pronoun (yo “I” or ella “she”) they felt fit best with the sentence. Listeners were sensitive to acoustic cues, as indicated by both responses and response times. While gesture alignment did not significantly affect pronoun selection, response times were shorter when the gesture matched the semantic context bias. This study thus shows that in full sentences, congruent (vs. incongruent) gestural timing affects word recognition.",
+"date": "2026-11-13",
+"source": "PsyArXiv",
+"journal_names": [],
+"kind": "preprint",
+"url": "https://doi.org/10.31234/osf.io/zsxhy_v1",
+"institution": "",
+"published_doi": null,
+"pubtype": "",
+"first_seen": "2026-11-14",
+"jgroup": null,
+"score": 11.25,
+"topics": [
+"auditory"
+],
+"species": [
+"human"
+],
+"methods": [],
+"hits": [
+"Listeners",
+"listeners",
+"acoustic",
+"Acoustic",
+"auditory",
+"syllabl"
+],
+"breakdown": {
+"auditory": 9.0
+}
+},
+"doi:10.64898/2026.11.11.765909": {
+"id": "doi:10.64898/2026.11.11.765909",
+"doi": "10.64898/2026.11.11.765909",
+"pmid": null,
+"title": "Overlap of competing voices may mask attentional effects on speech-like distortion product otoacoustic emissions",
+"authors": "Steinebach J, Reichenbach T.",
+"abstract": "Whether selective auditory attention modulates the cochlear amplifier through the medial olivocochlear system remains debated. Using speech-like distortion-product otoacoustic emissions (DPOAEs), elicited by waveforms that follow the harmonics of natural speech, we previously found that selectively attending one of two competing talkers reduced the emissions related to the resolved harmonics of the female voice. Here, we attempted to reproduce this effect in a design that separated different frequency regimes and harmonic resolvability. Forty-four participants attended one of two competing talkers, a female and a male voice, presented to one ear, while speech-like DPOAEs related to both voices were recorded from the other ear. Stimuli were derived from resolved and unresolved harmonics in a low-frequency (up to 1.5 kHz) and a transitional (1.5 to 4 kHz) regime, which required pitch-shifting both voices so that their fundamental frequencies were much closer to each other than in the original study. Speech-like DPOAEs emerged for most stimulus types, although they were weak for some and absent for one. Their amplitude, however, did not depend on attention for any stimulus type. Further time-domain metrics showed only isolated attentional effects of opposite direction for two stimulus types, and a frequency-domain metric showed none. A cochlear excitation model suggests that, due to the closely spaced fundamental frequencies of the two voices, the emissions most comparable to the original study presumably arose at cochlear locations shared by both voices, where attention would modulate both voices alike.",
+"date": "2026-11-13",
+"source": "bioRxiv",
+"journal_names": [],
+"kind": "preprint",
+"url": "https://doi.org/10.64898/2026.11.11.765909",
+"institution": "",
+"published_doi": null,
+"pubtype": "",
+"first_seen": "2026-11-14",
+"jgroup": null,
+"score": 11.25,
+"topics": [
+"auditory"
+],
+"species": [
+"human"
+],
+"methods": [],
+"hits": [
+"participants",
+"auditory",
+"cochlea",
+"speech",
+"Speech",
+"pitch"
 ],
 "breakdown": {
 "auditory": 9.0
@@ -4210,8 +4322,8 @@
 "hits": [
 "recollection",
 "auditory",
-"memory",
-"sounds"
+"sounds",
+"memory"
 ],
 "breakdown": {
 "auditory": 7.5,
@@ -4291,8 +4403,8 @@
 ],
 "hits": [
 "computational model",
-"Sensory Prediction",
 "Sensory prediction",
+"Sensory Prediction",
 "prediction errors",
 "Prediction Errors",
 "humans"
@@ -4330,52 +4442,12 @@
 ],
 "hits": [
 "listening",
-"auditory",
 "children",
+"auditory",
 "MEG"
 ],
 "breakdown": {
 "auditory": 7.5
-}
-},
-"doi:10.64898/2026.10.08.757704": {
-"id": "doi:10.64898/2026.10.08.757704",
-"doi": "10.64898/2026.10.08.757704",
-"pmid": null,
-"title": "Sequential Sampling as a Computational Principle of Episodic Memory",
-"authors": "Kerrén C, Dixit S, Coxon E, Nikolaev AR, Doeller CF.",
-"abstract": "Visual perception unfolds through sequential eye movements, yet computational models of episodic memory typically assume that event representations already exist. Here, we propose that sequential gaze sampling does not simply supply memory with visual information, but contributes to the construction and organisation of episodic representations. We introduce a computational model in which successive fixations are integrated into an evolving internal representation, subsequently stored in associative memory and later retrieved through partial reinstatement of the original sampling trajectory. Within to-be-remembered elements, successive samples support progressive individuation; between elements, more frequent transitions strengthen relational binding. As sampling proceeds, internal representations become progressively lower-dimensional while retaining information about where samples were taken and when they occurred in the sequence. Sampling history also remains embedded in the resulting representation: changing the order of otherwise identical samples alters both the representation itself and element-specific retrieval. At retrieval, reinstating more of the original sampling trajectory improves access to specific elements, while competition is strongest when memories share both semantic category and sampling history. Finally, an exploratory generative readout shows that regions sampled during encoding are reconstructed more faithfully than unsampled regions. Together, these findings suggest that sequential sampling provides a candidate computational process through which episodic representations are constructed, shaping their subsequent storage and retrieval.",
-"date": "2026-10-14",
-"source": "bioRxiv",
-"journal_names": [],
-"kind": "preprint",
-"url": "https://doi.org/10.64898/2026.10.08.757704",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-14",
-"jgroup": null,
-"score": 10.5,
-"topics": [
-"memory",
-"sequences"
-],
-"species": [],
-"methods": [
-"modelling"
-],
-"hits": [
-"computational model",
-"sequential",
-"Sequential",
-"memories",
-"sequence",
-"Memory",
-"memory"
-],
-"breakdown": {
-"memory": 3.5,
-"sequences": 6.5
 }
 },
 "doi:10.64898/2026.10.18.759880": {
@@ -4448,8 +4520,8 @@
 "fmri"
 ],
 "hits": [
-"Prediction Error",
 "prediction error",
+"Prediction Error",
 "participants",
 "fMRI"
 ],
@@ -4601,8 +4673,8 @@
 "methods": [],
 "hits": [
 "inferior colliculus",
-"Auditory",
 "auditory",
+"Auditory",
 "cochlea",
 "mice"
 ],
@@ -4642,8 +4714,8 @@
 "hits": [
 "inferior colliculus",
 "auditory",
-"cochlea",
 "tonotop",
+"cochlea",
 "sounds",
 "sound",
 "mice"
@@ -4721,8 +4793,8 @@
 ],
 "methods": [],
 "hits": [
-"inferior colliculus",
 "Inferior Colliculus",
+"inferior colliculus",
 "auditory",
 "cochlea",
 "mouse"
@@ -4797,8 +4869,8 @@
 "methods": [],
 "hits": [
 "auditory",
-"cochlea",
 "tonotop",
+"cochlea",
 "hearing",
 "Cochlea",
 "mice"
@@ -4831,14 +4903,47 @@
 ],
 "methods": [],
 "hits": [
-"cochlea",
 "rhythms",
+"cochlea",
 "Cochlea",
 "rhythm",
 "mouse"
 ],
 "breakdown": {
 "auditory": 9.0
+}
+},
+"doi:10.64898/2026.11.11.765978": {
+"id": "doi:10.64898/2026.11.11.765978",
+"doi": "10.64898/2026.11.11.765978",
+"pmid": null,
+"title": "Dopamine reward prediction error signal encodes effort cost as negative reward value",
+"authors": "Burrell M, Pastor-Bernier A, Schultz W.",
+"abstract": "All life must balance the economic problem of allocating scarce energy resources to maximize reward. Economic theory proposes that rational (reward-maximizing) decision makers balance the possible benefits from rewards against the cost of efforts for obtaining the rewards. Here we measured how the reward prediction error signal of monkey dopamine neurons reflects the negative value of effort cost (joystick resistance) and compared it with the dopamine signal for the positive value of reward. The animals repeatedly made binary choices between options varying in reward amount and effort to obtain the reward. Midbrain dopamine neurons signaled the negative value of effort cost both at effort-predicting stimuli (as reduction of reward-predicting excitation) and at experienced effort (as inhibition with more effort than predicted and as excitation with less effort). These effort signals contrasted with the opposite signal reflecting the positive value of reward relative to prediction (reward prediction error; RPE). Thus, dopamine neurons code effort cost as negative value opposite to the positive value of reward. In occurring with both stimuli and outcomes, this dopamine signal complies with the formalism of temporal difference reinforcement learning.",
+"date": "2026-11-13",
+"source": "bioRxiv",
+"journal_names": [],
+"kind": "preprint",
+"url": "https://doi.org/10.64898/2026.11.11.765978",
+"institution": "",
+"published_doi": null,
+"pubtype": "",
+"first_seen": "2026-11-14",
+"jgroup": null,
+"score": 10.24,
+"topics": [
+"predictive_coding"
+],
+"species": [
+"other_nhp"
+],
+"methods": [],
+"hits": [
+"prediction error",
+"monkey"
+],
+"breakdown": {
+"predictive_coding": 6.4
 }
 },
 "doi:10.1016/j.celrep.2026.118192": {
@@ -4871,8 +4976,8 @@
 "species": [],
 "methods": [],
 "hits": [
-"optogenetic",
 "Optogenetic",
+"optogenetic",
 "sequential",
 "sequences",
 "memory"
@@ -4883,61 +4988,21 @@
 "sequences": 2.6
 }
 },
-"doi:10.64898/2026.10.08.757608": {
-"id": "doi:10.64898/2026.10.08.757608",
-"doi": "10.64898/2026.10.08.757608",
-"title": "Human Hippocampal Theta-Gamma Phase-Amplitude Coupling Signals the Distance to Remembered Goals",
-"authors": "Huang, Z.; Goumas, P.; Bisby, J. A.; Rodionov, R.; Diehl, B.; McEvoy, A. W.; Walker, M. C.; Vivekananda, U.; Burgess, N.; Bush, D.",
-"abstract": "In mammals, flexible navigation is believed to rely on a cognitive map of known locations supported by the hippocampus and surrounding medial temporal lobe structures. Hippocampal place cells typically exhibit spatial firing fields within a given environment. Moreover, their firing is modulated by the movement-related theta rhythm such that \"theta sweeps\" of place cell activity encode the trajectory towards a hidden reward location during goal-directed navigation. Here, we attempted to detect signatures of theta sweeps in the human hippocampal local field potential (LFP) recorded with intracranial EEG. Specifically, we hypothesised that sequences of locations along a planned trajectory encoded by distinct cell assemblies are associated with gamma activity at successive theta phases. To test this hypothesis, we asked N=9 patients with epilepsy to perform a spatial navigation task in desktop virtual reality while we recorded LFP signals from depth electrode contacts implanted across the medial temporal lobe. Consistent with our predictions, we found an increase in hippocampal theta-gamma phase-amplitude coupling, a decrease in gamma power, and theta phase precession of gamma activity as hidden goal locations were approached and the sequence of locations remaining to be traversed became shorter. This suggests that goal-directed hippocampal theta sweeps during navigation are reflected in LFP theta-gamma phase-amplitude coupling, and that these neural mechanisms of model-based planning are conserved across species.",
-"date": "2026-10-14",
-"source": "bioRxiv",
-"kind": "preprint",
-"url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757608v1",
-"institution": "UCL Department of Neuroscience, Physiology, and Pharmacology",
-"published_doi": null,
-"pubtype": "new results",
-"first_seen": "2026-10-14",
-"jgroup": null,
-"score": 10.12,
-"topics": [
-"auditory",
-"sequences"
-],
-"species": [
-"human"
-],
-"methods": [
-"lfp",
-"intracranial",
-"eeg_meg"
-],
-"hits": [
-"local field potential",
-"intracranial",
-"sequences",
-"sequence",
-"rhythm",
-"Human",
-"EEG"
-],
-"breakdown": {
-"auditory": 1.5,
-"sequences": 2.6
-}
-},
 "doi:10.64898/2026.11.11.765895": {
 "id": "doi:10.64898/2026.11.11.765895",
 "doi": "10.64898/2026.11.11.765895",
+"pmid": null,
 "title": "A cortically gated sensory reference to the basal ganglia guides vocal reinforcement learning in songbirds",
-"authors": "Agarwal, A.; Scharff, C.; Vallentin, D.",
+"authors": "Agarwal A, Scharff C, Vallentin D.",
 "abstract": "Songbirds learn to sing by copying a memorized tutor song. Reinforcement learning models of vocal imitation propose that a dopaminergic signal strengthens the cortico basal ganglia synapses whose activity coincides with similarity to the tutor like song. To do so, the circuit must access a representation of the tutor song. Whether such a reference is available within the songbird basal ganglia nucleus Area X, and how it arrives, is unknown. In juvenile male zebra finches that learn to imitate adult courtship songs, we found that lesions of Area X impaired imitation more severely the earlier they were made. Intracellular recordings from Area X in awake juvenile zebra finches showed that the tutor song evokes precise subthreshold depolarizations that inversely scaled with imitation proficiency throughout song learning. Silencing the upstream nucleus HVC reduced these tutor-evoked responses, whereas disinhibiting HVC enhanced them. An inhibitory gate in HVC thus supplies Area X with the temporally aligned tutor reference that reinforcement driven vocal learning requires. These findings uncover a critical missing link in biological reinforcement learning, revealing how the brain structurally routes sensory templates to the basal ganglia to guide the acquisition of complex motor skills.",
 "date": "2026-11-13",
 "source": "bioRxiv",
+"journal_names": [],
 "kind": "preprint",
-"url": "https://www.biorxiv.org/content/10.64898/2026.11.11.765895v1",
-"institution": "Max Planck Institute for Ornithology",
+"url": "https://doi.org/10.64898/2026.11.11.765895",
+"institution": "",
 "published_doi": null,
-"pubtype": "new results",
+"pubtype": "",
 "first_seen": "2026-11-13",
 "jgroup": null,
 "score": 10.1,
@@ -5070,50 +5135,6 @@
 "memory": 0.7
 }
 },
-"doi:10.1016/j.celrep.2026.118123": {
-"id": "doi:10.1016/j.celrep.2026.118123",
-"doi": "10.1016/j.celrep.2026.118123",
-"pmid": "42879276",
-"title": "Inhibiting the right dorsolateral prefrontal cortex selectively enhances unsupervised statistical learning.",
-"authors": "Pesthy O, Pesthy ZV, Vékony T, Janacsek K, Fabó D, Nemeth D.",
-"abstract": "The brain must balance the automatic extraction of regularities with top-down cognitive control, yet the hemispheric contributions of the dorsolateral prefrontal cortex (DLPFC) remain unresolved. Here, we applied inhibitory repetitive transcranial magnetic stimulation to the left, right, or bilateral DLPFC in 95 adults during a probabilistic sequence learning task. We found that inhibiting the right and bilateral DLPFC enhanced statistical learning compared to sham stimulation. Contrary to the hypothesis that interference from existing knowledge would mediate this effect, episodic memory performance was unaffected. As an alternative, we propose that right DLPFC inhibition shifts cognitive processing toward an exploratory information-sampling strategy, supported by our finding of greater reaction time variability in the right and bilateral stimulation groups. Our results provide causal evidence for a right-lateralized suppressive influence of the DLPFC on unsupervised learning and suggest that its role is linked to information-processing style rather than direct competition with episodic memory systems.",
-"date": "2026-10-14",
-"source": "Cell Reports",
-"journal_names": [
-"Cell reports",
-"Cell Rep",
-"Cell Rep"
-],
-"kind": "journal",
-"url": "https://doi.org/10.1016/j.celrep.2026.118123",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-20",
-"jgroup": "flagship",
-"score": 9.62,
-"topics": [
-"memory",
-"sequences"
-],
-"species": [
-"human"
-],
-"methods": [
-"perturbation"
-],
-"hits": [
-"transcranial magnetic",
-"statistical learning",
-"sequence",
-"memory",
-"adults"
-],
-"breakdown": {
-"memory": 0.7,
-"sequences": 6.5
-}
-},
 "doi:10.1523/eneuro.0341-26.2026": {
 "id": "doi:10.1523/eneuro.0341-26.2026",
 "doi": "10.1523/eneuro.0341-26.2026",
@@ -5160,6 +5181,45 @@
 "breakdown": {
 "auditory": 1.5,
 "chemogenetics": 4.2
+}
+},
+"doi:10.31234/osf.io/xf97u_v1": {
+"id": "doi:10.31234/osf.io/xf97u_v1",
+"doi": "10.31234/osf.io/xf97u_v1",
+"pmid": null,
+"title": "The influence of attention on visual statistical learning and vice versa: Insights from frequency-based grouping as revealed by EEG frequency tagging",
+"authors": "Greatti E, Crepaldi D.",
+"abstract": "The human brain readily captures regularities in the environment. It is not clear, however, whether and how this skill—statistical learning—interacts with attention. We addressed this issue by leveraging neural entrainment, the synchronization of brain activity with statistical structure. In Study 1, we asked whether sensitivity to a frequency-based regularity, created by embedding low-frequency items among higher-frequency items, competes for attentional resources with a concurrent task. Participants viewed structured or random visual streams while performing a 3-back color matching task. Neural entrainment emerged only for structured streams, demonstrating sensitivity to the frequency structure. Improvement in the concurrent task, indexed by decreasing response times, unfolded more slowly when structure was present, suggesting that detecting statistical regularities drew attention away from the 3-back color matching task. In Study 2, we tested the reverse connection—whether taxing attention with a more difficult task impairs the neural tracking of statistical structure. We compared entrainment during an easier color-change detection task and a more difficult 3-back color matching task. We observed no detectable effect of attentional load on neural entrainment. These findings reveal an asymmetric relationship between attention and frequency-based statistical learning: detecting structure imposes a modest attentional cost on a concurrent behavioral task, whereas the online neural tracking of regularities appears to be unaffected by increased attentional demands.",
+"date": "2026-11-13",
+"source": "PsyArXiv",
+"journal_names": [],
+"kind": "preprint",
+"url": "https://doi.org/10.31234/osf.io/xf97u_v1",
+"institution": "",
+"published_doi": null,
+"pubtype": "",
+"first_seen": "2026-11-14",
+"jgroup": null,
+"score": 9.62,
+"topics": [
+"auditory",
+"sequences"
+],
+"species": [
+"human"
+],
+"methods": [
+"eeg_meg"
+],
+"hits": [
+"statistical learning",
+"neural tracking",
+"human",
+"EEG"
+],
+"breakdown": {
+"auditory": 1.5,
+"sequences": 5.2
 }
 },
 "doi:10.64898/2026.10.15.758668": {
@@ -5219,8 +5279,8 @@
 "species": [],
 "methods": [],
 "hits": [
-"prediction errors",
 "Predictive Coding",
+"prediction errors",
 "predictive coding",
 "precision-weight"
 ],
@@ -5234,7 +5294,7 @@
 "pmid": null,
 "title": "Disentanglement of persistent and dynamic neural substrates of working memory",
 "authors": "Abbasi A, Nanda A, Dang W, Singh B, Wang Z, Constantinidis C, Rubinov M.",
-"abstract": "Competing theories of working memory have alternatively emphasized the importance of persistent and dynamic substrates of this cognitive function. Here, we directly tested these theories by computationally isolating the contributions of persistent and dynamic activity to working memory. We analyzed neuronal population activity recordings in macaques doing match/non-match working memory tasks. We first extracted signatures of persistent and dynamic activity through cue-specific temporal means, temporal principal components, and correlations of activity patterns across task epochs. We then generated synthetic data constrained by these signatures, and decoded cue stimuli from these data, separately from persistent and non-persistent neurons. We found that high decoding performance arose from a nuanced interplay of persistent and dynamic activity. Specifically, we could decode stimuli at empirical or above-chance levels across all tasks only from persistent neurons, but only after constraining correlations of activity patterns across epochs. In this way, we showed distinct roles for persistent and dynamic neuronal activity that help to unify two competing theories of working memory. More broadly, we also advanced computational controlled experiments as a principled framework for adjudicating between competing models of neuronal population activity.",
+"abstract": "Competing theories of working memory have alternatively emphasized the importance of persistent and dynamic substrates of this cognitive function. Here, we directly tested these theories by computationally isolating the contributions of persistent and dynamic activity to working memory. We analyzed neuronal population activity recordings in macaques doing match/non-match working memory tasks. We first extracted signatures of persistent and dynamic activity through cue-specific temporal means, temporal principal components, and correlations of activity patterns across task epochs. We then generated synthetic data constrained by these signatures, and decoded cue stimuli from these data, separately from persistent and non-persistent neurons. We found that high decoding performance arose from a nuanced interplay of persistent and dynamic activity. Specifically, we could decode stimuli at empirical or above-chance levels across all tasks only from persistent neurons, but only after constraining correlations of activity patterns across epochs. In this way, we showed distinct roles for persistent and dynamic neuronal activity that help to unify two competing theories of working memory. More broadly, we also advanced computational controlled experiments as a principled frame work for adjudicating between competing models of neuronal population activity.",
 "date": "2026-11-09",
 "source": "bioRxiv",
 "journal_names": [],
@@ -5371,10 +5431,10 @@
 "methods": [],
 "hits": [
 "participants",
-"Listening",
 "listening",
-"Sound",
-"sound"
+"Listening",
+"sound",
+"Sound"
 ],
 "breakdown": {
 "auditory": 7.5
@@ -5595,10 +5655,10 @@
 "methods": [],
 "hits": [
 "participants",
-"Auditory",
 "auditory",
-"Sound",
-"sound"
+"Auditory",
+"sound",
+"Sound"
 ],
 "breakdown": {
 "auditory": 7.5
@@ -5673,8 +5733,8 @@
 "single_unit"
 ],
 "hits": [
-"Neuropixels",
 "optogenetic",
+"Neuropixels",
 "sequence",
 "mice"
 ],
@@ -5716,9 +5776,9 @@
 "computational model",
 "serial order",
 "sequence",
+"rhythm",
 "Memory",
 "memory",
-"rhythm",
 "human"
 ],
 "breakdown": {
@@ -5863,8 +5923,8 @@
 "species": [],
 "methods": [],
 "hits": [
-"auditory",
 "acoustic",
+"auditory",
 "sounds",
 "sound"
 ],
@@ -5900,8 +5960,8 @@
 "species": [],
 "methods": [],
 "hits": [
-"audition",
 "auditory",
+"audition",
 "Hearing",
 "sound"
 ],
@@ -6019,11 +6079,11 @@
 "methods": [],
 "hits": [
 "tone sequences",
-"sequences",
 "listeners",
+"sequences",
 "sequence",
-"tones",
-"pitch"
+"pitch",
+"tones"
 ],
 "breakdown": {
 "auditory": 4.5,
@@ -6130,8 +6190,8 @@
 "consolidation",
 "inactivation",
 "Drosophila",
-"Rhythms",
 "rhythms",
+"Rhythms",
 "rhythm"
 ],
 "breakdown": {
@@ -6170,8 +6230,8 @@
 ],
 "methods": [],
 "hits": [
-"optogenetic",
 "Optogenetic",
+"optogenetic",
 "rhythmic",
 "ChR2",
 "mice"
@@ -6438,6 +6498,46 @@
 "auditory": 7.5
 }
 },
+"doi:10.64898/2026.11.11.765952": {
+"id": "doi:10.64898/2026.11.11.765952",
+"doi": "10.64898/2026.11.11.765952",
+"pmid": null,
+"title": "Direction of oscillatory networks in the human medial temporal lobe reverses across verbal working memory phases",
+"authors": "Choi D, Han H.",
+"abstract": "Working memory (WM) requires neural circuits to change how they interact as information is encoded, maintained and used. Directional oscillatory interactions in the medial temporal lobe (MTL) contribute to memory processing, but how these interactions are spatially organized during verbal WM remains unclear. Here, we analyzed intracranial electroencephalogram and neuronal spiking recorded from the human MTL during a verbal Sternberg task. Theta- and gamma-band activities in MTL showed predominant directionality in the posterior-to-anterior axis during WM encoding, but this direction was reversed to anterior-to-posterior during retrieval. Theta activities reflecting the WM load were more prevalent in left than right MTL, and theta in left MTL coordinated spike timings more strongly. Moreover, interhemispheric interactions showed a predominant left-to-right influence, with posterior-to-anterior interactions enhanced during encoding and anterior-to-posterior interactions enhanced during retrieval. Together, these findings suggest that verbal WM engages a spatially organized MTL network in which the predominant direction of oscillatory interactions changes across task phases.",
+"date": "2026-11-13",
+"source": "bioRxiv",
+"journal_names": [],
+"kind": "preprint",
+"url": "https://doi.org/10.64898/2026.11.11.765952",
+"institution": "",
+"published_doi": null,
+"pubtype": "",
+"first_seen": "2026-11-14",
+"jgroup": null,
+"score": 8.5,
+"topics": [
+"memory"
+],
+"species": [
+"human"
+],
+"methods": [
+"single_unit",
+"intracranial",
+"eeg_meg"
+],
+"hits": [
+"electroencephalogra",
+"intracranial",
+"spiking",
+"memory",
+"human"
+],
+"breakdown": {
+"memory": 2.8
+}
+},
 "doi:10.1016/j.bandc.2026.106489": {
 "id": "doi:10.1016/j.bandc.2026.106489",
 "doi": "10.1016/j.bandc.2026.106489",
@@ -6474,57 +6574,15 @@
 "consolidation",
 "participants",
 "mnemonic",
+"recall",
 "Memory",
 "memory",
-"recall",
 "tones",
 "EEG"
 ],
 "breakdown": {
 "auditory": 1.5,
 "memory": 4.2
-}
-},
-"doi:10.1523/jneurosci.1313-25.2026": {
-"id": "doi:10.1523/jneurosci.1313-25.2026",
-"doi": "10.1523/jneurosci.1313-25.2026",
-"pmid": "42680591",
-"title": "Midbrain Glutamatergic Neurons Modulate the Acoustic Startle Reflex and Prepulse Inhibition in Mice.",
-"authors": "Martinetti LE, Correll E, Cuadra AE, Castellano G, Fénelon K.",
-"abstract": "Prepulse inhibition (PPI) of the acoustic startle reflex is a widely used operational measure of sensorimotor gating that is disrupted in several neuropsychiatric disorders. PPI deficits are a hallmark feature of schizophrenia, often associated with attentional and cognitive impairments. Although PPI is extensively used in translational and preclinical research, the cellular and circuit mechanisms underlying this phenomenon remain incompletely understood, even under physiological conditions. Recent evidence suggests that noncholinergic projections from the pedunculopontine tegmental nucleus (PPTg) to the caudal pontine reticular nucleus (PnC) contribute to PPI. Here, we investigated the role of PPTg glutamatergic neurons in acoustic startle and PPI. Tract tracing, immunohistochemical analyses, and in vitro whole-cell recordings in wild-type male and female mice demonstrated that PPTg glutamatergic neurons innervate the PnC and establish excitatory synapses onto PnC neurons. Optogenetic inhibition of PPTg→PnC glutamatergic synapses in vivo increased PPI across interstimulus intervals (ISIs) without altering baseline startle responses. In contrast, optogenetic activation of this pathway did not modify PPI. However, activation of PPTg-PnC glutamatergic projections instead of an acoustic prepulse bidirectionally modulated startle responses in a time-dependent manner, suppressing startle at short ISIs while enhancing startle at longer intervals. Additionally, while PPTg glutamatergic inputs target PnC glycinergic neurons, our in vitro whole-cell recordings combined with optogenetic stimulation at PPTg→PnC synapses revealed that PPTg glutamatergic inputs also activate PnC glutamatergic giant neurons. Together, our findings identify a novel temporally dependent excitatory mechanism within the brainstem startle circuit, through which PPTg glutamatergic neurons modulate sensorimotor gating.",
-"date": "2026-10-14",
-"source": "Journal of Neuroscience",
-"journal_names": [
-"The Journal of neuroscience : the official journal of the Society for Neuroscience",
-"J Neurosci",
-"J Neurosci"
-],
-"kind": "journal",
-"url": "https://doi.org/10.1523/jneurosci.1313-25.2026",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-20",
-"jgroup": "systems",
-"score": 8.28,
-"topics": [
-"auditory",
-"optogenetics"
-],
-"species": [
-"rodent"
-],
-"methods": [],
-"hits": [
-"optogenetic",
-"Optogenetic",
-"Acoustic",
-"acoustic",
-"Mice"
-],
-"breakdown": {
-"auditory": 6.0,
-"optogenetics": 1.2
 }
 },
 "doi:10.64898/2026.10.23.761476": {
@@ -6559,8 +6617,8 @@
 "hits": [
 "predictive processing",
 "computational model",
-"memory",
 "adults",
+"memory",
 "TMS"
 ],
 "breakdown": {
@@ -6602,8 +6660,8 @@
 "hits": [
 "superior temporal gyrus",
 "listening",
-"Auditory",
 "auditory",
+"Auditory",
 "syllabl",
 "speech",
 "human",
@@ -6643,56 +6701,11 @@
 ],
 "hits": [
 "participants",
-"Voxel",
-"Sound"
+"Sound",
+"Voxel"
 ],
 "breakdown": {
 "auditory": 4.5
-}
-},
-"doi:10.1088/1741-2552/aebcb6": {
-"id": "doi:10.1088/1741-2552/aebcb6",
-"doi": "10.1088/1741-2552/aebcb6",
-"pmid": "42970833",
-"title": "A phase-calibrated combined electrical-sensory neuromodulation platform for short-Term frontoparietal network modulation and cognitive fatigue resistance.",
-"authors": "Yan C, Ouyang Y, Zhang S, Jing B, Liu Z, Zhou Q.",
-"abstract": "Non-invasive multimodal neuromodulation is often limited by cross-modal temporal misalignment caused by modality-specific conduction delays. To address this challenge, we developed a microcontroller-based multiphysics stimulation platform integrating transcranial alternating current stimulation (tACS) with visual and auditory rhythmic inputs. A feedforward delaycompensation strategy using individualized ERP latencies (visual P1 and auditory N1) was implemented to reduce intermodal timing discrepancies.The system was evaluated in a randomized, sham-controlled crossover study with 15 participants providing complete EEG datasets. Compared with sensory-only stimulation, the phase-coordinated multiphysics condition increased resting-state frontoparietal theta power and enhanced functional connectivity (wPLI). During a subsequent high-load cognitive task, it was also associated with reduced accumulation of fatigue-related parietal alpha power.Exploratory analysis revealed a moderate association between parietal alpha stability and behavioral performance (r = 0.577, p = 0.024). These findings suggest that temporally coordinated cross-modal stimulation may support more stable large-scale neural dynamics and improved cognitive performance under sustained load, providing a technical framework for precision multimodal neuromodulation.",
-"date": "2026-11-02",
-"source": "Journal of Neural Engineering",
-"journal_names": [
-"Journal of neural engineering",
-"J Neural Eng",
-"J Neural Eng"
-],
-"kind": "journal",
-"url": "https://doi.org/10.1088/1741-2552/aebcb6",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-11-04",
-"jgroup": "computational",
-"score": 8.12,
-"topics": [
-"auditory"
-],
-"species": [
-"human"
-],
-"methods": [
-"fmri",
-"eeg_meg",
-"perturbation"
-],
-"hits": [
-"resting-state",
-"participants",
-"rhythmic",
-"auditory",
-"tACS",
-"EEG"
-],
-"breakdown": {
-"auditory": 3.0
 }
 },
 "doi:10.7554/elife.108972": {
@@ -6728,8 +6741,8 @@
 "intracranial"
 ],
 "hits": [
-"recollection",
 "intracranial",
+"recollection",
 "rhythmic",
 "memory",
 "human"
@@ -6878,8 +6891,8 @@
 "species": [],
 "methods": [],
 "hits": [
-"prediction errors",
-"Predictive Coding"
+"Predictive Coding",
+"prediction errors"
 ],
 "breakdown": {
 "predictive_coding": 8.0
@@ -6982,10 +6995,10 @@
 "hits": [
 "functional MRI",
 "memories",
-"Memory",
-"memory",
 "recall",
 "Recall",
+"Memory",
+"memory",
 "human"
 ],
 "breakdown": {
@@ -7060,8 +7073,8 @@
 "chemogenetic",
 "optogenetic",
 "human",
-"mice",
-"PSAM"
+"PSAM",
+"mice"
 ],
 "breakdown": {
 "optogenetics": 1.2,
@@ -7128,8 +7141,8 @@
 "methods": [],
 "hits": [
 "auditory",
-"speech",
-"Speech"
+"Speech",
+"speech"
 ],
 "breakdown": {
 "auditory": 7.5
@@ -7195,8 +7208,8 @@
 "methods": [],
 "hits": [
 "Children",
-"speech",
-"Speech"
+"Speech",
+"speech"
 ],
 "breakdown": {
 "auditory": 6.0
@@ -7231,8 +7244,8 @@
 "methods": [],
 "hits": [
 "sounds",
-"sound",
-"Sound"
+"Sound",
+"sound"
 ],
 "breakdown": {
 "auditory": 7.5
@@ -7378,6 +7391,76 @@
 "auditory": 6.0
 }
 },
+"doi:10.64898/2026.11.11.765965": {
+"id": "doi:10.64898/2026.11.11.765965",
+"doi": "10.64898/2026.11.11.765965",
+"title": "Neural and Experiential Dynamics of High-Ventilation Breathwork Mirror Psychedelic States",
+"authors": "Porter, L. K.; Kaya, E.; Chalise, K.; Klarmann, J.; Goffin, A.; Abd El Hay, M.; Harrter, N.; Rodriguez-de-Santiago, B.; Hindmarsh, J. N.; Jain, N.; Nemri, A.; Breitenstein, B.; Timmermann, C.; Scholvinck, M. L.; Dziobek, I.; Havenith, M. N.",
+"abstract": "High-ventilation breathwork (HVB) is a simple breathing technique that nevertheless frequently triggers experiences resembling psychedelic states. While recent studies have begun to pinpoint physiological and neural changes involved in altered states of consciousness (ASCs) evoked by HVB, the interplay between neural and experiential dynamics throughout an HVB session remains unclear. Here we tracked neural activity (via 64-channel EEG recordings) as well as subjective experience depth and content in 25 experienced HVB practitioners across resting-state recordings interleaved throughout a naturalistic HVB session. We find that neural dynamics evoked by HVB emulate the most robust neural signatures of classical psychedelic states, specifically (1) loosening of temporal structure, including broadband cortical desynchronization, increased signal complexity, and decreased oscillatory power in the Alpha (8 - 13 Hz) range, and (2) reorganization of spatial structure, including a flattening of cortical processing hierarchy. These neural effects directly correlated with participants subjective depth with minute resolution, but were not explained by isolated features of HVB such as music listening or active interoception. Together, these results identify unifying neural features of psychedelic-like ASCs regardless of induction method, demonstrating that cortical states triggered by psychedelics can also be accessed by non-pharmacological routes, and breathwork is a powerful way to do so.",
+"date": "2026-11-13",
+"source": "bioRxiv",
+"kind": "preprint",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.11.765965v1",
+"institution": "Zero-Noise Lab, Ernst Strungmann Institute of the Max Planck Society, Frankfurt a.M., Germany",
+"published_doi": null,
+"pubtype": "new results",
+"first_seen": "2026-11-14",
+"jgroup": null,
+"score": 7.5,
+"topics": [
+"auditory"
+],
+"species": [
+"human"
+],
+"methods": [
+"fmri",
+"eeg_meg"
+],
+"hits": [
+"resting-state",
+"participants",
+"listening",
+"music",
+"EEG"
+],
+"breakdown": {
+"auditory": 3.0
+}
+},
+"doi:10.31234/osf.io/bs2kp": {
+"id": "doi:10.31234/osf.io/bs2kp",
+"doi": "10.31234/osf.io/bs2kp",
+"pmid": null,
+"title": "Characterizing deaf and hard-of-hearing language experiences as arousal-regulation processes",
+"authors": "Kim C, Aichler L, Nicolarakis O, Lacy SH, Sortino R, Pizzie R.",
+"abstract": "Empirical language research with deaf and hard-of-hearing (DHH) groups often includes proficiency, age of acquisition, or language background measures but excludes people’s socioemotional context. Measuring socioemotional context depends on characterizing the socioemotional experiences associated with DHH language development and use. We used the biopsychosocial model of arousal regulation as a theoretical lens to explore 11 qualitative interviews with DHH participants. Using reflexive thematic analysis, we developed three characteristic themes: 1) Deafness is not a monolith, 2) Name it to tame it – Language Anxiety, and 3) Positive roots for resilient shoots. These themes show that DHH language experiences are heterogeneous, that negative experiences can represent language anxiety, and that positive experiences modulate arousal regulation. Our study highlights new socioemotional considerations for language processing research like how emotions influence language use, how motivations support language skills, and how communication strategies impact social interactions within DHH communities.",
+"date": "2026-11-13",
+"source": "PsyArXiv",
+"journal_names": [],
+"kind": "preprint",
+"url": "https://doi.org/10.31234/osf.io/bs2kp",
+"institution": "",
+"published_doi": null,
+"pubtype": "",
+"first_seen": "2026-11-14",
+"jgroup": null,
+"score": 7.5,
+"topics": [
+"auditory"
+],
+"species": [
+"human"
+],
+"methods": [],
+"hits": [
+"participants",
+"hearing"
+],
+"breakdown": {
+"auditory": 6.0
+}
+},
 "doi:10.1523/jneurosci.0690-26.2026": {
 "id": "doi:10.1523/jneurosci.0690-26.2026",
 "doi": "10.1523/jneurosci.0690-26.2026",
@@ -7450,9 +7533,9 @@
 "recurrent neural network",
 "sequentially",
 "sequential",
+"humans",
 "Memory",
-"memory",
-"humans"
+"memory"
 ],
 "breakdown": {
 "memory": 2.8,
@@ -7574,52 +7657,6 @@
 "sequences": 5.2
 }
 },
-"doi:10.1016/j.neuropsychologia.2026.109611": {
-"id": "doi:10.1016/j.neuropsychologia.2026.109611",
-"doi": "10.1016/j.neuropsychologia.2026.109611",
-"pmid": "42874852",
-"title": "Ventral striatal and caudate contributions to episodic retrieval.",
-"authors": "Sommer T, Bierbrauer A, Gamer M, Wagner AD.",
-"abstract": "Striatal activity during episodic memory retrieval is a robust phenomenon observed across various stimulus types and experimental paradigms. Previous research suggests that the ventral striatum and the caudate contribute differentially to retrieval processes: ventral striatal activity is posited to vary with the intrinsic reward of successful retrieval, whereas caudate activity is attributed to effortful cognitive control. The present fMRI study aimed to test the overarching hypothesis that these striatal subregions make distinct contributions to episodic retrieval and to further specify their functional roles. To this end, we employed a word-picture paired-associates learning paradigm in which words served as cues in two consecutive cued-recall tests that were separated by 24 h. Participants indicated the specificity of their associative memories, enabling characterization of striatal response profiles as a function of associative memory specificity and treatment of memory specificity as a proxy for the intrinsic reward associated with retrieval success. Rather than being not readily compatible with a role of the caudate in effortful post-retrieval control, the results suggest that elevated caudate activity during successful recall reflects pre-retrieval control or involuntary orienting to salient mnemonic information. In contrast, rather than reflect intrinsic reward itself, ventral striatal activity varied with the discrepancy between expected and actual intrinsic reward elicited by retrieval outcomes-that is, a metacognitive reward prediction error. Moreover, ventral striatum signaled the relevance of retrieved information and modulated its re-encoding to facilitate future retrievals.",
-"date": "2026-10-14",
-"source": "Neuropsychologia",
-"journal_names": [
-"Neuropsychologia",
-"Neuropsychologia",
-"Neuropsychologia"
-],
-"kind": "journal",
-"url": "https://doi.org/10.1016/j.neuropsychologia.2026.109611",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-20",
-"jgroup": "cognitive",
-"score": 7.12,
-"topics": [
-"predictive_coding",
-"memory"
-],
-"species": [
-"human"
-],
-"methods": [
-"fmri"
-],
-"hits": [
-"prediction error",
-"Participants",
-"mnemonic",
-"memories",
-"memory",
-"recall",
-"fMRI"
-],
-"breakdown": {
-"predictive_coding": 1.6,
-"memory": 2.1
-}
-},
 "doi:10.64898/2026.10.19.755340": {
 "id": "doi:10.64898/2026.10.19.755340",
 "doi": "10.64898/2026.10.19.755340",
@@ -7653,9 +7690,9 @@
 "Computational model",
 "memories",
 "rodents",
-"memory",
-"humans",
 "recall",
+"humans",
+"memory",
 "EEG"
 ],
 "breakdown": {
@@ -7814,8 +7851,8 @@
 "methods": [],
 "hits": [
 "photostimulat",
-"Optogenetic",
 "optogenetic",
+"Optogenetic",
 "Rodents"
 ],
 "breakdown": {
@@ -7854,8 +7891,8 @@
 "hits": [
 "photostimulat",
 "photoinhibit",
-"optogenetic",
 "Optogenetic",
+"optogenetic",
 "mice"
 ],
 "breakdown": {
@@ -7968,8 +8005,8 @@
 "contact calls",
 "vocalization",
 "Optogenetic",
-"mice",
 "USVs",
+"mice",
 "USV"
 ],
 "breakdown": {
@@ -8045,8 +8082,8 @@
 ],
 "hits": [
 "patients",
-"rhythmic",
 "auditory",
+"rhythmic",
 "sounds",
 "EEG"
 ],
@@ -8083,8 +8120,8 @@
 ],
 "hits": [
 "memories",
-"memory",
 "recall",
+"memory",
 "human",
 "fMRI"
 ],
@@ -8121,8 +8158,8 @@
 ],
 "hits": [
 "Participants",
-"memory",
 "recall",
+"memory",
 "fMRI"
 ],
 "breakdown": {
@@ -8241,9 +8278,9 @@
 "participants",
 "sequences",
 "mnemonic",
+"recall",
 "Memory",
-"memory",
-"recall"
+"memory"
 ],
 "breakdown": {
 "memory": 4.2,
@@ -8276,9 +8313,9 @@
 ],
 "hits": [
 "rhythmic",
+"rhythm",
 "Memory",
 "memory",
-"rhythm",
 "EEG"
 ],
 "breakdown": {
@@ -8361,50 +8398,6 @@
 ],
 "breakdown": {
 "memory": 4.2
-}
-},
-"doi:10.1523/jneurosci.0242-26.2026": {
-"id": "doi:10.1523/jneurosci.0242-26.2026",
-"doi": "10.1523/jneurosci.0242-26.2026",
-"pmid": "42697719",
-"title": "Late Cross-Modal Biases in Neural Spatial Representations Revealed by EEG Decoding.",
-"authors": "Buhmann Z, Robinson AK, Mattingley JB, Rideaux R.",
-"abstract": "During audiovisual perception, spatial information from vision and audition is combined, often producing biases such as the ventriloquist effect. While these interactions are well documented behaviorally, it remains unclear when cross-modal information begins to alter modality-specific spatial representations in the brain. Here we used cross-generalized inverted encoding modeling of electroencephalography (EEG) data to track the temporal evolution of spatial representations during a spatial ventriloquist task. Human participants (both sexes) localized audiovisual stimuli with horizontally offset auditory and visual components. Decoders trained on unisensory EEG responses were applied to audiovisual trials to estimate whether and when spatial representations of one modality were biased toward the other. Behaviorally, participants integrated cues but showed slight visual overweighting. Neural decoding revealed robust spatial representations for both modalities, with early unisensory encoding remaining unaffected by cross-modal input. Cross-modal biases emerged only later (from ∼200 ms onward), within a generalized representational window, and occurred sequentially: auditory representations were biased earlier than visual. These findings indicate that multisensory spatial integration arises via recurrent feedback during later processing stages, while early sensory-specific representations remain independent, providing a neural basis for the temporal dynamics underlying the ventriloquist effect.",
-"date": "2026-10-14",
-"source": "Journal of Neuroscience",
-"journal_names": [
-"The Journal of neuroscience : the official journal of the Society for Neuroscience",
-"J Neurosci",
-"J Neurosci"
-],
-"kind": "journal",
-"url": "https://doi.org/10.1523/jneurosci.0242-26.2026",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-20",
-"jgroup": "systems",
-"score": 6.62,
-"topics": [
-"auditory",
-"sequences"
-],
-"species": [
-"human"
-],
-"methods": [
-"eeg_meg"
-],
-"hits": [
-"sequentially",
-"audition",
-"auditory",
-"Human",
-"EEG"
-],
-"breakdown": {
-"auditory": 3.0,
-"sequences": 1.3
 }
 },
 "doi:10.64898/2026.10.20.760541": {
@@ -8554,8 +8547,8 @@
 "methods": [],
 "hits": [
 "Statistical Learning",
-"Statistical learning",
 "statistical learning",
+"Statistical learning",
 "Participants"
 ],
 "breakdown": {
@@ -8622,9 +8615,9 @@
 "hits": [
 "children",
 "auditory",
-"memory",
-"sounds",
 "speech",
+"sounds",
+"memory",
 "tones"
 ],
 "breakdown": {
@@ -8753,44 +8746,6 @@
 "vocalisations": 6.4
 }
 },
-"doi:10.64898/2026.10.09.757930": {
-"id": "doi:10.64898/2026.10.09.757930",
-"doi": "10.64898/2026.10.09.757930",
-"pmid": null,
-"title": "How Social Value Guides Curiosity, Information Search, and Memory in Younger and Older Adults",
-"authors": "Vaziri M, Tanberg P, Yeung RC, Spaniol J.",
-"abstract": "Epistemic curiosity, or the desire for new knowledge, benefits emotional, physical, and cognitive health across the lifespan. Initially believed to be solely intrinsically motivated, recent work has found that extrinsic motivators can also drive epistemic curiosity. One example of the latter is the perceived social value of information, such as popularity metrics on social media platforms (e.g., upvotes on Reddit.com). However, it remains unclear whether the influence of social value cues extends to curiosity-related behaviors, such as information search and memory, and whether these effects vary with age. The current study was designed to fill these knowledge gaps. In two experiments, younger and older adults (total N = 367) rated their curiosity for user-generated trivia questions that varied in social value (high or low upvote counts on Reddit.com). Upvote counts were either visible (upvote visible condition) or not visible (upvote invisible condition). In Experiment 1, participants had the opportunity to reveal the answer to each trivia question, a measure of information seeking. Although social value increased curiosity, it did not influence information seeking. In Experiment 2, answer reveal was mandatory, and participants received a surprise recall test for the answers. Social value again increased curiosity, particularly for younger adults, but had no influence on memory. Overall, these findings replicate social-value effects on curiosity in younger and older adults, but they provide no evidence that social value motivates information search or episodic memory. These findings highlight the limits of extrinsic influences on epistemic behaviors across the adult lifespan.",
-"date": "2026-10-14",
-"source": "bioRxiv",
-"journal_names": [],
-"kind": "preprint",
-"url": "https://doi.org/10.64898/2026.10.09.757930",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-15",
-"jgroup": null,
-"score": 6.38,
-"topics": [
-"predictive_coding",
-"memory"
-],
-"species": [
-"human"
-],
-"methods": [],
-"hits": [
-"participants",
-"surprise",
-"Memory",
-"memory",
-"recall"
-],
-"breakdown": {
-"predictive_coding": 1.6,
-"memory": 3.5
-}
-},
 "doi:10.64898/2026.10.21.760654": {
 "id": "doi:10.64898/2026.10.21.760654",
 "doi": "10.64898/2026.10.21.760654",
@@ -8898,48 +8853,12 @@
 "hits": [
 "sequences",
 "sequence",
-"voxel",
 "human",
+"voxel",
 "TMS"
 ],
 "breakdown": {
 "sequences": 2.6
-}
-},
-"doi:10.64898/2026.10.13.758762": {
-"id": "doi:10.64898/2026.10.13.758762",
-"doi": "10.64898/2026.10.13.758762",
-"title": "Independently tunable subcortical oscillators enable prefrontal control of cortical coupling",
-"authors": "Mozaffarilegha, M.; Kolaxi, A.; Nikoletopoulou, V.; Ito, H. T.",
-"abstract": "Oscillatory coherence between brain regions varies flexibly with behavioral demands, yet the circuit mechanism underlying this control remains unclear. Theta rhythm, which coordinates prefrontal-hippocampal activity, is classically attributed to a pacemaker in the medial septum (MS), with the supramammillary nucleus (SuM) as its modulator. Here we show that SuM instead operates as an independently tunable theta oscillator. In rats performing a spatial alternation task, SuM theta frequency decreased before the choice point while MS theta frequency remained stable, reducing the SuM-MS frequency mismatch in both population spiking and local field potentials. The size of this mismatch predicted theta-rhythm coordination between the medial prefrontal cortex (mPFC) and hippocampal CA1 in both the alternation task and open-field foraging. Inhibiting direct mPFC input to SuM abolished the behavior-dependent modulation of SuM frequency and disrupted mPFC-CA1 coupling. These findings place a subcortical theta oscillator under top-down prefrontal control and identify the SuM-MS frequency mismatch as a control variable for interregional coordination.",
-"date": "2026-10-14",
-"source": "bioRxiv",
-"kind": "preprint",
-"url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758762v1",
-"institution": "University of Lausanne",
-"published_doi": null,
-"pubtype": "new results",
-"first_seen": "2026-10-14",
-"jgroup": null,
-"score": 6.32,
-"topics": [
-"auditory"
-],
-"species": [
-"rodent"
-],
-"methods": [
-"single_unit",
-"lfp"
-],
-"hits": [
-"local field potentials",
-"spiking",
-"rhythm",
-"rats"
-],
-"breakdown": {
-"auditory": 1.5
 }
 },
 "doi:10.64898/2026.10.14.759228": {
@@ -9054,39 +8973,6 @@
 ],
 "breakdown": {
 "auditory": 1.5
-}
-},
-"doi:10.64898/2026.10.11.758396": {
-"id": "doi:10.64898/2026.10.11.758396",
-"doi": "10.64898/2026.10.11.758396",
-"title": "The effect of dominance rank on behavioural response to playback calls in ring-tailed lemurs (Lemur catta)",
-"authors": "Gerner, N.; Mundry, R.; Gold, O.; Wierucka, K.",
-"abstract": "In group-living species, dominance hierarchies play a central role in shaping social dynamics, influencing both agonistic and affiliative interactions. Being able to recognise an individual's dominance rank at a distance, can reduce direct conflicts, facilitating group coordination, and mediating social cohesion. While the role of dominance in relation to aggressive or reproductive vocalizations has been well documented, its influence on affiliative contact calls, particularly in mediating group movement and social integration, remains underexplored. We conducted playback experiments with free-ranging adult ringtailed lemurs (Lemur catta) at the Affenwald Wildlife Park to investigate how dominance rank of the caller and rank differences between caller and listener affect behavioral responses. Using Generalized Linear Mixed Models (GLMMs), we analysed three response variables: vocal response, number of visual scans, and occurrence of movement. Our results revealed sex-specific effects: females exhibited increased movement following contact calls from high-ranking individuals, and tended to refrain from moving when their own rank exceeded that of the caller. In contrast, no significant effects of dominance rank were observed in males. These findings suggest that high-ranking females may play an important role in initiating group movement. This study provides insights into the role of dominance rank in mediating social coordination through contact calls and provides a foundation for further research into the role of vocal communication in maintaining group cohesion in primates.",
-"date": "2026-10-14",
-"source": "bioRxiv",
-"kind": "preprint",
-"url": "https://www.biorxiv.org/content/10.64898/2026.10.11.758396v1",
-"institution": "German Primate Center",
-"published_doi": null,
-"pubtype": "new results",
-"first_seen": "2026-10-15",
-"jgroup": null,
-"score": 6.3,
-"topics": [
-"auditory",
-"vocalisations"
-],
-"species": [],
-"methods": [],
-"hits": [
-"vocal communication",
-"contact calls",
-"vocalization",
-"listener"
-],
-"breakdown": {
-"auditory": 1.5,
-"vocalisations": 4.8
 }
 },
 "doi:10.1523/jneurosci.0366-26.2026": {
@@ -9211,47 +9097,6 @@
 "chemogenetics": 1.4
 }
 },
-"doi:10.1126/sciadv.aed2474": {
-"id": "doi:10.1126/sciadv.aed2474",
-"doi": "10.1126/sciadv.aed2474",
-"pmid": "42873882",
-"title": "An inspiration-off attractor supports the robust and flexible control of breathing.",
-"authors": "Bush NE, Oliveira LM, Glovak ZT, Ramirez JM.",
-"abstract": "Breathing is a fundamental motor rhythm necessary to sustain life. The rhythm and pattern of breathing arises from the coordination of a rostrocaudally extended ventral respiratory column (VRC) in the medulla. Although recurrent excitation is sufficient for rhythmic bursting in reduced in vitro preparations, comparatively less is understood about how inhibition and excitation interact with feedback circuits to generate the breathing rhythm in vivo. Here, we expand on the classical \"inspiratory-off switch\" model that inhibitory signaling from lung stretch afferent pathways plays a critical role in generating the breathing rhythm in vivo. We perform high-density extracellular recordings along the length of the VRC during optogenetic and physiological manipulations and apply computational analyses to characterize how these perturbations govern low-dimensional neural dynamics. We show that stimulation of GABAergic afferents of the nucleus of the solitary tract advance or delay breathing in a manner similar to, but quantitatively distinct from, inhibition local to the VRC. We use generative dynamical models to show that inhibitory activity controls respiratory activity through transient stabilization of an attractive region of the low-dimensional manifold corresponding to expiration. Together, these results propose an \"inspiratory-off attractor\" model that underlies network level control of breathing in vivo.",
-"date": "2026-10-14",
-"source": "Science Advances",
-"journal_names": [
-"Science advances",
-"Sci Adv",
-"Sci Adv"
-],
-"kind": "journal",
-"url": "https://doi.org/10.1126/sciadv.aed2474",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-20",
-"jgroup": "flagship",
-"score": 6.2,
-"topics": [
-"auditory",
-"optogenetics"
-],
-"species": [],
-"methods": [
-"single_unit"
-],
-"hits": [
-"extracellular record",
-"optogenetic",
-"rhythmic",
-"rhythm"
-],
-"breakdown": {
-"auditory": 3.0,
-"optogenetics": 1.2
-}
-},
 "doi:10.64898/2026.10.26.761929": {
 "id": "doi:10.64898/2026.10.26.761929",
 "doi": "10.64898/2026.10.26.761929",
@@ -9279,8 +9124,8 @@
 "hits": [
 "conspecific",
 "rhythmic",
-"Macaques",
-"Rhythmic"
+"Rhythmic",
+"Macaques"
 ],
 "breakdown": {
 "auditory": 1.5,
@@ -9321,9 +9166,9 @@
 "single-cell",
 "memories",
 "engrams",
-"memory",
 "engram",
-"recall"
+"recall",
+"memory"
 ],
 "breakdown": {
 "memory": 4.2
@@ -9435,8 +9280,8 @@
 "perturbation"
 ],
 "hits": [
-"rhythmic",
 "memories",
+"rhythmic",
 "memory",
 "human",
 "TMS"
@@ -9551,13 +9396,51 @@
 ],
 "hits": [
 "Neuropixels",
-"sequence",
 "auditory",
+"sequence",
 "humans",
 "mice"
 ],
 "breakdown": {
 "auditory": 1.5,
+"sequences": 1.3
+}
+},
+"doi:10.64898/2026.11.11.766003": {
+"id": "doi:10.64898/2026.11.11.766003",
+"doi": "10.64898/2026.11.11.766003",
+"pmid": null,
+"title": "Non-invasive temporal interference stimulation targeting the hippocampus enhances fast motor memory consolidation",
+"authors": "Pan X, Taylor J, Violante IR, Grossman N, Inman C, King BR, Albouy G.",
+"abstract": "Converging neuroimaging evidence indicates that the hippocampus is involved in motor sequence learning (MSL) and its consolidation at multiple timescales. However, direct evidence for a causal role of the hippocampus in these processes in healthy humans remains scarce, partly due to the inability of conventional non-invasive brain stimulation techniques to reach this deep brain structure. Here, we used temporal interference stimulation (TIS) - a technique enabling non-invasive stimulation targeted toward deep brain regions - to probe the functional role of the hippocampus in MSL and its consolidation. In two separate experiments, sixty-four young healthy adults (36 females) received, in within-subject counterbalanced designs, active (5 Hz envelope) or control (0 Hz envelope) hippocampal-targeted TIS either during active practice of an MSL task (task-TIS experiment, n = 32) or during the short rest periods interleaved with task practice known to support rapid forms of consolidation (rest-TIS experiment, n = 32). Consolidation was assessed at both the micro timescale (i.e., over the short \"micro-offline\" rest intervals interspersed with task practice) and macro timescale (i.e., over a 24-hour \"macro-offline\" retention interval). Our results indicate that TIS targeting the hippocampus during inter-practice rest periods - but not during task practice - significantly enhanced micro-offline gains in performance as compared to control stimulation. While this effect did not carry over to the 24-hour retention interval at the group level, participants with greater stimulation-induced micro-offline gains showed larger overnight performance improvements. These findings provide the first direct evidence that experimental interventions targeting the hippocampus modulate offline motor memory consolidation processes.",
+"date": "2026-11-13",
+"source": "bioRxiv",
+"journal_names": [],
+"kind": "preprint",
+"url": "https://doi.org/10.64898/2026.11.11.766003",
+"institution": "",
+"published_doi": null,
+"pubtype": "",
+"first_seen": "2026-11-14",
+"jgroup": null,
+"score": 6.0,
+"topics": [
+"memory",
+"sequences"
+],
+"species": [
+"human"
+],
+"methods": [],
+"hits": [
+"Consolidation",
+"consolidation",
+"sequence",
+"humans",
+"memory"
+],
+"breakdown": {
+"memory": 3.5,
 "sequences": 1.3
 }
 },
@@ -9596,8 +9479,8 @@
 "optogenetic",
 "Drosophila",
 "memories",
-"memory",
-"humans"
+"humans",
+"memory"
 ],
 "breakdown": {
 "optogenetics": 1.2,
@@ -9636,8 +9519,8 @@
 "hits": [
 "intracranial",
 "memory",
-"spike",
 "human",
+"spike",
 "EEG"
 ],
 "breakdown": {
@@ -9674,8 +9557,8 @@
 "hits": [
 "participants",
 "recollection",
-"memory",
 "recall",
+"memory",
 "TMS"
 ],
 "breakdown": {
@@ -9714,9 +9597,9 @@
 "methods": [],
 "hits": [
 "consolidation",
+"rhythm",
 "Memory",
 "memory",
-"rhythm",
 "mouse"
 ],
 "breakdown": {
@@ -9941,9 +9824,9 @@
 ],
 "hits": [
 "participants",
+"recall",
 "Memory",
 "memory",
-"recall",
 "EEG"
 ],
 "breakdown": {
@@ -9979,8 +9862,8 @@
 "acoustic",
 "audition",
 "auditory",
-"infant",
-"speech"
+"speech",
+"infant"
 ],
 "breakdown": {
 "auditory": 4.5
@@ -10054,8 +9937,8 @@
 "methods": [],
 "hits": [
 "auditory",
-"Infants",
 "hearing",
+"Infants",
 "speech",
 "sound"
 ],
@@ -10130,9 +10013,9 @@
 ],
 "hits": [
 "recollection",
+"adults",
 "Memory",
 "memory",
-"adults",
 "ERPs"
 ],
 "breakdown": {
@@ -10245,8 +10128,8 @@
 ],
 "methods": [],
 "hits": [
-"cochlea",
 "tonotop",
+"cochlea",
 "hearing",
 "speech",
 "Human"
@@ -10354,43 +10237,6 @@
 "memory": 2.8
 }
 },
-"doi:10.64898/2026.10.07.757368": {
-"id": "doi:10.64898/2026.10.07.757368",
-"doi": "10.64898/2026.10.07.757368",
-"pmid": null,
-"title": "The Cost to Scroll: Short-form Video Use and Episodic Memory",
-"authors": "Chen KK, Miller DS, Nguyen KK, Wagner AD, Tran TT.",
-"abstract": "Short-form video platforms expose users to rapid streams of novel content; these features are posited to place heavy demands on cognitive processes. In a preregistered online study, we used device-reported screen time to examine whether short-form video use is associated with sustained attention and episodic memory in participants aged 18–24 yrs ( N = 502). During a sustained attention task, participants made indoor/outdoor decisions on scene stimuli, with 90% frequent trials and 10% infrequent trials; the subsequent surprise recognition test assessed memory for these items. Among participants with device-reported TikTok or Instagram use ( N = 398), short-form video use was not associated with attention performance. By contrast, greater short-form video use was associated with poorer episodic memory; this relationship was driven by poorer recognition of infrequent-category items. These findings connect heavier short-form video consumption with poorer episodic memory in young adults, showing how daily digital habits co-vary with memory function.",
-"date": "2026-10-14",
-"source": "bioRxiv",
-"journal_names": [],
-"kind": "preprint",
-"url": "https://doi.org/10.64898/2026.10.07.757368",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-15",
-"jgroup": null,
-"score": 5.5,
-"topics": [
-"predictive_coding",
-"memory"
-],
-"species": [
-"human"
-],
-"methods": [],
-"hits": [
-"participants",
-"surprise",
-"Memory",
-"memory"
-],
-"breakdown": {
-"predictive_coding": 1.6,
-"memory": 2.8
-}
-},
 "doi:10.64898/2026.10.20.760554": {
 "id": "doi:10.64898/2026.10.20.760554",
 "doi": "10.64898/2026.10.20.760554",
@@ -10415,8 +10261,8 @@
 "fmri"
 ],
 "hits": [
-"memories",
 "Memories",
+"memories",
 "recall",
 "fMRI"
 ],
@@ -10606,8 +10452,8 @@
 ],
 "hits": [
 "neuronal population",
-"optogenetic",
 "Optogenetic",
+"optogenetic",
 "rhythms",
 "Mice"
 ],
@@ -10684,8 +10530,8 @@
 "hits": [
 "participants",
 "memories",
-"memory",
-"recall"
+"recall",
+"memory"
 ],
 "breakdown": {
 "memory": 4.2
@@ -10720,14 +10566,53 @@
 "modelling"
 ],
 "hits": [
-"magnetoencephalogra",
 "population activity",
+"magnetoencephalogra",
 "drift diffusion",
 "participants",
 "memory",
 "cat"
 ],
 "breakdown": {
+"memory": 0.7
+}
+},
+"doi:10.64898/2026.11.12.766152": {
+"id": "doi:10.64898/2026.11.12.766152",
+"doi": "10.64898/2026.11.12.766152",
+"pmid": null,
+"title": "State-dependent structure-function coupling reflects dynamic engagement of the brain's structural scaffold",
+"authors": "Pedersen R, Sala-Llonch R, Persson J, Salami A.",
+"abstract": "Functional brain organization is shaped by the brain's anatomical scaffold, yet how structure-function coupling varies across cognitive states remains unclear. Across 723 adults from two independent cohorts, we examined coupling using diffusion and functional magnetic resonance imaging. In the primary cohort, coupling was strongest during movie-watching, intermediate during rest, and weakest during working memory, declining further with increasing working-memory load. The movie-rest difference replicated in an independent sample, challenging the primacy of rest for revealing anatomical constraints. State effects were superimposed on a stable unimodal-to-transmodal cortical hierarchy, with movie-watching preferentially enhancing coupling in sensory and language systems. Regions with more stable functional connectivity across states showed stronger coupling. Older age was associated with lower auditory and somatomotor coupling in both cohorts, alongside heterogeneous increases in association cortex. Together, we show that cognitive context shapes structure-function alignment, supporting a framework of complementary structure-constrained and distributed-integrative modes of communication.",
+"date": "2026-11-13",
+"source": "bioRxiv",
+"journal_names": [],
+"kind": "preprint",
+"url": "https://doi.org/10.64898/2026.11.12.766152",
+"institution": "",
+"published_doi": null,
+"pubtype": "",
+"first_seen": "2026-11-14",
+"jgroup": null,
+"score": 5.25,
+"topics": [
+"auditory",
+"memory"
+],
+"species": [
+"human"
+],
+"methods": [
+"fmri"
+],
+"hits": [
+"functional magnetic resonance",
+"auditory",
+"adults",
+"memory"
+],
+"breakdown": {
+"auditory": 1.5,
 "memory": 0.7
 }
 },
@@ -10764,6 +10649,41 @@
 ],
 "breakdown": {
 "sequences": 2.6
+}
+},
+"doi:10.31234/osf.io/v5w3f_v1": {
+"id": "doi:10.31234/osf.io/v5w3f_v1",
+"doi": "10.31234/osf.io/v5w3f_v1",
+"pmid": null,
+"title": "Traveling back and forth through time: oscillatory brain patterns distinguish directional cued recall",
+"authors": "Johnson JD.",
+"abstract": "It is well established that episodic memory involves forming associations among stimuli within an event and between the event and its spatial and temporal context and that those associations can subsequently guide the strategies and search processes that lead to successful retrieval. While countless studies have characterized the neurocognitive correlates of relational memory, how retrieval precisely relies on the associations formed between consecutive events, as well as their correspondence with a representation of past time, is less understood. The current study sought to test how transitions are made across memories according to time by directly contrasting, behaviorally and neurally, retrieval in the forward versus backward directions. A list-learning paradigm was employed with immediate cued recall tasks in which subjects had to use cue words to recall those that came next (forward) or previously (backward) in the list. Scalp EEG data acquired just before the recalled words had to be reported was then used, in combination with multivariate pattern-classification analysis (MVPA), to distinguish neural activity related to retrieval deliberation and search processes. The main results provide novel evidence that, even while equating behavioral performance across retrieval direction, high-frequency (gamma-band) oscillatory EEG activity distinguishes forward and backward retrieval. Implications of the findings are discussed in relation to other, widely-used experimental and neuropsychological tasks (e.g., serial and free recall), as well as to work on understanding the broader role of time (i.e., past versus future) in episodic memory.",
+"date": "2026-11-13",
+"source": "PsyArXiv",
+"journal_names": [],
+"kind": "preprint",
+"url": "https://doi.org/10.31234/osf.io/v5w3f_v1",
+"institution": "",
+"published_doi": null,
+"pubtype": "",
+"first_seen": "2026-11-14",
+"jgroup": null,
+"score": 5.2,
+"topics": [
+"memory"
+],
+"species": [],
+"methods": [
+"eeg_meg"
+],
+"hits": [
+"memories",
+"recall",
+"memory",
+"EEG"
+],
+"breakdown": {
+"memory": 4.2
 }
 },
 "doi:10.64898/2026.10.27.762349": {
@@ -10909,8 +10829,8 @@
 ],
 "hits": [
 "optogenetic",
-"monkeys",
-"spiking"
+"spiking",
+"monkeys"
 ],
 "breakdown": {
 "optogenetics": 1.2
@@ -11057,8 +10977,8 @@
 "perturbation"
 ],
 "hits": [
-"mnemonic",
 "Mnemonic",
+"mnemonic",
 "memory",
 "tACS",
 "EEG"
@@ -11260,8 +11180,8 @@
 ],
 "hits": [
 "delayed match",
-"memory",
 "adults",
+"memory",
 "tDCS"
 ],
 "breakdown": {
@@ -11295,13 +11215,54 @@
 "eeg_meg"
 ],
 "hits": [
-"participants",
 "intracranial",
+"participants",
 "rhythms",
 "EEG"
 ],
 "breakdown": {
 "auditory": 1.5
+}
+},
+"doi:10.1088/1741-2552/aebcb6": {
+"id": "doi:10.1088/1741-2552/aebcb6",
+"doi": "10.1088/1741-2552/aebcb6",
+"pmid": "42970833",
+"title": "A phase-calibrated combined electrical-sensory neuromodulation platform for short-term frontoparietal network modulation and cognitive fatigue resistance.",
+"authors": "Yan C, Ouyang Y, Zhang S, Jing B, Liu Z, Zhou Q.",
+"abstract": "Objective. Non-invasive combined electrical-sensory neuromodulation may be limited by cross-modal timing discrepancies arising from modality-specific conduction delays. This pilot study aimed to develop and evaluate an individualized delay-calibrated stimulation platform integrating transcranial alternating current stimulation with rhythmic visual and auditory inputs for modulating cognitive-fatigue-related frontoparietal network dynamics. Approach. We developed a microcontroller-based combined electrical-sensory stimulation platform and implemented a feedforward delay-compensation strategy based on individualized ERP latencies, including visual P 1 and auditory N 1. The system was evaluated in a randomized, sham-controlled crossover study involving 17 participants, of whom 15 provided complete electroencephalographic datasets. Main results. Across the three tested protocols, the combined electrical-sensory condition showed larger immediate post-intervention theta-power changes than the audiovisual and sham conditions and a theta- weighted phase lag index difference relative to sham. During the subsequent high-load cognitive task, the combined condition showed a shallower mean parietal alpha accumulation trajectory. Together, these findings characterize the short-term neurodynamic profile associated with the integrated protocol. Exploratory brain-behavior analysis showed a positive full-sample association that was sensitive to individual observations. Significance. These findings support the feasibility of the timing-informed combined electrical-sensory platform and provide preliminary evidence of short-term condition-associated frontoparietal modulation.",
+"date": "2026-11-13",
+"source": "Journal of Neural Engineering",
+"journal_names": [
+"Journal of neural engineering",
+"J Neural Eng",
+"J Neural Eng"
+],
+"kind": "journal",
+"url": "https://doi.org/10.1088/1741-2552/aebcb6",
+"institution": "",
+"published_doi": null,
+"pubtype": "",
+"first_seen": "2026-11-04",
+"jgroup": "computational",
+"score": 5.0,
+"topics": [
+"auditory"
+],
+"species": [
+"human"
+],
+"methods": [
+"eeg_meg"
+],
+"hits": [
+"electroencephalogra",
+"participants",
+"rhythmic",
+"auditory"
+],
+"breakdown": {
+"auditory": 3.0
 }
 },
 "doi:10.64898/2026.10.13.758724": {
@@ -11794,9 +11755,9 @@
 ],
 "hits": [
 "neural network model",
-"mnemonic",
 "memories",
 "Mnemonic",
+"mnemonic",
 "memory"
 ],
 "breakdown": {
@@ -11907,8 +11868,8 @@
 ],
 "hits": [
 "transcranial magnetic",
-"memory",
 "rhythm",
+"memory",
 "human",
 "EEG"
 ],
@@ -12062,48 +12023,12 @@
 "hits": [
 "prediction errors",
 "prediction error",
-"memory",
-"recall"
+"recall",
+"memory"
 ],
 "breakdown": {
 "predictive_coding": 3.2,
 "memory": 1.4
-}
-},
-"doi:10.64898/2026.10.08.752674": {
-"id": "doi:10.64898/2026.10.08.752674",
-"doi": "10.64898/2026.10.08.752674",
-"pmid": null,
-"title": "The Role of Locus Coeruleus and Substantia Nigra/Ventral Tegmental Area activity in Reward and Salience Processing: A High-Resolution fMRI Study",
-"authors": "Hall JM, Kukkonen N, Prinea E, Schomaker J, Krebs RM.",
-"abstract": "Dopaminergic neurons in the substantia nigra/ventral tegmental area (SN/VTA) are classically associated with reward processing, whereas noradrenergic neurons in the locus coeruleus (LC) have been shown to support salience processing more broadly. However, rewarding stimuli are also inherently salient, and in most paradigms reward and salience are conflated, for example when rewarded targets are also rare and/or visually distinct. As a result, it remains unclear in how far these systems are sensitive to reward-specific properties or more basic salient properties of the stimulus. Using a visual oddball paradigm with high-resolution fMRI (n = 45), we compared oddballs that were rewarded, visually salient, or neutral, while keeping stimulus probability and motor requirements constant across conditions. Participants responded more accurately to rewarded than to neutral oddballs, and faster to rewarded than to both neutral and visually salient oddballs. At the neural level, SN/VTA activity was increased for rewarded oddballs compared with both neutral and visually salient oddballs, whereas LC activity was increased for rewarded compared with visually salient oddballs. Visual salience alone did not increase activity in either region relative to neutral oddballs. Together, these findings suggest that both the noradrenergic and dopaminergic systems are preferentially engaged by motivationally relevant stimuli, beyond more basic forms of salience.",
-"date": "2026-10-14",
-"source": "bioRxiv",
-"journal_names": [],
-"kind": "preprint",
-"url": "https://doi.org/10.64898/2026.10.08.752674",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-14",
-"jgroup": null,
-"score": 4.5,
-"topics": [
-"predictive_coding"
-],
-"species": [
-"human"
-],
-"methods": [
-"fmri"
-],
-"hits": [
-"Participants",
-"oddball",
-"fMRI"
-],
-"breakdown": {
-"predictive_coding": 1.6
 }
 },
 "doi:10.64898/2026.10.30.763035": {
@@ -12417,40 +12342,6 @@
 "memory": 0.7
 }
 },
-"doi:10.64898/2026.10.06.757069": {
-"id": "doi:10.64898/2026.10.06.757069",
-"doi": "10.64898/2026.10.06.757069",
-"title": "Language-associated brain representations covary with disruption of selfhood under psilocybin",
-"authors": "Cooper, G.; Stoliker, D.; Astl Delgado, S. V.; Blackburne, G.; Novelli, L.; Green, D. W.; Razi, A.; Das, R. K.; Skipper, J. I.",
-"abstract": "Language helps organise experience into an idiosyncratic, temporally extended sense of self. We therefore used fMRI to investigate whether greater similarity between participants in the activity of language-associated brain regions accompanied psilocybin-induced loss of selfhood. Participants heard music and viewed moving clouds at baseline and after 19 mg psilocybin. At each brain location and time point, we tested whether similarity increased with each pair's summed rank on the Ego Dissolution Inventory (EDI; N=43). We grouped independent components of these associations by time course and decoded each group's map with Neurosynth. Elementary visual imagery (SI; N=49) and baseline activity served as comparators. Under psilocybin, one group formed a distributed, left-lateralised frontotemporal network matching the Neurosynth language map (r=.382, spatial-null p<.001, q=.003), nearly twice the largest comparator estimate (SI: r=.208, p=.004, q=.028; baseline: r<.12). In exploratory analyses, resting-state connectivity of this network decreased with posterior visual cortex and increased with thalamic and frontal regions. Participants with higher EDI scores showed larger changes (Spearman's rho=.455, Bonferroni-adjusted p=.048; SI: rho=.008), most strongly for items describing loss of ego or identity (rho=.43 to .51). We propose that language-associated systems incorporate each person's semantic and autobiographical context into experience, and that disrupting them contributes to loss of ego and identity.",
-"date": "2026-10-14",
-"source": "bioRxiv",
-"kind": "preprint",
-"url": "https://www.biorxiv.org/content/10.64898/2026.10.06.757069v1",
-"institution": "University College London",
-"published_doi": null,
-"pubtype": "new results",
-"first_seen": "2026-10-15",
-"jgroup": null,
-"score": 4.38,
-"topics": [
-"auditory"
-],
-"species": [
-"human"
-],
-"methods": [
-"fmri"
-],
-"hits": [
-"participants",
-"music",
-"fMRI"
-],
-"breakdown": {
-"auditory": 1.5
-}
-},
 "doi:10.64898/2026.10.08.757687": {
 "id": "doi:10.64898/2026.10.08.757687",
 "doi": "10.64898/2026.10.08.757687",
@@ -12510,8 +12401,8 @@
 "methods": [],
 "hits": [
 "mnemonic",
-"memory",
-"adults"
+"adults",
+"memory"
 ],
 "breakdown": {
 "memory": 3.5
@@ -12577,10 +12468,10 @@
 ],
 "methods": [],
 "hits": [
+"adults",
 "recall",
 "Memory",
-"memory",
-"adults"
+"memory"
 ],
 "breakdown": {
 "memory": 3.5
@@ -12688,8 +12579,8 @@
 "fmri"
 ],
 "hits": [
-"Children",
 "auditory",
+"Children",
 "voxel"
 ],
 "breakdown": {
@@ -12761,9 +12652,9 @@
 "methods": [],
 "hits": [
 "participants",
+"recall",
 "Memory",
-"memory",
-"recall"
+"memory"
 ],
 "breakdown": {
 "memory": 3.5
@@ -12948,48 +12839,6 @@
 "memory": 2.8
 }
 },
-"doi:10.1038/s41586-026-11174-3": {
-"id": "doi:10.1038/s41586-026-11174-3",
-"doi": "10.1038/s41586-026-11174-3",
-"pmid": "42875492",
-"title": "Targeted stimulation of motor cortex ensembles drives learned movements.",
-"authors": "Chen Q, Wu A, Yu B, Chae S, Tan Z, Ramot A, Aljadeff J, Komiyama T.",
-"abstract": "During the execution of learned motor skills, the neural population in layer 2/3 (L2/3) of primary motor cortex (M1) expresses a reproducible spatiotemporal activity pattern 1 . It is debated whether M1 actively participates in generating this learned pattern and whether this pattern causally drives the learned movement 2-5 . Here we combined in vivo two-photon calcium imaging and holographic optogenetic stimulation of functionally defined M1 L2/3 ensembles in mice performing a skilled lever-pressing task. Brief synchronous stimulation of about 20 neurons whose activity onset precedes voluntary movement onset induced movements resembling the learned movement, while producing activity patterns in other M1 neurons resembling the learned activity. Moreover, trial-by-trial variability of optogenetically triggered population activity correlated with variability in the induced movements. These variabilities were predicted by the initial state of M1 activity preceding stimulation. In some trials, stimulation induced the learned activity without inducing movements, indicating that the learned activity is not simply a reflection of movements but can arise internally. Stimulation failed to generate movements or learned activity in task-disengaged mice. Stimulation of neurons whose activity followed movement onsets failed to induce the learned movement in task-engaged mice. Together, the learned activity in M1 L2/3 can be generated when M1 is prepared at the optimal initial state and receives precise triggering inputs, supporting the active role of M1 in generating learned activity and learned movements.",
-"date": "2026-10-14",
-"source": "Nature",
-"journal_names": [
-"Nature",
-"Nature",
-"Nature"
-],
-"kind": "journal",
-"url": "https://doi.org/10.1038/s41586-026-11174-3",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-20",
-"jgroup": "flagship",
-"score": 4.25,
-"topics": [
-"optogenetics"
-],
-"species": [
-"rodent"
-],
-"methods": [
-"single_unit",
-"imaging"
-],
-"hits": [
-"population activity",
-"calcium imaging",
-"optogenetic",
-"mice"
-],
-"breakdown": {
-"optogenetics": 1.2
-}
-},
 "doi:10.64898/2026.10.24.761541": {
 "id": "doi:10.64898/2026.10.24.761541",
 "doi": "10.64898/2026.10.24.761541",
@@ -13108,41 +12957,6 @@
 "memory": 1.4
 }
 },
-"doi:10.64898/2026.10.13.758534": {
-"id": "doi:10.64898/2026.10.13.758534",
-"doi": "10.64898/2026.10.13.758534",
-"title": "A gαq signaling pathway in dopaminergic neurons suppresses memory",
-"authors": "Martinez-Cervantes, J. C.; Shah, P.; Cervantes Sandoval, I.",
-"abstract": "Which experiences persist as memories is a fundamental question in neurobiology. The balance between memory persistence and suppression is thought to be optimal for an organism to adapt to the ever-changing environment. Memory suppression is a process by which the brain limits the strength and expression of memories. Memory suppressors are genes whose disruption can enhance memory at different stages: acquisition, consolidation, forgetting, or recall. Here, using aversive classical conditioning in Drosophila, we show that Gq acts as a memory suppressor in PPL1 dopaminergic neurons. Knockdown of gq in dopaminergic neurons enhances acquisition, strengthens anesthesia-resistant memory, and impairs reversal learning. In vivo functional imaging revealed that gq knockdown amplifies shock-evoked responses in a type of PPL1 neuron. Additionally, using ex vivo imaging and pharmacological experiments, we reveal that both Gq and the OAMB receptor alter octopamine-evoked ER calcium responses in PPL1 neurons. Our results uncover a new role of Gq signaling within dopaminergic neurons that suppresses memory.",
-"date": "2026-10-14",
-"source": "bioRxiv",
-"kind": "preprint",
-"url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758534v1",
-"institution": "Georgetown University",
-"published_doi": null,
-"pubtype": "new results",
-"first_seen": "2026-10-14",
-"jgroup": null,
-"score": 4.2,
-"topics": [
-"memory"
-],
-"species": [
-"other"
-],
-"methods": [],
-"hits": [
-"consolidation",
-"Drosophila",
-"memories",
-"Memory",
-"memory",
-"recall"
-],
-"breakdown": {
-"memory": 4.2
-}
-},
 "doi:10.64898/2026.10.23.760812": {
 "id": "doi:10.64898/2026.10.23.760812",
 "doi": "10.64898/2026.10.23.760812",
@@ -13168,9 +12982,9 @@
 "methods": [],
 "hits": [
 "memories",
+"engram",
 "recall",
-"memory",
-"engram"
+"memory"
 ],
 "breakdown": {
 "memory": 4.2
@@ -13329,7 +13143,7 @@
 "pmid": "43019055",
 "title": "A multiple Arc tagging approach for tracking neuronal ensembles across experiences.",
 "authors": "Stackmann M, Franceschini A, Bulthuis NE, Chen CW, Yelhekar TD, Meng M, Sun X, Nthumba J, Vaughan N, Zhu E, Brockway ET, Drew MR, Lin Y, Denny CA.",
-"abstract": "Engrams, or memory traces, are the neuronal ensembles that collectively store individual experiences. Genetic strategies based on immediate early genes (IEGs), such as Arc/Arg3.1, allow for the ensembles active during memory encoding to be tagged and compared to those active during retrieval. However, these strategies only allow for the tagging of one neural ensemble. Here, we developed a multiple Arc (mArc) system that allows for the tagging of two Arc+ ensembles. We validated this system by investigating how context, time, and valence influence neuronal ensemble reactivation in the dentate gyrus (DG). We report that similar contextual and valenced experiences are encoded in overlapping DG ensembles and that ensembles are modulated by time, where experiences closer in time are encoded in more overlapping ensembles. These results highlight the dynamic nature of DG ensembles and show that the mArc system provides a powerful approach for investigating multiple memories in the brain.",
+"abstract": "Engrams, or memory traces, are the neuronal ensembles that collectively store individual experiences. Genetic strategies based on immediate early genes (IEGs), such as Arc/Arg3.1, allow for the ensembles active during memory encoding to be tagged and compared to those active during retrieval. However, these strategies only allow for the tagging of one neural ensemble. Here, we developed a multiple Arc (mArc) system that allows for the tagging of two Arc + ensembles. We validated this system by investigating how context, time, and valence influence neuronal ensemble reactivation in the dentate gyrus (DG). We report that similar contextual and valenced experiences are encoded in overlapping DG ensembles and that ensembles are modulated by time, where experiences closer in time are encoded in more overlapping ensembles. These results highlight the dynamic nature of DG ensembles and show that the mArc system provides a powerful approach for investigating multiple memories in the brain.",
 "date": "2026-11-12",
 "source": "Cell Reports",
 "journal_names": [
@@ -13644,8 +13458,8 @@
 "methods": [],
 "hits": [
 "vocal behaviour",
-"vocalisation",
-"participants"
+"participants",
+"vocalisation"
 ],
 "breakdown": {
 "vocalisations": 3.2
@@ -13797,8 +13611,8 @@
 ],
 "hits": [
 "patients",
-"memory",
 "Lesion",
+"memory",
 "fMRI"
 ],
 "breakdown": {
@@ -13877,53 +13691,13 @@
 ],
 "hits": [
 "participants",
-"memory",
 "sounds",
+"memory",
 "EEG"
 ],
 "breakdown": {
 "auditory": 1.5,
 "memory": 0.7
-}
-},
-"doi:10.1126/sciadv.aeh9563": {
-"id": "doi:10.1126/sciadv.aeh9563",
-"doi": "10.1126/sciadv.aeh9563",
-"pmid": "42873880",
-"title": "Vitamin D binding protein in ventral CA3 of the hippocampus drives stress-induced depression.",
-"authors": "Kong Y, Huang Z, Zeng C, Xu Y, Zhang Z.",
-"abstract": "The ventral hippocampus plays a crucial role in regulating emotional and motivated behaviors. However, the molecular mechanisms underlying its dysfunction in major depressive disorder (MDD) remain poorly understood. Here, we identified elevated expression of vitamin D binding protein (VDBP) in the hippocampi of chronic unpredictable mild stress (CUMS)-susceptible mice, which correlated with the severity of depression-like behaviors. Notably, VDBP up-regulation was specifically in ventral CA3 excitatory (vCA3 CaMKIIα ) neurons. CA3 CaMKIIα VDBP overexpression led to inhibited neuronal activity, synaptic and dendritic impairments, and, ultimately, depression-like behaviors. Conversely, vCA3 CaMKIIα -specific VDBP knockdown enhanced resilience to chronic stress. Mechanistically, VDBP directly interacted with PIK3R3 to inhibit the PI3K-Akt-mTOR pathway in a cell-autonomous manner, leading to excessive autophagy and subsequent neuronal dysfunction. Chemogenetic activation, intervention using the Akt-specific activator SC79, and site-specific mutation disrupting the VDBP-PIK3R3 interaction ameliorated vCA3 CaMKIIα VDBP-induced depression-like phenotypes. Collectively, these findings underscore the critical involvement of vCA3 CaMKIIα neuron-derived VDBP in stress-induced depressive pathology and highlight its potential as a therapeutic target for MDD.",
-"date": "2026-10-14",
-"source": "Science Advances",
-"journal_names": [
-"Science advances",
-"Sci Adv",
-"Sci Adv"
-],
-"kind": "journal",
-"url": "https://doi.org/10.1126/sciadv.aeh9563",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-20",
-"jgroup": "flagship",
-"score": 3.91,
-"topics": [
-"chemogenetics"
-],
-"species": [
-"rodent"
-],
-"methods": [
-"single_unit"
-],
-"hits": [
-"neuronal activity",
-"Chemogenetic",
-"mice"
-],
-"breakdown": {
-"chemogenetics": 1.4
 }
 },
 "doi:10.1523/eneuro.0182-26.2026": {
@@ -14003,6 +13777,44 @@
 "breakdown": {
 "predictive_coding": 1.6,
 "sequences": 1.3
+}
+},
+"doi:10.64898/2026.11.11.765971": {
+"id": "doi:10.64898/2026.11.11.765971",
+"doi": "10.64898/2026.11.11.765971",
+"pmid": null,
+"title": "Nucleus reuniens gates selective hippocampal-prefrontal interactions during NREM sleep",
+"authors": "Shao S, Ferrero Lopez J, Kawano T, Bhagvat C, Khodagholy D, Gelinas J.",
+"abstract": "Memory consolidation requires functional synchrony between the hippocampus (HC) and the medial prefrontal cortex (mPFC). The nucleus reuniens (RE) is a structural and functional hub between HC and mPFC. Here, we used in vivo electrophysiology to monitor the hippocampal-thalamic-prefrontal network in rats during non-rapid eye movement (NREM) sleep. We identified ripple-like activity in the RE (120 Hz peak frequency, 45 ms oscillatory duration) that occurred most frequently during NREM sleep and was associated with robust recruitment of thalamic neural spiking. RE ripple activity was phase-locked to both hippocampal sharp wave-ripples (SWR) and mPFC ripples. Although ripples were independently detected in all three structures, we found that coupling between HC and mPFC ripples mainly involved co-occurring RE ripples. These results suggest RE ripples help organize when hippocampal activity engages prefrontal circuits during sleep, with potential implications for network mechanisms of memory consolidation.",
+"date": "2026-11-13",
+"source": "bioRxiv",
+"journal_names": [],
+"kind": "preprint",
+"url": "https://doi.org/10.64898/2026.11.11.765971",
+"institution": "",
+"published_doi": null,
+"pubtype": "",
+"first_seen": "2026-11-14",
+"jgroup": null,
+"score": 3.91,
+"topics": [
+"memory"
+],
+"species": [
+"rodent"
+],
+"methods": [
+"single_unit"
+],
+"hits": [
+"consolidation",
+"spiking",
+"Memory",
+"memory",
+"rats"
+],
+"breakdown": {
+"memory": 1.4
 }
 },
 "doi:10.1016/j.neucom.2026.134529": {
@@ -14353,9 +14165,9 @@
 "id": "doi:10.64898/2026.11.04.26367090",
 "doi": "10.64898/2026.11.04.26367090",
 "pmid": null,
-"title": "Cortical Thinning in Adults with Prader–Willi Syndrome: Distribution Across Functional Networks and Associations with BMI and the GH/IGF-1 Axis",
+"title": "Cortical Thinning in Adults with Prader-Willi Syndrome: Distribution Across Functional Networks and Associations with BMI and the GH/IGF-1 Axis",
 "authors": "Moreno-Armengol A, Blanco-Hinojo L, Casamitjana L, Giménez-Palop O, Cobo J, Pujol J, Martínez-Vilavella G, Deus J, Esteba-Castillo S, Pareja R, Caixàs A, Peña-Gómez C.",
-"abstract": "Prader–Willi syndrome (PWS) is a rare neurogenetic disorder associated with neuropsychiatric, metabolic, endocrine, and physical abnormalities. Although previous neuroimaging studies have identified regional gray matter alterations, cortical thickness (CT) abnormalities and their distribution across large-scale functional brain networks remain poorly characterized in adults with PWS. We investigated cortical morphology in 23 adults with PWS and 22 age- and sex-matched healthy controls who underwent structural MRI. Cortical reconstruction and surface-based morphometric analyses were performed using FreeSurfer. Between-group differences in CT were assessed using age, sex, and intracranial volume as covariates. Associations between CT and clinical, cognitive, anthropometric, and endocrine measures were examined using Spearman correlations. Significant cortical regions were further mapped onto an a priori functional network atlas. Adults with PWS showed reduced CT in a left-hemispheric cluster involving the inferior precentral gyrus, insula, inferior temporal cortex, and orbitofrontal cortex. This cluster overlapped predominantly with the somatomotor, auditory, cingulo-opercular, language, and frontoparietal networks. Within the PWS group, lower CT was associated with higher body mass index and poorer global functioning. CT was positively associated with IGF-1 levels and was greater in participants with a history of growth hormone therapy during childhood. These findings indicate cortical thinning across regions belonging to multiple functional networks involved in sensorimotor, attentional, language, and executive processes, extending previous volumetric findings. The associations with body mass index, functional measures, and the GH/IGF-1 axis suggest that cortical morphology may reflect an interplay between genetic vulnerability and potentially modifiable metabolic and endocrine factors, raising the possibility of a neuroprotective role for GH/IGF-1 signaling.",
+"abstract": "Prader-Willi syndrome (PWS) is a rare neurogenetic disorder associated with neuropsychiatric, metabolic, endocrine, and physical abnormalities. Although previous neuroimaging studies have identified regional gray matter alterations, cortical thickness (CT) abnormalities and their distribution across large-scale functional brain networks remain poorly characterized in adults with PWS. We investigated cortical morphology in 23 adults with PWS and 22 age- and sex-matched healthy controls who underwent structural MRI. Cortical reconstruction and surface-based morphometric analyses were performed using FreeSurfer. Between-group differences in CT were assessed using age, sex, and intracranial volume as covariates. Associations between CT and clinical, cognitive, anthropometric, and endocrine measures were examined using Spearman correlations. Significant cortical regions were further mapped onto an a priori functional network atlas. Adults with PWS showed reduced CT in a left-hemispheric cluster involving the inferior precentral gyrus, insula, inferior temporal cortex, and orbitofrontal cortex. This cluster overlapped predominantly with the somatomotor, auditory, cingulo-opercular, language, and frontoparietal networks. Within the PWS group, lower CT was associated with higher body mass index and poorer global functioning. CT was positively associated with IGF-1 levels and was greater in participants with a history of growth hormone therapy during childhood. These findings indicate cortical thinning across regions belonging to multiple functional networks involved in sensorimotor, attentional, language, and executive processes, extending previous volumetric findings. The associations with body mass index, functional measures, and the GH/IGF-1 axis suggest that cortical morphology may reflect an interplay between genetic vulnerability and potentially modifiable metabolic and endocrine factors, raising the possibility of a neuroprotective role for GH/IGF-1 signaling.",
 "date": "2026-11-05",
 "source": "medRxiv",
 "journal_names": [],
@@ -14492,8 +14304,8 @@
 "imaging"
 ],
 "hits": [
-"optogenetic",
 "Optogenetic",
+"optogenetic",
 "two-photon",
 "auditory",
 "mice"
@@ -14531,8 +14343,8 @@
 "single_unit"
 ],
 "hits": [
-"single-unit",
 "optogenetic",
+"single-unit",
 "rats"
 ],
 "breakdown": {
@@ -14642,8 +14454,8 @@
 ],
 "hits": [
 "neuronal population",
-"Optogenetic",
 "optogenetic",
+"Optogenetic",
 "murine"
 ],
 "breakdown": {
@@ -14794,8 +14606,8 @@
 "methods": [],
 "hits": [
 "children",
-"memory",
 "syntax",
+"memory",
 "Cat"
 ],
 "breakdown": {
@@ -14842,42 +14654,6 @@
 "breakdown": {
 "auditory": 1.5,
 "memory": 1.4
-}
-},
-"doi:10.64898/2026.10.06.757200": {
-"id": "doi:10.64898/2026.10.06.757200",
-"doi": "10.64898/2026.10.06.757200",
-"title": "Stochastic Decision Policy Is Optimal Under Costly Control",
-"authors": "Li, J.; Louie, K.; Vittala, A.; Mattar, M.; Glimcher, P.; Shen, B.",
-"abstract": "Human and animal decisions are often noisy. This variability is usually attributed to noise that corrupts the decision evidence, a defect that an ideal decision maker would eliminate. Here we ask whether stochastic choice can instead be optimal once the cost of implementing prescribed policies is counted. We treat the decision maker as an ideal observer that maximizes expected gain but pays costs to sharpen its policy away from a random default. Using sequential sampling, a setting in which the optimal policy is precisely defined, we show that this trade-off makes a stochastic policy optimal, replacing the hard decision boundaries of classical theory with soft stopping zones whose softness is set by the price of control. This soft policy aligns with the strategy used in cutting-edge artificial learning agents for robustness. Noise that corrupts the agent's belief, an important confound of noisy behavior, produces superficially similar yet distinctive signatures in behavioral policies. Leveraging this, we recovered the policies of two macaques with low-dimensional recurrent neural networks and found that their behavior carries both a stochastic policy and belief noise. By separating variability in constructing a decision belief from stochasticity in selecting actions, these results establish that stochastic decision policies can themselves be optimal, offering a common principle for understanding behavioral variability in biological and artificial decision makers.",
-"date": "2026-10-14",
-"source": "bioRxiv",
-"kind": "preprint",
-"url": "https://www.biorxiv.org/content/10.64898/2026.10.06.757200v1",
-"institution": "Chinese Academy of Science",
-"published_doi": null,
-"pubtype": "new results",
-"first_seen": "2026-10-15",
-"jgroup": null,
-"score": 3.6,
-"topics": [
-"sequences"
-],
-"species": [
-"macaque",
-"human"
-],
-"methods": [
-"modelling"
-],
-"hits": [
-"recurrent neural network",
-"sequential",
-"macaques",
-"Human"
-],
-"breakdown": {
-"sequences": 1.3
 }
 },
 "doi:10.64898/2026.10.13.758657": {
@@ -14985,48 +14761,12 @@
 "hits": [
 "Channelrhodopsin",
 "memory",
-"ChR2",
-"mice"
+"mice",
+"ChR2"
 ],
 "breakdown": {
 "optogenetics": 2.4,
 "memory": 0.7
-}
-},
-"doi:10.64898/2026.10.07.757231": {
-"id": "doi:10.64898/2026.10.07.757231",
-"doi": "10.64898/2026.10.07.757231",
-"title": "Neural abstraction of evidence accumulation enables flexible multidimensional perceptual decisions",
-"authors": "Benjamin, L.; Drevet, J.; Wyart, V.",
-"abstract": "Human perceptual decisions adapt to rich and changing contexts but are typically tested under impoverished conditions. To probe this flexibility, we examined decisions requiring both the selection and the combination of multiple sensory features across sequences of objects. Here we show that human decision flexibility extends beyond feature selection to combination, even across sensory modalities, supported by the abstraction of underlying neural representations. Rapid magnetoencephalographic (MEG) responses reveal a hierarchy of object representations that become increasingly abstract and gated according to their decision relevance. A shared abstract representation of updates reflects evidence accumulation collapsed onto the relevant axis across unidimensional (selection-based) and multidimensional (combination-based) contexts. Recurrent neural networks tested under the same conditions acquire and benefit from abstract representations only when operating under human levels of computational noise. Together, these findings provide a flexibility through abstraction account of human decisions across a broader range of everyday perceptual conditions.",
-"date": "2026-10-14",
-"source": "bioRxiv",
-"kind": "preprint",
-"url": "https://www.biorxiv.org/content/10.64898/2026.10.07.757231v1",
-"institution": "Ecole Normale Superieure",
-"published_doi": null,
-"pubtype": "new results",
-"first_seen": "2026-10-14",
-"jgroup": null,
-"score": 3.5,
-"topics": [
-"sequences"
-],
-"species": [
-"human"
-],
-"methods": [
-"eeg_meg",
-"modelling"
-],
-"hits": [
-"Recurrent neural network",
-"sequences",
-"Human",
-"MEG"
-],
-"breakdown": {
-"sequences": 1.3
 }
 },
 "doi:10.1016/j.neuropsychologia.2026.109610": {
@@ -15127,8 +14867,8 @@
 ],
 "methods": [],
 "hits": [
-"Consolidation",
 "consolidation",
+"Consolidation",
 "Drosophila",
 "human"
 ],
@@ -15412,8 +15152,8 @@
 "methods": [],
 "hits": [
 "participants",
-"recall",
-"Recall"
+"Recall",
+"recall"
 ],
 "breakdown": {
 "memory": 2.8
@@ -15518,8 +15258,8 @@
 "hits": [
 "sequences",
 "syllabl",
-"human",
-"mouse"
+"mouse",
+"human"
 ],
 "breakdown": {
 "auditory": 1.5,
@@ -15627,9 +15367,9 @@
 ],
 "methods": [],
 "hits": [
+"Humans",
 "Memory",
-"memory",
-"Humans"
+"memory"
 ],
 "breakdown": {
 "memory": 2.8
@@ -15666,8 +15406,8 @@
 ],
 "methods": [],
 "hits": [
-"memory",
 "adults",
+"memory",
 "rat"
 ],
 "breakdown": {
@@ -15702,6 +15442,39 @@
 "hits": [
 "Participants",
 "Memory",
+"memory"
+],
+"breakdown": {
+"memory": 2.8
+}
+},
+"doi:10.31234/osf.io/xwy5t_v1": {
+"id": "doi:10.31234/osf.io/xwy5t_v1",
+"doi": "10.31234/osf.io/xwy5t_v1",
+"pmid": null,
+"title": "Learning What Matters: Goal certainty shapes working memory prioritization",
+"authors": "Zhang C, Karagoz AB, Kool W.",
+"abstract": "Cognitive resources are limited, yet people face an abundance of information. Often, which information matters is not stated and can change over time, so people must learn it through experience. This creates a tradeoff: uncertainty requires broad maintenance of multiple information sources, whereas certainty allows resources to be allocated more selectively. Does this reorganization of resources reflect enhancement of relevant information, degradation of irrelevant information, or both? Working memory provides a window into this process because differences in attentional priority should be reflected in what is remembered. To address these questions, we developed the Continuously Assessed Rule Inference Task, in which participants (N = 104) judged whether multidimensional stimuli followed a hidden rule that changed without warning, requiring them to continually update their beliefs about which information was relevant. On intermittent probe trials, participants reproduced the color, shape, and motion direction of the preceding stimulus. A reinforcement-learning model estimated trial-by-trial rule certainty from participants’ choices. As certainty increased, rule judgments relied more on evidence from the rule-defining (active) dimension, and memory for inactive features declined. A mixture model showed that active features became more likely to be retained, and inactive features less likely, with little evidence that the precision of retained features changed. These findings suggest that learning what matters reorganizes working memory by changing which information is retained, rather than how precisely it is represented. This shift from broad to selective maintenance may reflect a tradeoff between flexibility under uncertainty and efficiency once relevant information has been identified.",
+"date": "2026-11-13",
+"source": "PsyArXiv",
+"journal_names": [],
+"kind": "preprint",
+"url": "https://doi.org/10.31234/osf.io/xwy5t_v1",
+"institution": "",
+"published_doi": null,
+"pubtype": "",
+"first_seen": "2026-11-14",
+"jgroup": null,
+"score": 3.5,
+"topics": [
+"memory"
+],
+"species": [
+"human"
+],
+"methods": [],
+"hits": [
+"participants",
 "memory"
 ],
 "breakdown": {
@@ -15912,8 +15685,8 @@
 "fmri"
 ],
 "hits": [
-"memory",
 "adults",
+"memory",
 "fMRI"
 ],
 "breakdown": {
@@ -16465,72 +16238,6 @@
 "memory": 2.8
 }
 },
-"doi:10.64898/2026.10.11.758387": {
-"id": "doi:10.64898/2026.10.11.758387",
-"doi": "10.64898/2026.10.11.758387",
-"title": "Evidence for a cohesion-related function of alpaca hums: Linking automated call detection with GPS data",
-"authors": "Ariza-Echeverri, D.; Hayes Revitt, R. O.; Leu, S. T.; Wierucka, K.",
-"abstract": "Understanding how animals communicate while moving helps explain social dynamics, but simultaneously tracking vocal and spatial behaviour in freely moving groups remains challenging. Animal-borne audio and GPS recordings can place naturally occurring vocalisations in their spatial context, but continuous recordings generate large datasets that require automated call detection.We used this approach to investigate whether alpaca hums, a poorly characterised vocalisation, contribute to group cohesion. We combined automated detection of hums from continuous collar-borne audio with synchronised GPS data from a partially collared herd to test whether humming is associated with changes in spacing and movement consistent with a contact-call function. We combined deep-learning-assisted detection with manual validation to build a large curated hum corpus from 2,011 h of continuous recordings from a partially collared herd. We then tested how humming was associated with spacing and movement at both individual and group levels. Following hum production, distance between focal alpaca and the group shifted toward closer contact relative to matched non-hum periods. Hums were also more likely to occur when the collared alpaca moved faster. These findings support a cohesion-related role of hums and suggest that this call type may help alpaca maintain social contact while moving. More broadly, our study shows how automated call detection combined with movement data can place poorly characterised vocalisations in a behavioural context, narrow their plausible functions, and generate targeted hypotheses even when caller identity remains uncertain and only part of a group can be collared. This approach extends functional research on vocal communication to species whose calls remain poorly understood.",
-"date": "2026-10-14",
-"source": "bioRxiv",
-"kind": "preprint",
-"url": "https://www.biorxiv.org/content/10.64898/2026.10.11.758387v1",
-"institution": "German Primate Center - Leibniz Institute for Primate Research",
-"published_doi": null,
-"pubtype": "new results",
-"first_seen": "2026-10-15",
-"jgroup": null,
-"score": 3.2,
-"topics": [
-"vocalisations"
-],
-"species": [],
-"methods": [],
-"hits": [
-"vocal communication",
-"vocalisation"
-],
-"breakdown": {
-"vocalisations": 3.2
-}
-},
-"doi:10.1126/sciadv.aed7447": {
-"id": "doi:10.1126/sciadv.aed7447",
-"doi": "10.1126/sciadv.aed7447",
-"pmid": "42873885",
-"title": "Photomapping electrically coupled networks of the mature thalamus and cortex.",
-"authors": "Vaughn MJ, Uygun DS, Basheer R, Bender KJ, Haas JS.",
-"abstract": "Electrical synapses are expressed ubiquitously across the brain and are crucial components of active neural circuitry and connectomes. Identification of coupled networks in living tissue is limited by technical demands of multiplexed recordings, and no dyes, fluorescent reporters, or genetic labels can now fill the gap. We introduce a novel method of identifying and quantifying electrical synapses, opto-δ L , that combines focal photostimulation of soma-targeted opsins with a spike timing-based computation for the strength of electrical synapses to rapidly measure and map electrically coupled networks in vitro. We leverage opto-δ L to show that coupled networks of the mature thalamic reticular nucleus extend as far as 100 micrometers, synapse promiscuously across genetic subtypes of neurons, and couple one to four neighboring neurons to each recorded hub cell. We applied opto-δ L to cortical networks, where we found that somatostatin neurons were more strongly and prevalently coupled. These results highlight the broad potential of opto-δ L to interrogate the identity and roles of electrical synapses in circuitry, behavior, and cognition.",
-"date": "2026-10-14",
-"source": "Science Advances",
-"journal_names": [
-"Science advances",
-"Sci Adv",
-"Sci Adv"
-],
-"kind": "journal",
-"url": "https://doi.org/10.1126/sciadv.aed7447",
-"institution": "",
-"published_doi": null,
-"pubtype": "",
-"first_seen": "2026-10-20",
-"jgroup": "flagship",
-"score": 3.2,
-"topics": [
-"optogenetics"
-],
-"species": [],
-"methods": [
-"single_unit"
-],
-"hits": [
-"photostimulat",
-"spike"
-],
-"breakdown": {
-"optogenetics": 1.2
-}
-},
 "doi:10.64898/2026.10.20.760513": {
 "id": "doi:10.64898/2026.10.20.760513",
 "doi": "10.64898/2026.10.20.760513",
@@ -16723,7 +16430,7 @@
 "doi": "10.64898/2026.11.08.764989",
 "pmid": null,
 "title": "NeuroDisco: Interfacing neuronal populations - cell by cell, millisecond by millisecond, day by day",
-"authors": "Adler CS, Schwarz F, Kerger HZ, Sreekrishnapurath Variyam HP, Ruschmeyer TS, Bode LA, Preuss F, Vogel J, Priesemann V, Schoenekess M, Barbery J, Diaz-Maue L, Wolf F, Schottdorf M, Neef A.",
+"authors": "Adler CS, Schwarz F, Kerger HZ, Sreekrishnapurath Variyam HP, Ruschmeyer T, Bode LA, Preuss F, Vogel J, Prieseman V, Schönekeß M, Barbéry J, Diaz L, Wolf F, Schottdorf M, Neef A.",
 "abstract": "Neuronal cultures offer comprehensive access to living networks, but their value as functional models is limited by synchronized bursts that drive pathologically strong neuronal depolarization. Theory attributes such bursting to a lack of external input. Here we present NeuroDiscos, compact {micro}LED and OLED projectors that operate inside standard incubators and deliver patterned, long-term optogenetic stimulation, synchronized with submillisecond precision to multi-electrode array recordings. Weak, uncorrelated NeuroDisco stimulation dispersed the bursts but left the population firing rate largely unchanged. In this asynchronous regime, neuronal activity reproducibly follows the weak stimulation, and stimulus-response relations characterize receptive fields and putative functional connections. At hardware costs of {euro}500-1,000, NeuroDiscos offer a scalable route to functional characterization of primary and patient-derived cultures.",
 "date": "2026-11-10",
 "source": "bioRxiv",
@@ -16744,8 +16451,8 @@
 "single_unit"
 ],
 "hits": [
-"firing rate",
-"optogenetic"
+"optogenetic",
+"firing rate"
 ],
 "breakdown": {
 "optogenetics": 1.2
@@ -16808,8 +16515,8 @@
 "eeg_meg"
 ],
 "hits": [
-"speech",
 "adults",
+"speech",
 "EEG"
 ],
 "breakdown": {
@@ -17036,41 +16743,40 @@
 "auditory": 1.5
 }
 },
-"doi:10.1523/jneurosci.2163-25.2026": {
-"id": "doi:10.1523/jneurosci.2163-25.2026",
-"doi": "10.1523/jneurosci.2163-25.2026",
-"pmid": "42875187",
-"title": "Time<sup>2</sup>: A Framework for the Neural Dynamics of Visual Perception.",
-"authors": "Caplette L, Gosselin F.",
-"abstract": "Whenever we look at an object, we seem to perceive it immediately. However, this is not the case for two reasons. First, it takes hundreds of milliseconds for the brain to process visual information reaching the retina. Second, perceiving an object requires fixating it for some duration-typically hundreds of milliseconds-during which the retina continuously receives new visual information. These facts together imply that visual information is both processed and received through time. These two temporal facets of perception, which we term processing time and stimulus time, are often conflated in the literature, and rarely considered together in experiments. Here, we argue that, to obtain a more complete portrait of visual perception and further constrain models of vision, it is essential to consider and measure both temporal facets simultaneously. We present a new method designed to do so that is based on reverse correlation: Time 2 We show that this method allows us to precisely characterize many neural phenomena, including rhythmic perception, predictive processing, and coarse-to-fine sampling.",
-"date": "2026-10-14",
-"source": "Journal of Neuroscience",
-"journal_names": [
-"The Journal of neuroscience : the official journal of the Society for Neuroscience",
-"J Neurosci",
-"J Neurosci"
-],
-"kind": "journal",
-"url": "https://doi.org/10.1523/jneurosci.2163-25.2026",
+"doi:10.64898/2026.11.11.26367707": {
+"id": "doi:10.64898/2026.11.11.26367707",
+"doi": "10.64898/2026.11.11.26367707",
+"pmid": null,
+"title": "Impaired cortical gap-mediated inhibition in chronic tinnitus but with limited individual diagnostic accuracy",
+"authors": "Lu H, Shabestari PS, Engelke M, Ajmera S, Arulchelvan E, Braun C, Fernandez del Campo IS, Jain N, Kaniewska E, Kleinjung T, Korn J, Ost J, Ralston Ruesch L, Rambour S, Shields N, Staudinger S, Todtli B, Wolpert SM, Yasoda-Mohan A, Husain FT, Campbell J, De Ridder D, Langguth B, Schlee W, Vanneste S, Neff PK, Cederroth CR.",
+"abstract": "Tinnitus lacks an objective marker, limiting diagnosis and treatment evaluation. We tested whether gap-mediated inhibition of cortical sound-evoked responses provides one. In a prospective, multicentre case-control study at seven sites in the United States and Europe, adults with and without chronic tinnitus heard brief pulses preceded or not by a silent gap, embedded in broadband or narrowband carriers, during electroencephalography. The primary outcome was inhibition of the N100 response. Of 584 eligible participants, 455 yielded high-quality recordings with complete covariate data (232 cases, 223 controls; mean age 45.4 years, 52% women) that entered the adjusted analyses. Inhibition was strongest for broadband noise whereas narrowband carriers gave limited dynamic range. Participants with tinnitus showed reduced broadband gap-mediated inhibition (β = -19.27%, d = -0.413, cluster-corrected p = 0.002), scaling with tinnitus severity (covariate-adjusted √THI model: partial R 2 = 0.049, p = 0.0015). In contrast, discrimination of individuals was limited (AUC 0.612, 95% CI 0.560-0.663). Cortical gap inhibition is a reproducible group-level effect rather than an individual diagnostic test.",
+"date": "2026-11-13",
+"source": "medRxiv",
+"journal_names": [],
+"kind": "preprint",
+"url": "https://doi.org/10.64898/2026.11.11.26367707",
 "institution": "",
 "published_doi": null,
 "pubtype": "",
-"first_seen": "2026-10-20",
-"jgroup": "systems",
-"score": 3.1,
+"first_seen": "2026-11-14",
+"jgroup": null,
+"score": 3.12,
 "topics": [
-"auditory",
-"predictive_coding"
+"auditory"
 ],
-"species": [],
-"methods": [],
+"species": [
+"human"
+],
+"methods": [
+"eeg_meg"
+],
 "hits": [
-"predictive processing",
-"rhythmic"
+"electroencephalogra",
+"participants",
+"sound"
 ],
 "breakdown": {
-"auditory": 1.5,
-"predictive_coding": 1.6
+"auditory": 1.5
 }
 },
 "doi:10.64898/2026.10.19.760160": {
@@ -17277,8 +16983,8 @@
 "eeg_meg"
 ],
 "hits": [
-"memory",
 "recall",
+"memory",
 "Human",
 "EEG"
 ],
